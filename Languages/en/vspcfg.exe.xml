@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Message key="error_title" description="Error window title" value="Error" />
+	<Message key="Remote port is already connected." description="Message: Remote port is already connected."/>
+	<Message key="CredentialsInvalid" description="Message: credentials are invalid" value="Supplied credentials are invalid: {message} ({code})\n\nDo you still want to use them?">
+		<Param name="message"/>
+		<Param name="code" format="ub016xp"/>
+	</Message>
+
+	<Message key="ErrorConnectingServer" description="Message: Error connecting to server" value="Error {code} connecting to server {name}: {message}">
+		<Param name="name"/>
+		<Param name="code" format="ub016x" />
+		<Param name="message"/>
+	</Message>
+
+	<Message key="ErrorCreatingDevice" description="Message: Error creating device" value="Error creating device: {message} ({code})">
+		<Param name="message"/>
+		<Param name="code" format="ub016xp" />
+	</Message>
+	
+	<Enumeration key="FileExit" description="Command: Exit">
+		<Item text="E&amp;xit"/>
+		<Item text="Exit application"/>
+	</Enumeration>
+
+	<Enumeration key="MenuFile" description="Command group: File Menu">
+		<Item text="&amp;Devices"/>
+		<Item text="File menu"/>
+	</Enumeration>
+
+	<Enumeration key="MenuCreate" description="Command group: Create Menu">
+		<Item text="&amp;Create"/>
+		<Item text="Create menu"/>
+	</Enumeration>
+
+	<Enumeration key="MenuHelp" description="Command group: Help Menu">
+		<Item text="&amp;Help"/>
+		<Item text="Help menu"/>
+	</Enumeration>
+
+	<Enumeration key="MenuView" description="Command group: View Menu">
+		<Item text="&amp;View"/>
+		<Item text="View menu"/>
+	</Enumeration>
+
+	<Enumeration key="ViewHideEmptyGroups" description="Command: ViewHideEmptyGroups">
+		<Item text="&amp;Hide Empty Groups"/>
+		<Item text="Hide empty groups"/>
+	</Enumeration>
+
+	<Enumeration key="ViewHideServers" description="Command: ViewHideServers">
+		<Item text="Hide &amp;Server Links"/>
+		<Item text="Hide server links"/>
+	</Enumeration>
+
+	<Enumeration key="ViewCategories" description="Command: ViewCategories">
+		<Item text="&amp;Categories"/>
+		<Item text="Control what device categories are visible"/>
+	</Enumeration>
+
+	<Enumeration key="ViewShowVsp" description="Command: ViewShowVsp">
+		<Item text="&amp;Virtual Serial Ports"/>
+		<Item text="Enable Virtual Serial Ports categories"/>
+	</Enumeration>
+
+	<Enumeration key="ViewShowRsp" description="Command: ViewShowRsp">
+		<Item text="&amp;Remote Serial Ports"/>
+		<Item text="Enable Remote Serial Ports categories"/>
+	</Enumeration>
+
+	<Enumeration key="ViewShowSsp" description="Command: ViewShowSsp">
+		<Item text="&amp;Shared Serial Ports"/>
+		<Item text="Enable Shared Serial Ports categories"/>
+	</Enumeration>
+
+	<Enumeration key="ViewShowNsp" description="Command: ViewShowNsp">
+		<Item text="&amp;Network Serial Ports"/>
+		<Item text="Enable Network Serial Ports categories"/>
+	</Enumeration>
+
+	<Enumeration key="ViewRefresh" description="Command: ViewRefresh">
+		<Item text="&amp;Refresh"/>
+		<Item text="Refresh the list of devices"/>
+	</Enumeration>
+
+	<Enumeration key="ViewOptions" description="Command: Compatibility Settings">
+		<Item text="&amp;Compatibility Options…"/>
+		<Item text="Configure VSPT compatibility options"/>
+	</Enumeration>
+
+	<Enumeration key="HelpView" description="Command: View help">
+		<Item text="&amp;View Help…"/>
+		<Item text="Display documentation"/>
+	</Enumeration>
+
+	<Enumeration key="HelpAbout" description="Command: Display about box">
+		<Item text="&amp;About…"/>
+		<Item text="Display about box"/>
+	</Enumeration>
+
+	<Message key="About title" description="About box title" value="About {product}">
+		<Param name="product"/>
+	</Message>
+
+	<Enumeration key="HelpLicenseManagement" description="Command: License Management">
+		<Item text="&amp;License Management…"/>
+		<Item text="Manage installed licenses"/>
+	</Enumeration>
+
+	<Enumeration key="HelpMonitorThesePorts" description="Command: Monitor these ports">
+		<Item text="Monitor These Ports…"/>
+		<Item text="Download port monitoring solution"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateListeningPort" description="Command: Create Listening Port">
+		<Item text="Create Listening Port…"/>
+		<Item text="Create Listening Port"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateLocalBridge" description="Command: Create Local Bridge">
+		<Item text="Create Local Bridge…"/>
+		<Item text="Create Local Bridge"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreatePipePort" description="Command: Create Pipe Port">
+		<Item text="Create Pipe Port…"/>
+		<Item text="Create Pipe Port"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateRemoteBridge" description="Command: Create Remote Bridge">
+		<Item text="Create Remote Bridge…"/>
+		<Item text="Create Remote Bridge"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateRemotePort" description="Command: Connect Remote Port">
+		<Item text="Connect Remote Port…"/>
+		<Item text="Connect Remote Port"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateSharedPort" description="Command: Share Port">
+		<Item text="Create Shared Port…"/>
+		<Item text="Create shared port"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateSplittedPort" description="Command: Split Port">
+		<Item text="Split Port…"/>
+		<Item text="Split port"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateAliasPort" description="Command: Create Port Alias">
+		<Item text="Create Port Alias…"/>
+		<Item text="Create port alias"/>
+	</Enumeration>
+
+	<Enumeration key="FileCreateTcpPort" description="Command: Create Tcp Port">
+		<Item text="Create TCP/IP Serial Port…"/>
+		<Item text="Create TCP/IP Serial port"/>
+	</Enumeration>
+
+	<Enumeration key="FileTcpServer" description="Command: Launch Tcp Server">
+		<Item text="Share Local Serial Ports over TCP/IP…"/>
+		<Item text="Launch TCP/IP Serial Ports Server configuration utility"/>
+	</Enumeration>
+
+	<Enumeration key="FileRspServer" description="Command: Launch Remote Server">
+		<Item text="Share Local Serial Ports…"/>
+		<Item text="Launch Remote Serial Ports Server configuration utility"/>
+	</Enumeration>
+
+	<!-- Modules -->
+	<Enumeration key="RemotePortModule" description="Module description: Remote port">
+		<Item text="Remote Ports"/>
+		<Item text="Connect Remote Port"/>
+		<Item text="infographics/remote-port.svg"/>
+		<Item text="Create new virtual serial port that will act as another serial port physically connected to another computer."/>
+	</Enumeration>
+
+	<Enumeration key="RemotePortServerModule" description="Module description: Remote server advertisement">
+		<Item text="Remote Serial Ports Server"/>
+		<Item text="Share local COM ports"/>
+		<Item text="infographics/remote-port-server.svg"/>
+		<Item text="Configure HHD Software Remote Serial Ports Server, an application that shares local serial ports over a network."/>
+	</Enumeration>
+
+	<Enumeration key="TcpPortServerModule" description="Module description: TCP server advertisement">
+		<Item text="RFC2217 TCP/IP Serial Ports Server"/>
+		<Item text="Share local COM ports over TCP/IP"/>
+		<Item text="infographics/tcp-port-server.svg"/>
+		<Item text="Configure HHD Software TCP/IP Serial Ports Server, an application that exposes local serial ports as TCP/IP endpoints to be used over a network."/>
+	</Enumeration>
+
+	<Enumeration key="SharedPortModule" description="Module description: Shared port">
+		<Item text="Shared Ports"/>
+		<Item text="Create Shared Port"/>
+		<Item text="infographics/shared-port.svg"/>
+		<Item text="Create new virtual serial port that will provide shared access to a local serial port."/>
+	</Enumeration>
+
+	<Enumeration key="SplittedPortModule" description="Module description: Splitted port">
+		<Item text="Splitted Ports"/>
+		<Item text="Split Port"/>
+		<Item text="infographics/splitted-port.svg"/>
+		<Item text="Split an existing serial port into several virtual serial ports; all of them will provide shared access to original port."/>
+	</Enumeration>
+
+	<Enumeration key="AliasPortModule" description="Module description: Alias port">
+		<Item text="Alias Ports"/>
+		<Item text="Create Port Alias"/>
+		<Item text="infographics/alias-port.svg"/>
+		<Item text="Create new virtual serial port that will be an alias of an existing serial port."/>
+	</Enumeration>
+
+	<Enumeration key="TcpPortModule" description="Module description: Tcp port">
+		<Item text="TCP/IP Ports (RFC2217, Raw)"/>
+		<Item text="Create TCP/IP Serial Port"/>
+		<Item text="infographics/tcp-port.svg"/>
+		<Item text="Create new virtual serial port that will connect to remote TCP/IP server over RFC2217 or raw protocols."/>
+	</Enumeration>
+
+	<Enumeration key="LocalBridgeModule" description="Module description: Local Bridge">
+		<Item text="Local Bridges"/>
+		<Item text="Create Local Bridge"/>
+		<Item text="infographics/local-bridge.svg"/>
+		<Item text="Create a pair of virtual serial ports connected with each other by means of virtual null-modem cable."/>
+	</Enumeration>
+
+	<Enumeration key="RemoteBridgeModule" description="Module description: Remote Bridge">
+		<Item text="Remote Bridges"/>
+		<Item text="Create Remote Bridge"/>
+		<Item text="infographics/remote-bridge.svg"/>
+		<Item text="Create new virtual serial port and connect it to remote listening port, forming a remote bridge: a pair of virtual ports connected with each other by means of virtual null-modem cable."/>
+	</Enumeration>
+
+	<Enumeration key="ListeningPortModule" description="Module description: Listening Port">
+		<Item text="Listening Ports"/>
+		<Item text="Create Listening Port"/>
+		<Item text="infographics/listening-port.svg"/>
+		<Item text="Create new virtual serial port in listening mode. It will accept incoming connections to form a remote bridge."/>
+	</Enumeration>
+
+	<Enumeration key="PipePortModule" description="Module description: Pipe Port">
+		<Item text="Ports Connected to Pipes"/>
+		<Item text="Create Pipe Port"/>
+		<Item text="infographics/pipe-port.svg"/>
+		<Item text="Create new virtual serial port connected to a named pipe."/>
+	</Enumeration>
+
+	<Enumeration key="FilesPortModule" description="Module description: Files Port">
+		<Item text="Ports Connected to Files"/>
+		<Item text="Create File Port"/>
+		<Item text="infographics/local-bridge.svg"/>
+		<Item text="Create new virtual serial port backed up by two files."/>
+	</Enumeration>
+
+	<Message key="Title" description="Product Name" value="HHD Software Virtual Serial Port Tools"/>
+
+	<Message key="SharedPortDescription" description="Shared port description" value="The newly created [[[bCOM{local port}]]] will act as existing [[[b{source device}]]], but can be opened multiple times.">
+		<Param name="local port"/>
+		<Param name="source device"/>
+	</Message>
+
+	<Message key="AliasPortDescription" description="Alias port description" value="The newly created [[[bCOM{local port}]]] will act as an alias to [[[b{source device}]]].">
+		<Param name="local port"/>
+		<Param name="source device"/>
+	</Message>
+
+	<Message key="CannotSharePortDescription" description="Unable to share port because it is already shared" value="Selected device is already being shared as [[[bCOM{port}]]].">
+		<Param name="port"/>
+	</Message>
+
+	<Message key="AlreadySharedEntry" description="Port already shared entry" value="{device} (shared as COM{shared port})">
+		<Param name="device"/>
+		<Param name="shared port"/>
+	</Message>
+
+	<Message key="Full Control" description="Full Control access mask" value="Full Control"/>
+	<Message key="Connect to server" description="Connection access mask" value="Connect"/>
+	<Message key="Security Title" description="Security editor title" value="Listening Port Security"/>
+
+	<Message key="DownloadServer" description="Download TSP Server prompt" value="The required component is not installed. Do you want to open Setup and install the missing component?" />
+
+	<Message key="bscp out of range" description="Line noise error rate is out of range" value="BSCp must be higher or equal than 0 and less or equal than 50%."/>
+
+	<Enumeration key="PinoutsHelp" description="Pinouts help texts">
+		<Item text="Click on the pin to customize pinout settings." />
+		<Item text="Click brown pin and drag to green one in order to create a link." />
+	</Enumeration>
+
+	<Enumeration key="PinsHelpTooltips" description="Pin tooltip help texts">
+		<Item text="Data Terminal Ready" />
+		<Item text="Data Set Ready" />
+		<Item text="Data Carrier Detect" />
+		<Item text="Request To Send" />
+		<Item text="Clear To Send" />
+		<Item text="Ring Indicator" />
+		<Item text="Transmit Data" />
+		<Item text="Receive Data" />
+	</Enumeration>
+
+	<Message key="PinSchemes" description="Message Box Title: PinSchemes" value="Pinout Configuration"/>
+	<Message key="Predefined scheme can't be overwritten" description="Predefined scheme can't be overwritten" value="Error: predefined scheme cannot be overwritten."/>
+	<Message key="OverwriteScheme" description="Overwrite scheme &lt;scheme&gt;" value="Do you want to overwrite scheme {scheme}?">
+		<Param name="scheme"/>
+	</Message>
+	<Message key="SchemeNameTooLong" description="Error: Scheme name is too long" value="Error: scheme name is too long. Maximum scheme name length is 100 characters."/>
+	<Message key="DeleteSchemeError" description="Error deleting pin scheme" value="Error: predefined scheme cannot be deleted."/>
+
+	<Message key="Don't override" description="Don't override option" value="Do not override"/>
+	<Message key="Banner" description="'Use default' message" value="Use default"/>
+	<Message key="Pipe name banner" description="Pipe name description message" value="Pipe name format: \\\\&lt;servername&gt;\pipe\&lt;pipename&gt;"/>
+
+	<Enumeration key="Parity" description="Parity values">
+		<Item text="None"/>
+		<Item text="Odd"/>
+		<Item text="Even"/>
+		<Item text="Mark"/>
+		<Item text="Space"/>
+	</Enumeration>
+
+	<Enumeration key="StopBits" description="Stop bits values">
+		<Item text="1"/>
+		<Item text="1.5"/>
+		<Item text="2"/>
+	</Enumeration>
+
+	<Enumeration key="FlowControl" description="Flow control values">
+		<Item text="None"/>
+		<Item text="Software (Xon/Xoff)"/>
+		<Item text="Hardware"/>
+	</Enumeration>
+
+	<Message key="NagFreeTitle" description="Title: Feature Not Available" value="Feature not Available"/>
+	<Message key="Purchase extended version" description="Button text: Purchase extended version" value="Get extended version"/>
+	<Message key="Extend your plan" description="Button text: Extend upgrade plan" value="Extend your Upgrade Plan"/>
+	<Message key="FreeVersionNagText1" description="Free version nag screen text 1" value="{feature} feature is not included in the Free version.\n\nYou may continue with limited features of Free version or you may try the extended functionality for FREE during 14 days.">
+		<Param name="feature"/>
+	</Message>
+	<Message key="FreeVersionNagText2" description="Free version nag screen text 1" value="{feature} feature is not included in the Free version.\n\nYou may continue with limited features of Free version or you may upgrade to the extended version.">
+		<Param name="feature"/>
+	</Message>
+	<Message key="PurchasedVersionNagText" description="Purchased version nag screen" value="{feature} feature is not included in the current edition.\n\nYou may continue with the features of the current edition or you may upgrade to the extended version.">
+		<Param name="feature"/>
+	</Message>
+
+	<Message key="UpgradePlanExpiredNagText" description="Upgrade plan expired" value="Your upgrade plan has expired. If you continue to use the current version, only features of a free edition will be available for you. {feature} feature is not included in the free edition.\n\nYou may continue with the features of the free edition or you may extend your upgrade plan.">
+		<Param name="feature"/>
+	</Message>
+
+	<Message key="Trial text: free" description="Trial dialog: text in free edition" value="Some extended features of Virtual Serial Ports are Trial or Expired.\n\nYou may continue with limited functionality of Free version or upgrade to the extended version.\nPurchasing extended functionality will remove this screen."/>
+	<Message key="Trial text: trial" description="Trial dialog: text in trial mode" value="Some extended features of Virtual Serial Ports are Trial and will expire soon.\n\nYou may continue with limited functionality or upgrade to the extended version.\nPurchasing extended functionality will remove this screen."/>
+	<Message key="Trial text: trialnotstarted" description="Trial dialog: text in no trial mode started" value="Free version of the product has limited set of features.\n\nYou may continue with limited features or try the extended functionality for FREE during 14 days."/>
+
+	<Message key="Trial dialog title: free" description="Trial dialog: title in free edition" value="Get Extended Functionality"/>
+	<Message key="Try extended version" description="Button text: Try extended version"/>
+	<Message key="Try extended functionality" description="Button text: Try extended functionality"/>
+	<Message key="Purchase extended functionality" description="Button text: Purchase extended functionality" value="Get extended functionality"/>
+	<Message key="Close this notification" description="Link text: Close this notification" value="Close this notification"/>
+
+	<!--<Message description="Feature: FreeLicense" key="{60ca246e-ab80-4dad-a0bb-6af28a63e034}" value=""/>-->
+	<Message description="Feature: CreateLocalBridges" key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Creating local bridges"/>
+	<Message description="Feature: CreatePipePorts" key="{eae873d4-7d48-4b01-a296-7ffa6a677fc8}" value="Creating pipe ports"/>
+	<Message description="Feature: CreateRemotePorts" key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Creating remote ports"/>
+	<Message description="Feature: CreateSharedPorts" key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Creating shared ports"/>
+	<Message description="Feature: CreateAliasPorts" key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Create alias ports"/>
+	<Message description="Feature: CreateRemoteBridges" key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Creating remote bridges"/>
+	<Message description="Feature: CreateListeningPorts" key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Creating listening ports"/>
+	<Message description="Feature: CreateFilesPorts" key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Creating files ports"/>
+	<Message description="Feature: NamingPorts" key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Changing port names"/>
+	<Message description="Feature: API" key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API"/>
+	<Message description="Feature: MultipleDevices" key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Creating multiple devices"/>
+	<Message description="Feature: NamingPorts" key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Changing port names"/>
+	<Message description="Feature: API" key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API"/>
+	<Message description="Feature: MultipleDevices" key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Creating multiple devices"/>
+	<Message description="Feature: NamingPorts" key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Changing port names"/>
+	<Message description="Feature: API" key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API"/>
+	<Message description="Feature: MultipleDevices" key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Creating multiple devices"/>
+	<Message description="Feature: Custom Pinout" key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Custom pin-out"/>
+	<Message description="Feature: Emulate Overflow" key="{bec21bff-44fc-4a90-b8d0-c635384d6096}" value="Emulate overflow"/>
+	<Message description="Feature: Emulate Noise" key="{10991f32-4c08-4f28-a218-be67cd68e1c7}" value="Emulate noise"/>
+	<Message description="Feature: Override Parameters" key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Override shared port parameters"/>
+	<Message description="Feature: Permanent bridges" key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Creating permanent bridges"/>
+	<Message description="Feature: Emulate Baudrate" key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Emulate baudrate"/>
+
+	<Message description="Feature: NamingPorts" key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Changing port names"/>
+	<Message description="Feature: API" key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API"/>
+	<Message description="Feature: MultipleDevices" key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Creating multiple devices"/>
+	<Message description="Feature: Override Parameters" key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Override alias port parameters"/>
+
+	<!-- TSP -->
+	<Message description="Feature: NamingPorts" key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Changing port names"/>
+	<Message description="Feature: API" key="{33a0ecd5-0ea7-4b0a-b520-cf84ca81c0e9}" value="API"/>
+	<Message description="Feature: MultipleDevices" key="{06954e27-3908-4e76-ba45-f9df20b0b689}" value="Creating multiple devices"/>
+	<Message description="Feature: Override Parameters" key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Override TCP/IP port parameters"/>
+
+	<Message key="Error creating device" description="Message: Error creating device" value="Device creation failed with the following error:\r\n\n {text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016xp"/>
+	</Message>
+
+	<Message key="Error creating bridge" description="Message: Error creating bridge" value="Bridge creation failed with the following error:\r\n\n {text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016xp"/>
+	</Message>
+
+	<Message key="error title" description="Generic error title" value="Operation Failed"/>
+	<Message key="Custom" description="Custom scheme"/>
+
+	<Message key="Device creation aborted" description="Device creation aborted warning message" value="\n\nYou have aborted device creation. This operation may have left semi-created non-functional devices which may be manually deleted using Windows Device Manager."/>
+
+	<Message key="AppTitle" description="Application Title" value="HHD Virtual Serial Port Tools{is free?} (Free Version, Non-Commercial Use Only){?is free}{is trial?} (Trial Version){?is trial}{is reg noncom?} (Non-Commercial Use Only){?is reg noncom}">
+		<Param name="is free" format="?" />
+		<Param name="is trial" format="?" />
+		<Param name="is reg noncom" format="?" />
+	</Message>
+
+	<!-- LM Dialog -->
+	<Enumeration key="LicenseState" description="Current license state" revision="1">
+		<Item text="Free, trial period has not been started." />
+		<Item text="Free, trial period ends in {days} days.">
+			<Param name="days"/>
+		</Item>
+		<Item text="Free, trial period is over." />
+		<Item text="{edition}\r\nRegistered to {user}">
+			<Param name="edition"/>
+			<Param name="user"/>
+		</Item>
+		<Item text="Upgrade plan expired"/>
+	</Enumeration>
+
+	<Message key="ComNonComSuffix" description="Commercial or non-commercial license suffix" value="\r\n{comtype}">
+		<Param name="comtype"/>
+	</Message>
+
+	<Enumeration key="ComNonCom" description="Commercial and non-commercial license strings">
+		<Item text="Non-commercial use only"/>
+		<Item text="Commercial usage allowed"/>
+	</Enumeration>
+
+	<Message key="LicenseFileFilter" description="License file open dialog filter" value="License Files (*.vsptlic)|*.vsptlic|All Files|*||">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+	<Message key="License has been successfully installed." description="License has been successfully installed."/>
+	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please log into the My Account section and download new license file."/>
+
+	<Message key="NewAliasPortTitle" description="Window title: Create Port Alias" value="Create Port Alias"/>
+
+	<Message key="UpgradePrompt" description="Upgrade prompt" value="Virtual Serial Port Tools version {major}.{minor}.{revision}.{build} is available. Do you want to upgrade now?">
+		<Param name="major"/>
+		<Param name="minor" format="w2arf0"/>
+		<Param name="revision" format="w2arf0"/>
+		<Param name="build" format="w4arf0"/>
+	</Message>
+
+	<Message key="Library creation failed" description="Library creation failed" value="Error connecting to Virtual Serial Port Tools COM component: {message} ({code}).\r\n\nTry re-installing application.">
+		<Param name="message"/>
+		<Param name="code" format="ub016xp"/>
+	</Message>
+
+	<Message key="Port not selected" description="Port is not selected" value="You have to select an existing port you want to split."/>
+	<Message key="Too few aliases" description="Too few aliases" value="You have to add at least two aliases for the port."/>
+
+	<Message key="Export successful" description="Export successful" value="The selected configuration has been successfully placed into the Clipboard."/>
+
+	<Message key="RemoteHostCue" description="Remote host placeholder" value="192.168.0.1 or example.com" />
+	<Message optional="true" key="RemotePortCue" description="Remote port placeholder" value="48001" />
+
+	<Message key="IgnoreInvalidSpecialChars" description="Ignore invalid special chars description" value="Virtual serial port devices will ignore invalid requests that specify the same XON and XOFF characters.\n\nBy default, an attempt to set XON = XOFF results in error (according to specification) and this may prevent legacy applications from successfully opening virtual ports."/>
+
+	<Message key="IgnoreTxClear" description="Ignore purge requests with TXCLEAR flag" value="Virtual serial devices will ignore serial purge requests with TXCLEAR flag. This prevents unwanted behavior if the request is erroneously sent by application while there is still data in transmit queue."/>
+
+	<Enumeration key="TcpProtocols" description="Supported TCP port protocols">
+		<Item text="RFC2217" />
+		<Item text="Raw" />
+	</Enumeration>
+
+	<Message key="All" description="Listen on all interfaces" />
+	<Message key="Firewall rule" description="Firewall rule name" value="HHD Software Virtual Serial Port TCP {address}:{port}">
+		<Param name="address" />
+		<Param name="port" />
+	</Message>
+	<Message key="Firewall rule description" description="Firewall rule description" value="HHD Software Virtual Serial Port listening on TCP {address}:{port}">
+		<Param name="address" />
+		<Param name="port" />
+	</Message>
+	<Message key="Firewall group" description="Firewall group name" value="HHD Software Virtual Serial Port Tools" />
+
+	<Enumeration key="Timeout values" description="Reconnection timeout drop-down values">
+		<Item text="1 second"/>
+		<Item text="5 seconds" />
+		<Item text="15 seconds" />
+		<Item text="30 seconds" />
+	</Enumeration>
+
+	<Message key="Free license" description="License type (about): Free license"/>
+	<Message key="RegExpired" description="License type (about): Upgrade plan expired" value="Registered, Upgrade Plan expired, free license is in effect."/>
+
+	<!-- Create Bridge Dialog -->
+	<Message key="Create Local Bridge" description="Window title: Create Local Bridge" />
+	<Message key="First port name" description="Field: First port name" />
+	<Message key="Second port name" description="Field: Second port name"/>
+
+	<!-- Create Remote Bridge Dialog -->
+	<Message key="Create Remote Bridge" description="Window title: Create Remote Bridge"/>
+	<Message key="Local port name" description="Field: Local port name"/>
+	<Message key="Remote computer" description="Field: Remote computer"/>
+	<Message key="Remote port name" description="Field: Remote port name"/>
+	<Message key="Permanent" description="Field: Permanent"/>
+	<Message key="Login" description="Field: Login"/>
+	<Message key="Password" description="Field: Password"/>
+	<Message key="Domain" description="Field: Domain"/>
+
+	<!-- Create TCP Port Dialog -->
+	<Message key="Create TCP/IP Serial Port" description="Window title: Create TCP/IP Port"/>
+
+	<Message key="Connect to remote endpoint" description="Field: Connect to remote endpoint"/>
+	<Message key="Listen for incoming connections" description="Field: Listen for incoming connections"/>
+	<Message key="Add Firewall exception" description="Field: Add Firewall exception"/>
+	<Message key="TCP Server link" value="Download and install &lt;a&gt;HHD Software TCP/IP Serial Ports Server&lt;/a&gt; on remote computer.\nIn addition, any RFC2217-compliant TCP/IP server is supported. You can also connect to virtual serial port in TCP/IP listening mode." description="Field: TCP Server Link"/>
+	<Message key="Create local virtual port" description="Field: Create local virtual port"/>
+	<Message key="Listen on local address" description="Field: Listen on local address"/>
+	<Message key="Local TCP port" description="Field: Local TCP port"/>
+	<Message key="Protocol" description="Field: Protocol"/>
+	<Message key="Remote host IP address or name" description="Field: Remote host IP address or name"/>
+	<Message key="Remote TCP port" description="Field: Remote TCP port"/>
+	<Message key="Reconnection timeout, seconds" description="Field: Reconnection timeout, seconds"/>
+
+	<!-- Create Remote Port Dialog -->
+	<Message key="Connect Remote Port" description="Window title: Connect Remote Port" />
+	<Message key="Discover" description="Button: Discover" />
+	<Message key="Add Server" description="Button: Add Server" value="Add Server…"/>
+	<Message key="Remove Server" description="Button: Remove Server" />
+	<Message key="Connect" description="Button: Connect" />
+	<Message key="Remote Server link" value="To share serial ports, install [[[h#[Get more information]#HHD Software Remote Serial Ports Server]]] on a remote computer." description="Field: Remote Server Link" />
+	<Message key="Select remote port to connect to" description="Field: Select remote port to connect to" />
+	<Message key="Domain or server" description="Field: Domain or server" />
+	<Message key="Remote cred info" description="Field: Enter your user credentials below. They will be used each time a local serial port is opened." value="Enter your user credentials below. They will be used each time a local serial port is opened." />
+
+	<!-- Create Split Port Dialog -->
+	<Message key="Split Port" description="Window title: Split Port" />
+	<Message key="Select existing device" description="Field: Select existing device" />
+	<Message key="Split to (add at least 2 entries)" description="Field: Split to (add at least 2 entries)" />
+
+	<!-- Add Port Dialog -->
+	<Message key="Split to" description="Field: Split to" />
+	<Message key="Add new port" description="Field: Add new port" />
+
+	<!-- Create Shared Port Dialog -->
+	<Message key="Share Local Port" description="Window title: Create Shared Port" value="Create Shared Port" />
+	<Message key="Existing device" description="Field: Existing device" />
+	<Message key="Virtual port" description="Field: Virtual port" />
+
+	<!-- Create Listening Port Dialog -->
+	<Message key="Create Listening Port" description="Window title: Create Listening Port" />
+	<Message key="Permissions" description="Button: Permissions" value="Permissions…"/>
+	<Message key="Port name" description="Field: Port name" />
+	<Message key="Listening note" description="Field: Listening port note" value="Listening port allows creation of remote bridges. The listening port will act as a server-side of a bridge. Create a remote bridge from another computer to connect to the listening port." />
+
+	<!-- Create Pipe Port Dialog -->
+	<Message key="Create Pipe Port" description="Window title: Create Pipe Port" />
+	<Message key="Create pipe" description="Checkbox: Create pipe" />
+	<Message key="Pipe name" description="Field: Pipe name" />
+	<Message key="Number of instances" description="Field: Number of instances" />
+	<Message key="Output buffer size in bytes" description="Field: Output buffer size in bytes" />
+	<Message key="Input buffer size in bytes" description="Field: Input buffer size in bytes" />
+	<Message key="Timeout, ms" description="Field: Timeout, ms" />
+
+	<!-- Bridge Options Dialog -->
+	<Message key="Bridge Options" description="Window title: Bridge Options" />
+	<Message key="Emulate TX Queue overflow" description="Field: Emulate TX Queue overflow" />
+	<Message key="Emulate line noise" description="Field: Emulate line noise" />
+	<Message key="Save as" description="Button: Save as" />
+	<Message key="Single bit crossover probability (BSCp):" description="Field: Single bit crossover probability (BSCp):" />
+	<Message key="Pinout scheme" description="Field: Pinout scheme" />
+	<Message key="Emulation Options" description="Field: Emulation Options" />
+	<Message key="Pinout" description="Field: Pinout" />
+	<Message key="Emulate baud rate" description="Field: Emulate baud rate" />
+
+	<!-- Save Scheme Dialog -->
+	<Message key="Save Scheme" description="Window title: Save Scheme" />
+	<Message key="Name" description="Field: Name" />
+
+	<Message key="Shared Port Options" description="Window title: Shared Port Options" />
+	<Message key="Override baud rate" description="Checkbox: Override baud rate" />
+	<Message key="Override line parameters" description="Checkbox: Override line parameters" />
+	<Message key="Override flow control" description="Checkbox: Override flow control" />
+	<Message key="Override port timeouts" description="Checkbox: Override port timeouts" />
+	<Message key="Override port parameters" description="Checkbox: Override port parameters" />
+	<Message key="Baud rate" description="Field: Baud rate" />
+	<Message key="Data bits" description="Field: Data bits" />
+	<Message key="PParity" description="Field: Parity" value="Parity" />
+	<Message key="Stop bits" description="Field: Stop bits" />
+	<Message key="Flow control" description="Field: Flow control" />
+	<Message key="Read interval timeout" description="Field: Read interval timeout" />
+	<Message key="Read total multiplier" description="Field: Read total multiplier" />
+	<Message key="Read total constant" description="Field: Read total constant" />
+	<Message key="Write total multiplier" description="Field: Write total multiplier" />
+	<Message key="Write total constant" description="Field: Write total constant" />
+
+	<!-- Wait Dialog -->
+	<Message key="Please Wait" description="Window title: Please Wait"/>
+	<Message key="Please wait while the background operation is being processed" description="Message: Please wait while the background operation is being processed…" value="Please wait while the background operation is being processed…"/>
+
+	<!-- Permanent Dialog -->
+
+	<Message key="Device Creation Warning" description="Window title: Device Creation Warning" />
+	<Message key="Create non-permanent device" description="Checkbox: Create non-permanent device" />
+	<Message key="Free version does not support creation of permanent devices. Virtual serial device you create will become unusable after system restart." description="Field: Free version does not support creation of permanent devices. Virtual serial device you create will become unusable after system restart." />
+
+	<!-- Export Dialog -->
+	<Message key="Export Configuration" description="Window title: Export Configuration" />
+	<Message key="Command Line" description="Button: Command Line"/>
+	<Message key="Export all devices of the same type" description="Checkbox: Export all devices of the same type"/>
+	<Message key="This window allows you to export the selected configuration. Select the type of configuration you want to get" description="Field: This window allows you to export the selected configuration. Select the type of configuration you want to get"/>
+
+	<!-- License Management -->
+	<Message key="License Management" description="Window title: License Management"/>
+
+	<Message key="Install License..." description="Field: Install License..." value="Install License…"/>
+	<Message key="Download License..." description="Field: Download License..." value="Download License…"/>
+	<Message key="Remove License" description="Field: Remove License" />
+	<Message key="Start Trial now!" description="Field: Start Trial now!" />
+	<Message key="Installed license" description="Field: Installed license" />
+	<Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." description="Field: If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)."/>
+	<Message key="If you have already received a license file, click the &quot;Install License...&quot; button." description="Field: If you have already received a license file, click the &quot;Install License...&quot; button." value="If you have already received a license file, click the &quot;Install License…&quot; button."/>
+
+</Definition>

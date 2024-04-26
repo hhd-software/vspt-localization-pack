@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Message key="OK" description="Button: OK"/>
+	<Message key="Cancel" description="Button: Cancel"/>
+	<Message key="Yes" description="Button: Yes"/>
+	<Message key="No" description="Button: No"/>
+	<Message key="Retry" description="Button: Retry"/>
+	<Message key="Abort" description="Button: Abort"/>
+	<Message key="Ignore" description="Button: Ignore"/>
+	<Message key="Help" description="Button: Help"/>
+	<Message key="Create" description="Button: Create" />
+	<Message key="Options" description="Button: Options" value="Options…" />
+	<Message key="Delete" description="Button: Delete" />
+	<Message key="Add" description="Button: Add" />
+	<Message key="Close" description="Button: Close"/>
+
+	<Enumeration key="InstallationStatus" description="Service installation status">
+		<Item text="Running as standalone"/>
+		<Item text="Not installed"/>
+		<Item text="Stopped"/>
+		<Item text="Running"/>
+		<Item text="Unknown"/>
+	</Enumeration>
+
+	<Message key="Install" description="Button: Install" value="&amp;Install"/>
+	<Message key="Start" description="Button: Start" value="&amp;Start"/>
+
+	<Message key="Error" description="Window title: Operation Error" value="Operation Error" />
+
+	<Message key="OperationError" description="Error message: generic" value="Error {message} ({code})">
+		<Param name="message"/>
+		<Param name="code" format="ub016xp"/>
+	</Message>
+
+	<!-- Main Dialog (Servers) -->
+	<Message key="Stop" value="S&amp;top" description="Button: Stop"/>
+	<Message key="About" value="&amp;About" description="Button: About"/>
+	<Message key="Status" description="Field: Status"/>
+	<Message key="Apply" description="Button: Apply"/>
+
+</Definition>

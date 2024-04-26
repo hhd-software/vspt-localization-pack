@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Message key="Remote Serial Ports Server Security" description="Window title: Remote Serial Ports Server Security"/>
+	<Message key="Connect to server" description="Permission: Connect to server"/>
+
+	<Message key="UpgradeNotice" description="Server upgrade notice" value="Remote Serial Ports Server version {major}.{minor}.{revision}.{build} is available. Do you want to upgrade now?">
+		<Param name="major"/>
+		<Param name="minor" format="w2arf0"/>
+		<Param name="revision" format="w2arf0"/>
+		<Param name="build" format="w4arf0"/>
+	</Message>
+
+	<!-- Main Dialog -->
+	<Message key="HHD Software Remote Ports Server Control" description="Window title: HHD Software Remote Ports Server Control" />
+	<Message key="Settings" description="Field: Settings" />
+	<Message key="Share all ports" description="Option: Share all ports"/>
+	<Message key="Share the following ports:" description="Option: Share the following ports:" />
+	<Message key="Enable auto-discovery" description="Checkbox: Enable auto-discovery" />
+	<Message key="Security..." description="Button: Security..." value="Security…"/>
+
+</Definition>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Message key="Invalid TCP port specified." description="Error message: Invalid TCP port specified"/>
+	<Message key="UpgradeNotification" description="Upgrade notification" value="TCP/IP Serial Ports Server version {major}.{minor}.{revision}.{build} is available. Do you want to upgrade now?">
+		<Param name="major"/>
+		<Param name="minor" format="w2arf0"/>
+		<Param name="revision" format="w2arf0"/>
+		<Param name="build" format="w4arf0"/>
+	</Message>
+
+	<Message key="License installation was successful." description="Message: License installation was successful"/>
+	<Message key="License Installation" description="Window title: License Installation"/>
+	<Message key="There was an error installing a license. Please try a different file or contact HHD Software Ltd." description="Message: There was an error installing a license."/>
+	<Message key="License files|*.vsptlic|" description="File pattern: License files" />
+	<Message key="AlreadyListening" description="Error message: already listening on a port" value="Server is already configured to listen on TCP port {port}.">
+		<Param name="port"/>
+	</Message>
+
+	<Message key="No serial ports detected" description="Message: No serial ports detected"/>
+	<Message key="Raw" description="Protoco type: Raw"/>
+	<Message key="PortFormat" description="Shared port name template" value="COM{port} as *:{tcp port} ({is rfc?}RFC2217{|is rfc}RAW{?is rfc}{has overrides?} [{has baud?}{baud}{?has baud},{has size?}{size}{?has size},{has stop?}{stop}{?has stop},{has parity?}{parity}{?has parity},{has flow?}{flow}{?has flow}]{?has overrides})">
+		<Param name="port"/>
+		<Param name="tcp port"/>
+		<Param name="is rfc" format="?"/>
+		<Param name="has overrides" format="?"/>
+		<Param name="has baud" format="?"/>
+		<Param name="has size" format="?"/>
+		<Param name="has stop" format="?"/>
+		<Param name="has parity" format="?"/>
+		<Param name="has flow" format="?"/>
+		<Param name="baud" />
+		<Param name="size" />
+		<Param name="stop" />
+		<Param name="parity" />
+		<Param name="flow" />
+	</Message>
+
+	<!-- Free Dialog -->
+	<Message key="Share New Port" description="Window title: Share New Port" />
+	<Message key="Confirm creation of time-limited shared ports." description="Checkbox: Confirm creation of time-limited shared ports." />
+	<Message key="FreeNotice" value="Ports shared with free version will only work for 30 minutes after being connected to. After that time, a connection must be re-established." description="Ports shared with free version will only work for 30 minutes after being connected to. After that time, a connection must be re-established." />
+	<Message key="Try extended functionality" description="Button: Try extended functionality" />
+
+	<!-- New Port Dialog -->
+	<Message key="Share Port" description="Window title: Share Port"/>
+	<Message key="Local serial port" description="Field: Local serial port"/>
+	<Message key="TCP Port" description="Field: TCP Port"/>
+	<Message key="Protocol" description="Field: Protocol"/>
+
+	<!-- Main Dialog -->
+	<Message key="Share New Port..." value="Share &amp;New Port…" description="Button: Share New Port"/>
+	<Message key="Stop Sharing" value="Stop &amp;Sharing" description="Button: Stop Sharing"/>
+	<Message key="Remove All" value="&amp;Remove All" description="Button: Remove All"/>
+	<Message key="About" value="&amp;About" description="Button: About"/>
+	<Message key="Shared serial ports" description="Field: Shared serial ports"/>
+	<Message key="Install License..." value="Install License…" description="Button: Install License"/>
+
+	<Enumeration key="FlowControl" description="Flow control values">
+		<Item text="None"/>
+		<Item text="Software"/>
+		<Item text="Hardware"/>
+	</Enumeration>
+	
+<Enumeration optional="true" key="Parity" description="Parity values">
+	<Item text="No"/>
+	<Item text="Odd"/>
+	<Item text="Even"/>
+	<Item text="Mark"/>
+	<Item text="Space"/>
+</Enumeration>
+
+</Definition>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalizationPack xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" version="1.00.00.0001">
+	<ValidationRule name="EndsWithComma" regexp=".*\.$" message="A string must end with comma."/>
+	<ValidationRule name="OpenFileDialogFilter" regexp=".*|$" message="A string must conform to Open/Save dialog filter list."/>
+	<ValidationRule name="StartsWithSpace" regexp="^ .*$" message="A string must start with space."/>
+
+	<Application id="{33F86C6D-D307-4253-8A63-D6F862E6CBF1}"> <!-- TODO -->
+		<LanguagePack key="HHD Software\Device Monitoring Studio\9\language" value="language_pack_folder"/>
+	</Application>
+
+	<CommonParents>
+		<Parent name="common"/>
+	</CommonParents>
+</LocalizationPack>
