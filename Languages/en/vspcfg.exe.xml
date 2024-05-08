@@ -18,7 +18,7 @@
 		<Param name="message"/>
 		<Param name="code" format="ub016xp" />
 	</Message>
-	
+
 	<Enumeration key="FileExit" description="Command: Exit">
 		<Item text="E&amp;xit"/>
 		<Item text="Exit application"/>
@@ -172,84 +172,84 @@
 	<Enumeration key="RemotePortModule" description="Module description: Remote port">
 		<Item text="Remote Ports"/>
 		<Item text="Connect Remote Port"/>
-		<Item text="infographics/remote-port.svg"/>
+		<Item optional="true" text="infographics/remote-port.svg"/>
 		<Item text="Create new virtual serial port that will act as another serial port physically connected to another computer."/>
 	</Enumeration>
 
 	<Enumeration key="RemotePortServerModule" description="Module description: Remote server advertisement">
 		<Item text="Remote Serial Ports Server"/>
 		<Item text="Share local COM ports"/>
-		<Item text="infographics/remote-port-server.svg"/>
+		<Item optional="true" text="infographics/remote-port-server.svg"/>
 		<Item text="Configure HHD Software Remote Serial Ports Server, an application that shares local serial ports over a network."/>
 	</Enumeration>
 
 	<Enumeration key="TcpPortServerModule" description="Module description: TCP server advertisement">
 		<Item text="RFC2217 TCP/IP Serial Ports Server"/>
 		<Item text="Share local COM ports over TCP/IP"/>
-		<Item text="infographics/tcp-port-server.svg"/>
+		<Item optional="true" text="infographics/tcp-port-server.svg"/>
 		<Item text="Configure HHD Software TCP/IP Serial Ports Server, an application that exposes local serial ports as TCP/IP endpoints to be used over a network."/>
 	</Enumeration>
 
 	<Enumeration key="SharedPortModule" description="Module description: Shared port">
 		<Item text="Shared Ports"/>
 		<Item text="Create Shared Port"/>
-		<Item text="infographics/shared-port.svg"/>
+		<Item optional="true" text="infographics/shared-port.svg"/>
 		<Item text="Create new virtual serial port that will provide shared access to a local serial port."/>
 	</Enumeration>
 
 	<Enumeration key="SplittedPortModule" description="Module description: Splitted port">
 		<Item text="Splitted Ports"/>
 		<Item text="Split Port"/>
-		<Item text="infographics/splitted-port.svg"/>
+		<Item optional="true" text="infographics/splitted-port.svg"/>
 		<Item text="Split an existing serial port into several virtual serial ports; all of them will provide shared access to original port."/>
 	</Enumeration>
 
 	<Enumeration key="AliasPortModule" description="Module description: Alias port">
 		<Item text="Alias Ports"/>
 		<Item text="Create Port Alias"/>
-		<Item text="infographics/alias-port.svg"/>
+		<Item optional="true" text="infographics/alias-port.svg"/>
 		<Item text="Create new virtual serial port that will be an alias of an existing serial port."/>
 	</Enumeration>
 
 	<Enumeration key="TcpPortModule" description="Module description: Tcp port">
 		<Item text="TCP/IP Ports (RFC2217, Raw)"/>
 		<Item text="Create TCP/IP Serial Port"/>
-		<Item text="infographics/tcp-port.svg"/>
+		<Item optional="true" text="infographics/tcp-port.svg"/>
 		<Item text="Create new virtual serial port that will connect to remote TCP/IP server over RFC2217 or raw protocols."/>
 	</Enumeration>
 
 	<Enumeration key="LocalBridgeModule" description="Module description: Local Bridge">
 		<Item text="Local Bridges"/>
 		<Item text="Create Local Bridge"/>
-		<Item text="infographics/local-bridge.svg"/>
+		<Item optional="true" text="infographics/local-bridge.svg"/>
 		<Item text="Create a pair of virtual serial ports connected with each other by means of virtual null-modem cable."/>
 	</Enumeration>
 
 	<Enumeration key="RemoteBridgeModule" description="Module description: Remote Bridge">
 		<Item text="Remote Bridges"/>
 		<Item text="Create Remote Bridge"/>
-		<Item text="infographics/remote-bridge.svg"/>
+		<Item optional="true" text="infographics/remote-bridge.svg"/>
 		<Item text="Create new virtual serial port and connect it to remote listening port, forming a remote bridge: a pair of virtual ports connected with each other by means of virtual null-modem cable."/>
 	</Enumeration>
 
 	<Enumeration key="ListeningPortModule" description="Module description: Listening Port">
 		<Item text="Listening Ports"/>
 		<Item text="Create Listening Port"/>
-		<Item text="infographics/listening-port.svg"/>
+		<Item optional="true" text="infographics/listening-port.svg"/>
 		<Item text="Create new virtual serial port in listening mode. It will accept incoming connections to form a remote bridge."/>
 	</Enumeration>
 
 	<Enumeration key="PipePortModule" description="Module description: Pipe Port">
 		<Item text="Ports Connected to Pipes"/>
 		<Item text="Create Pipe Port"/>
-		<Item text="infographics/pipe-port.svg"/>
+		<Item optional="true" text="infographics/pipe-port.svg"/>
 		<Item text="Create new virtual serial port connected to a named pipe."/>
 	</Enumeration>
 
 	<Enumeration key="FilesPortModule" description="Module description: Files Port">
 		<Item text="Ports Connected to Files"/>
 		<Item text="Create File Port"/>
-		<Item text="infographics/local-bridge.svg"/>
+		<Item optional="true" text="infographics/local-bridge.svg"/>
 		<Item text="Create new virtual serial port backed up by two files."/>
 	</Enumeration>
 
@@ -421,9 +421,11 @@
 			<Param name="days"/>
 		</Item>
 		<Item text="Free, trial period is over." />
-		<Item text="{edition}\r\nRegistered to {user}">
+		<Item text="{edition}\r\nRegistered to {user}.{non-lu?} Upgrade plan expires on {up expiration}.{?non-lu}">
 			<Param name="edition"/>
 			<Param name="user"/>
+			<Param name="non-lu" format="?"/>
+			<Param name="up expiration" format="t(%x)"/>
 		</Item>
 		<Item text="Upgrade plan expired"/>
 	</Enumeration>
@@ -491,9 +493,6 @@
 		<Item text="15 seconds" />
 		<Item text="30 seconds" />
 	</Enumeration>
-
-	<Message key="Free license" description="License type (about): Free license"/>
-	<Message key="RegExpired" description="License type (about): Upgrade plan expired" value="Registered, Upgrade Plan expired, free license is in effect."/>
 
 	<!-- Create Bridge Dialog -->
 	<Message key="Create Local Bridge" description="Window title: Create Local Bridge" />
@@ -624,4 +623,32 @@
 	<Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." description="Field: If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="If you need to renew a license, click the &quot;Download License…&quot; button. (Requires login and password)."/>
 	<Message key="If you have already received a license file, click the &quot;Install License...&quot; button." description="Field: If you have already received a license file, click the &quot;Install License...&quot; button." value="If you have already received a license file, click the &quot;Install License…&quot; button."/>
 
+	<!-- Strings in HTML -->
+	<Message key="days-left" value="You have &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; days left to test extended features of the product." description="You have N days left"/>
+	<Message key="14days" value="You may either continue using limited version or try extended functionality &lt;span style=&quot;white-space:nowrap&quot;&gt;for 14 days&lt;/span&gt; first, then switch back to free." description="You may either continue using limited version or try extended…"/>
+
+	<Message key="Evaluation mode timer" description="Evaluation mode timer" />
+	<Message key="Virtual Serial Port Tools is currently in evaluation mode." description="Virtual Serial Port Tools is currently in evaluation mode." />
+	<Message key="Continue evaluation" description="Continue evaluation" />
+	<Message key="Get extended functionality" description="Get extended functionality" />
+	<Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" description="You are currently using feature-limited FREE VERSION…" />
+	<Message key="Permanent devices." description="Permanent devices." />
+	<Message key="Remote bridges." description="Remote bridges." />
+	<Message key="Custom device names." description="Custom device names." />
+	<Message key="Multiple devices of the same type." description="Multiple devices of the same type." />
+	<Message key="Advanced device configuration." description="Advanced device configuration." />
+	<Message key="Use for commercial, government or military purposes." description="Use for commercial, government or military purposes." />
+	<Message key="And much more" description="And much more" />
+	<Message key="Continue with limited features" description="Continue with limited features" />
+	<Message key="Get extended version" description="Get extended version" />
+	<Message key="Your upgrade plan expired!" description="Your upgrade plan expired!" />
+	<Message key="Your upgrade plan has expired. Your license does not support the product version you currently have installed. You can either revert to the previous build or extend your upgrade plan. Extending, you will get:" description="Your upgrade plan has expired…" />
+	<Message key="Immediate access to the newest features." description="Immediate access to the newest features." />
+	<Message key="Priority support and bug fixes." description="Priority support and bug fixes." />
+	<Message key="Online license and feature management." description="Online license and feature management." />
+	<Message key="Access to discount programs." description="Access to discount programs." />
+	<Message key="If you continue using this product version, only features of a Free Edition will be available for you." description="If you continue using this product version…" />
+	<Message key="Extend your upgrade plan" description="Extend your upgrade plan" />
+	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features or Virtual Serial Port Tools are trial and will expire soon." />
+	<Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." description="You may continue with limited functionality or upgrade…" />
 </Definition>
