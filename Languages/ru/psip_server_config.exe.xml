@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Invalid TCP port specified." value="Указан недопустимый TCP-порт." revision="0" />
+  <Message key="UpgradeNotification" value="Доступен сервер последовательных портов TCP/IP версии {major}.{minor}.{revision}.{build}. Обновить прямо сейчас?" revision="0" />
+  <Message key="License installation was successful." value="Установка лицензии прошла успешно." revision="0" />
+  <Message key="License Installation" value="Установка лицензий" revision="0" />
+  <Message key="There was an error installing a license. Please try a different file or contact HHD Software Ltd." value="Произошла ошибка при установке лицензии. Пожалуйста, попробуйте другой файл или свяжитесь с HHD Software Ltd." revision="0" />
+  <Message key="License files|*.vsptlic|" value="Файлы лицензий|*.vsptlic|" revision="0" />
+  <Message key="AlreadyListening" value="Сервер уже настроен на прослушивание TCP-порта {port}." revision="0" />
+  <Message key="No serial ports detected" value="Последовательных портов не обнаружено" revision="0" />
+  <Message key="Raw" value="Сырые данные" revision="0" />
+  <Message key="PortFormat" value="Ком{port} как *:{tcp port} ({is rfc?}RFC2217{|is rfc}RAW{?is rfc}{has overrides?} [{has baud?}{baud}{?has baud},{has size?}{size}{?has size},{has stop?}{stop}{?has stop},{has parity?}{parity}{?has parity},{has flow?}{flow}{?has flow}]{?has overrides})" revision="0" />
+  <Message key="Share New Port" value="Расшарить новый порт" revision="0" />
+  <Message key="Confirm creation of time-limited shared ports." value="Подтвердите создание ограниченных по времени расшаренных портов." revision="0" />
+  <Message key="FreeNotice" value="Порты, используемые в бесплатной версии, работают только в течение 30 минут после подключения к ним. По истечении этого времени соединение должно быть установлено заново." revision="0" />
+  <Message key="Try extended functionality" value="Попробовать расширенные функции" revision="0" />
+  <Message key="Share Port" value="Расшарить порт" revision="0" />
+  <Message key="Local serial port" value="Локальный последовательный порт" revision="0" />
+  <Message key="TCP Port" value="TCP-порт" revision="0" />
+  <Message key="Protocol" value="Протокол" revision="0" />
+  <Message key="Share New Port..." value="Расшарить &amp;новый порт…" revision="0" />
+  <Message key="Stop Sharing" value="Остановить &amp;шаринг" revision="0" />
+  <Message key="Remove All" value="&amp;Убрать все" revision="0" />
+  <Message key="About" value="&amp;О программе" revision="0" />
+  <Message key="Shared serial ports" value="Расшаренные порты" revision="0" />
+  <Message key="Install License..." value="Установить лицензию…" revision="0" />
+  <Enumeration key="FlowControl">
+    <Item value="Отсутствует" revision="0" />
+    <Item value="Программный" revision="0" />
+    <Item value="Аппаратный" revision="0" />
+  </Enumeration>
+  <Enumeration key="Parity">
+    <Item value="Нет" revision="0" />
+    <Item value="Нечетное" revision="0" />
+    <Item value="Четное" revision="0" />
+    <Item value="Метка" revision="0" />
+    <Item value="Пробел" revision="0" />
+  </Enumeration>
+</Language>

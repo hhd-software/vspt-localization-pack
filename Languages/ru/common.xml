@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="OK" value="ОК" revision="0" />
+  <Message key="Cancel" value="Отмена" revision="0" />
+  <Message key="Yes" value="Да" revision="0" />
+  <Message key="No" value="Нет" revision="0" />
+  <Message key="Retry" value="Повторить" revision="0" />
+  <Message key="Abort" value="Прервать" revision="0" />
+  <Message key="Ignore" value="Игнорировать" revision="0" />
+  <Message key="Help" value="Помощь" revision="0" />
+  <Message key="Create" value="Создать" revision="0" />
+  <Message key="Options" value="Параметры…" revision="0" />
+  <Message key="Delete" value="Удалить" revision="0" />
+  <Message key="Add" value="Добавить" revision="0" />
+  <Message key="Close" value="Закрыть" revision="0" />
+  <Message key="Install" value="&amp;Установить" revision="0" />
+  <Message key="Start" value="&amp;Пуск" revision="0" />
+  <Message key="Error" value="Ошибка работы" revision="0" />
+  <Message key="OperationError" value="Ошибка {message} ({code})" revision="0" />
+  <Message key="Stop" value="О&amp;становить" revision="0" />
+  <Message key="About" value="&amp;О программе" revision="0" />
+  <Message key="Status" value="Статус" revision="0" />
+  <Message key="Apply" value="Применить" revision="0" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n\n{license}\n\nКопирайт ©2018 - 2024 HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="Registered License" value="Зарегистрировано на [[[b{name}]]].{non-lu?}\nСрок действия обновлений истекает [[[b{up expiration}]]].{?non-lu}" revision="0" />
+  <Message key="RegExpired" value="Зарегистрирован, срок действия обновлений истек {up expiration}, действует бесплатная лицензия." revision="0" />
+  <Message key="Free license" value="Бесплатная лицензия" revision="0" />
+  <Message key="Trial License" value="Пробная лицензия. Осталось {days} дней." revision="0" />
+  <Enumeration key="InstallationStatus">
+    <Item value="Работа в автономном режиме" revision="0" />
+    <Item value="Не установлено" revision="0" />
+    <Item value="Остановлено" revision="0" />
+    <Item value="Работает" revision="0" />
+    <Item value="Неизвестно" revision="0" />
+  </Enumeration>
+</Language>

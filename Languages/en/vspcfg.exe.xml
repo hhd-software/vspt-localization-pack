@@ -443,7 +443,7 @@
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
 	<Message key="License has been successfully installed." description="License has been successfully installed."/>
-	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please log into the My Account section and download new license file."/>
+	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please log in to your account at the HHD Software website and download the new license file."/>
 
 	<Message key="NewAliasPortTitle" description="Window title: Create Port Alias" value="Create Port Alias"/>
 
@@ -649,6 +649,6 @@
 	<Message key="Access to discount programs." description="Access to discount programs." />
 	<Message key="If you continue using this product version, only features of a Free Edition will be available for you." description="If you continue using this product version…" />
 	<Message key="Extend your upgrade plan" description="Extend your upgrade plan" />
-	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features or Virtual Serial Port Tools are trial and will expire soon." />
+	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Some extended features of Virtual Serial Port Tools are trial and will expire soon." description="Some extended features of Virtual Serial Port Tools are trial and will expire soon." />
 	<Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." description="You may continue with limited functionality or upgrade…" />
 </Definition>
