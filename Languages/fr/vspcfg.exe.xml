@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="error_title" value="Erreur" revision="0" />
+  <Message key="Remote port is already connected." value="Le port distant est déjà connecté." revision="0" />
+  <Message key="CredentialsInvalid" value="Les informations d'identification fournies ne sont pas valides : {message} ({code})\n\nVoulez-vous toujours les utiliser ?" revision="0" />
+  <Message key="ErrorConnectingServer" value="Erreur {code} lors de la connexion au serveur {name}: {message}" revision="0" />
+  <Message key="ErrorCreatingDevice" value="Erreur lors de la création d'un appareil : {message} ({code})" revision="0" />
+  <Message key="About title" value="A propos de {product}" revision="0" />
+  <Message key="Title" value="Outils de Port Série Virtuel par HHD Software" revision="0" />
+  <Message key="CannotSharePortDescription" value="Le dispositif sélectionné est déjà partagé en tant que [[[bCOM{port}]]]." revision="0" />
+  <Message key="Full Control" value="Contrôle total" revision="0" />
+  <Message key="Connect to server" value="Connecter" revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />
