@@ -10,6 +10,16 @@
   <Message key="CannotSharePortDescription" value="Il dispositivo selezionato è già condiviso come [[[bCOM{port}]]]." revision="0" />
   <Message key="Full Control" value="Controllo totale" revision="0" />
   <Message key="Connect to server" value="Connetti" revision="0" />
+  <Message key="Security Title" value="Sicurezza delle porte di ascolto" revision="0" />
+  <Message key="DownloadServer" value="Il componente richiesto non è installato. Volete aprire il programma di installazione e installare il componente mancante?" revision="0" />
+  <Message key="bscp out of range" value="Il BSCp deve essere superiore o uguale a 0 e inferiore o uguale al 50%." revision="0" />
+  <Message key="PinSchemes" value="Configurazione del pinout" revision="0" />
+  <Message key="Predefined scheme can't be overwritten" value="Errore: lo schema predefinito non può essere sovrascritto." revision="0" />
+  <Message key="OverwriteScheme" value="Si vuole sovrascrivere lo schema {scheme}?" revision="0" />
+  <Message key="SchemeNameTooLong" value="Errore: il nome dello schema è troppo lungo. La lunghezza massima del nome dello schema è di 100 caratteri." revision="0" />
+  <Message key="DeleteSchemeError" value="Errore: lo schema predefinito non può essere eliminato." revision="0" />
+  <Message key="Don't override" value="Non sovrascrivere" revision="0" />
+  <Message key="Banner" value="Utilizzare l' predefinito" revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />

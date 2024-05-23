@@ -10,6 +10,16 @@
   <Message key="CannotSharePortDescription" value="Le dispositif sélectionné est déjà partagé en tant que [[[bCOM{port}]]]." revision="0" />
   <Message key="Full Control" value="Contrôle total" revision="0" />
   <Message key="Connect to server" value="Connecter" revision="0" />
+  <Message key="Security Title" value="Sécurité du port d'écoute" revision="0" />
+  <Message key="DownloadServer" value="Le composant requis n'est pas installé. Voulez-vous ouvrir le programme d'installation et installer le composant manquant ?" revision="0" />
+  <Message key="bscp out of range" value="Le BSCp doit être supérieur ou égal à 0 et inférieur ou égal à 50%." revision="0" />
+  <Message key="PinSchemes" value="Configuration des broches" revision="0" />
+  <Message key="Predefined scheme can't be overwritten" value="Erreur : le schéma prédéfini ne peut pas être écrasé." revision="0" />
+  <Message key="OverwriteScheme" value="Voulez-vous écraser le schéma {scheme} ?" revision="0" />
+  <Message key="SchemeNameTooLong" value="Erreur : le nom du programme est trop long. La longueur maximale du nom du régime est de 100 caractères." revision="0" />
+  <Message key="DeleteSchemeError" value="Erreur : le schéma prédéfini ne peut pas être supprimé." revision="0" />
+  <Message key="Don't override" value="Ne pas remplacer" revision="0" />
+  <Message key="Banner" value="Utiliser le défaut" revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />
