@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Invalid TCP port specified." value="Porta TCP non valida specificata." revision="0" />
+  <Message key="UpgradeNotification" value="È disponibile la versione TCP/IP Server Porte Seriali {major}.{minor}.{revision}.{build}. Volete aggiornare ora?" revision="0" />
+  <Message key="License installation was successful." value="L'installazione della licenza è avvenuta con successo." revision="0" />
+  <Message key="License Installation" value="Installazione della licenza" revision="0" />
+  <Message key="There was an error installing a license. Please try a different file or contact HHD Software Ltd." value="Si è verificato un errore nell'installazione di una licenza. Provare con un file diverso o contattare HHD Software Ltd." revision="0" />
+  <Message key="License files|*.vsptlic|" value="File di licenza|*.vsptlic|" revision="0" />
+  <Message key="AlreadyListening" value="Il server è già configurato per ascoltare sulla porta TCP {port}." revision="0" />
+  <Message key="No serial ports detected" value="Nessuna porta seriale rilevata" revision="0" />
+  <Message key="Raw" value="Raw" revision="0" />
+  <Message key="PortFormat" value="COM{port} as *:{tcp port} ({is rfc?}RFC2217{|is rfc}RAW{?is rfc}{has overrides?} [{has baud?}{baud}{?has baud},{has size?}{size}{?has size},{has stop?}{stop}{?has stop},{has parity?}{parity}{?has parity},{has flow?}{flow}{?has flow}]{?has overrides})" revision="0" />
+  <Message key="Share New Port" value="Condividi Nuovo Porto" revision="0" />
+  <Message key="Confirm creation of time-limited shared ports." value="Confermare la creazione di porte condivise a tempo limitato." revision="0" />
+  <Message key="FreeNotice" value="Le porte condivise con la versione gratuita funzionano solo per 30 minuti dopo la connessione. Dopo questo periodo, è necessario ristabilire la connessione." revision="0" />
+  <Message key="Try extended functionality" value="Prova la funzionalità estesa" revision="0" />
+  <Message key="Share Port" value="Condividi Porto" revision="0" />
+  <Message key="Local serial port" value="Porta seriale locale" revision="0" />
+  <Message key="TCP Port" value="Porta TCP" revision="0" />
+  <Message key="Protocol" value="Protocollo" revision="0" />
+  <Message key="Share New Port..." value="Condividi &amp;Nuovo Porto…" revision="0" />
+  <Message key="Stop Sharing" value="Interrompere la &amp;condivisione" revision="0" />
+  <Message key="Remove All" value="&amp;Rimuovere tutti" revision="0" />
+  <Message key="About" value="&amp;Informazioni su" revision="0" />
+  <Message key="Shared serial ports" value="Porte seriali condivise" revision="0" />
+  <Message key="Install License..." value="Installare la licenza…" revision="0" />
+  <Enumeration key="FlowControl">
+    <Item value="Nessuno" revision="0" />
+    <Item value="Software" revision="0" />
+    <Item value="Software" revision="0" />
+  </Enumeration>
+  <Enumeration key="Parity">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -19,7 +19,7 @@
   <Message key="TCP Port" value="Porta TCP" revision="0" />
   <Message key="Protocol" value="Protocolo" revision="0" />
   <Message key="Share New Port..." value="Partilhar &amp;Novo Porto…" revision="0" />
-  <Message key="Stop Sharing" value="Parar de partilhar" revision="0" />
+  <Message key="Stop Sharing" value="Parar de &amp;partilhar" revision="0" />
   <Message key="Remove All" value="&amp;Remover Todos" revision="0" />
   <Message key="About" value="&amp;Acerca de" revision="0" />
   <Message key="Shared serial ports" value="Portas de série partilhadas" revision="0" />

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Remote Serial Ports Server Security" value="Sicurezza del Server delle Porte Seriali Remote" revision="0" />
+  <Message key="Connect to server" value="Connettersi al server" revision="0" />
+  <Message key="UpgradeNotice" value="La versione del Server delle Porte Seriali Remote {major}.{minor}.{revision}.{build} è disponibile. Volete aggiornare ora?" revision="0" />
+  <Message key="HHD Software Remote Ports Server Control" value="Controllo del Server delle Porte Remoto" revision="0" />
+  <Message key="Settings" value="Impostazioni" revision="0" />
+  <Message key="Share all ports" value="Condividi tutte le porti" revision="0" />
+  <Message key="Share the following ports:" value="Condividere le seguenti porti:" revision="0" />
+  <Message key="Enable auto-discovery" value="Abilita il rilevamento automatico" revision="0" />
+  <Message key="Security..." value="Sicurezza…" revision="0" />
+</Language>

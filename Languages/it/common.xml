@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Cancel" value="Annulla" revision="0" />
+  <Message key="Yes" value="Sì" revision="0" />
+  <Message key="No" value="No" revision="0" />
+  <Message key="Retry" value="Riprovare" revision="0" />
+  <Message key="Abort" value="Interrompere" revision="0" />
+  <Message key="Ignore" value="Ignorare" revision="0" />
+  <Message key="Help" value="Guida" revision="0" />
+  <Message key="Create" value="Creare" revision="0" />
+  <Message key="Options" value="Opzioni…" revision="0" />
+  <Message key="Delete" value="Eliminare" revision="0" />
+  <Message key="Add" value="Aggiungi" revision="0" />
+  <Message key="Close" value="Chiudi" revision="0" />
+  <Message key="Install" value="&amp;Installare" revision="0" />
+  <Message key="Start" value="&amp;Start" revision="0" />
+  <Message key="Error" value="Errore di funzionamento" revision="0" />
+  <Message key="OperationError" value="Errore {message} ({code})" revision="0" />
+  <Message key="Stop" value="&amp;Stop" revision="0" />
+  <Message key="About" value="&amp;Informazioni su" revision="0" />
+  <Message key="Status" value="Stato" revision="0" />
+  <Message key="Apply" value="Applicare" revision="0" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersione {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTutti i diritti riservati.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="Registered License" value="Registrato a [[[b{name}]]].{non-lu?}\nIl piano di aggiornamento scade il [[[b{up expiration}]]].{?non-lu}" revision="0" />
+  <Message key="RegExpired" value="Registrato, il piano di aggiornamento è scaduto il {up expiration}, la licenza gratuita è in vigore." revision="0" />
+  <Message key="Free license" value="Licenza gratuita" revision="0" />
+  <Message key="Trial License" value="Licenza di prova. {days} giorni rimanenti." revision="0" />
+  <Enumeration key="InstallationStatus">
+    <Item value="Esecuzione come standalone" revision="0" />
+    <Item value="Non installato" revision="0" />
+    <Item value="Interrotto" revision="0" />
+    <Item value="In esecuzione" revision="0" />
+    <Item value="Sconosciuto" revision="0" />
+  </Enumeration>
+</Language>
