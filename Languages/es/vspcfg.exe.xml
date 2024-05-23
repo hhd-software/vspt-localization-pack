@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="error_title" value="Error" revision="0" />
+  <Message key="Remote port is already connected." value="El puerto remoto ya está conectado." revision="0" />
+  <Message key="CredentialsInvalid" value="Las credenciales proporcionadas no son válidas: {message} ({code})\n\n¿Todavía quieres usarlos?" revision="0" />
+  <Message key="ErrorConnectingServer" value="Error {code} al conectar con el servidor {name}: {message}" revision="0" />
+  <Message key="ErrorCreatingDevice" value="Error al crear dispositivo: {message} ({code})" revision="0" />
+  <Message key="About title" value="Acerca de {product}" revision="0" />
+  <Message key="Title" value="Herramientas de puerto serie virtual de HHD Software" revision="0" />
+  <Message key="SharedPortDescription" value="El [[[bCOM{local port}]]] recién creado actuará como un [[[b{source device}]]] existente, pero podrá abrirse varias veces." revision="0" />
+  <Message key="AliasPortDescription" value="El [[[bCOM{local port}]]] recién creado actuará como alias del [[[b{source device}]]]." revision="0" />
+  <Message key="CannotSharePortDescription" value="El dispositivo seleccionado ya está siendo compartido como [[[bCOM{port}]]]." revision="0" />
+  <Message key="AlreadySharedEntry" value="{device} (compartido como COM{shared port})" revision="0" />
+  <Message key="Full Control" value="Control total" revision="0" />
+  <Message key="Connect to server" value="Conectar" revision="0" />
+  <Message key="Security Title" value="Seguridad del puerto de escucha" revision="0" />
+  <Message key="DownloadServer" value="El componente requerido no está instalado. ¿Desea abrir el programa de instalación e instalar el componente que falta?" revision="0" />
+  <Message key="bscp out of range" value="El BSCp debe ser mayor o igual que 0 y menor o igual que 50%." revision="0" />
+  <Message key="PinSchemes" value="Configuración del pinout" revision="0" />
+  <Message key="Predefined scheme can't be overwritten" value="Error: no se puede sobrescribir el esquema predefinido." revision="0" />
+  <Message key="OverwriteScheme" value="¿Desea sobrescribir el esquema {scheme}?" revision="0" />
+  <Message key="SchemeNameTooLong" value="Error: el nombre del esquema es demasiado largo. La longitud máxima del nombre del esquema es de 100 caracteres." revision="0" />
+  <Message key="DeleteSchemeError" value="Error: no se puede eliminar el esquema predefinido." revision="0" />
+  <Message key="Don't override" value="No sustituya" revision="0" />
+  <Message key="Banner" value="Utilizar por defecto" revision="0" />
+  <Message key="Pipe name banner" value="Formato del nombre de la canalización: \\\\&lt;servername&gt;\pipe\&lt;pipename&gt;" revision="0" />
+  <Message key="NagFreeTitle" value="Función no disponible" revision="0" />
+  <Message key="Purchase extended version" value="Obtener la versión ampliada" revision="0" />
+  <Message key="Extend your plan" value="Prolongue su plan de actualización" revision="0" />
+  <Message key="FreeVersionNagText1" value="{feature} no está incluida en la versión gratuita.\n\nPuede continuar con las funciones limitadas de la versión gratuita o puede probar la funcionalidad ampliada de forma GRATUITA durante 14 días." revision="0" />
+  <Message key="FreeVersionNagText2" value="{feature} no está incluida en la versión gratuita.\n\nPuede continuar con las funciones limitadas de la versión gratuita o puede actualizar a la versión ampliada." revision="0" />
+  <Message key="PurchasedVersionNagText" value="La función {feature} no está incluida en la edición actual.\n\nPuede continuar con las funciones de la edición actual o puede actualizarse a la versión ampliada." revision="0" />
+  <Message key="UpgradePlanExpiredNagText" value="Su plan de actualización ha caducado. Si continúa utilizando la versión actual, sólo dispondrá de las funciones de la edición gratuita. La característica {feature} no está incluida en la edición gratuita.\n\nPuede continuar con las características de la edición gratuita o puede ampliar su plan de actualización." revision="0" />
+  <Message key="Trial text: free" value="Algunas funciones ampliadas de los Puertos Serie Virtuales son de Prueba o Caducadas.\n\nPuede continuar con la funcionalidad limitada de la versión gratuita o actualizar a la versión extendida.\nLa compra de la funcionalidad extendida eliminará esta pantalla." revision="0" />
+  <Message key="Trial text: trial" value="Algunas funciones ampliadas de los Puertos Serie Virtuales son de Prueba y expirarán pronto.\n\nPuede continuar con la funcionalidad limitada o actualizar a la versión extendida.\nLa compra de la funcionalidad extendida eliminará esta pantalla." revision="0" />
+  <Message key="Trial text: trialnotstarted" value="La versión gratuita del producto tiene un conjunto limitado de funciones.\n\nPuede continuar con las funciones limitadas o probar la funcionalidad ampliada de forma GRATUITA durante 14 días." revision="0" />
+  <Message key="Trial dialog title: free" value="Obtenga funcionalidad ampliada" revision="0" />
+  <Message key="Try extended version" value="Pruebe la versión ampliada" revision="0" />
+  <Message key="Try extended functionality" value="Pruebe la funcionalidad ampliada" revision="0" />
+  <Message key="Purchase extended functionality" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Close this notification" value="Cerrar esta notificación" revision="0" />
+  <Message key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Crear puentes locales" revision="0" />
+  <Message key="{eae873d4-7d48-4b01-a296-7ffa6a677fc8}" value="Creación de puertos de canalización" revision="0" />
+  <Message key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Creación de puertos remotos" revision="0" />
+  <Message key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Creación de puertos compartidos" revision="0" />
+  <Message key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Crear puertos alias" revision="0" />
+  <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Creación de puentes remotos" revision="0" />
+  <Message key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Creación de puertos de escucha" revision="0" />
+  <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Crear puertos de archivos" revision="0" />
+  <Message key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Cambiar los nombres de los puertos" revision="0" />
+  <Message key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API" revision="0" />
+  <Message key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Crear múltiples dispositivos" revision="0" />
+  <Message key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Cambiar los nombres de los puertos" revision="0" />
+  <Message key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API" revision="0" />
+  <Message key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Crear múltiples dispositivos" revision="0" />
+  <Message key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Cambiar los nombres de los puertos" revision="0" />
+  <Message key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API" revision="0" />
+  <Message key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Crear múltiples dispositivos" revision="0" />
+  <Message key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Conectores personalizados" revision="0" />
+  <Message key="{bec21bff-44fc-4a90-b8d0-c635384d6096}" value="Emular transbordamento" revision="0" />
+  <Message key="{10991f32-4c08-4f28-a218-be67cd68e1c7}" value="Emular el ruido" revision="0" />
+  <Message key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Sustituir parámetros de puerto compartido" revision="0" />
+  <Message key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Crear puentes permanentes" revision="0" />
+  <Message key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Emular velocidad de transmisión" revision="0" />
+  <Message key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Cambiar los nombres de los puertos" revision="0" />
+  <Message key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API" revision="0" />
+  <Message key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Crear múltiples dispositivos" revision="0" />
+  <Message key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Sustituir los parámetros del puerto de alias" revision="0" />
+  <Message key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Cambiar los nombres de los puertos" revision="0" />
+  <Message key="{33a0ecd5-0ea7-4b0a-b520-cf84ca81c0e9}" value="API" revision="0" />
+  <Message key="{06954e27-3908-4e76-ba45-f9df20b0b689}" value="Crear múltiples dispositivos" revision="0" />
+  <Message key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Sustituir los parámetros del puerto TCP/IP" revision="0" />
+  <Message key="Error creating device" value="La creación del dispositivo falló con el siguiente error::\r\n\n {text} ({code})" revision="0" />
+  <Message key="Error creating bridge" value="La creación del puente falló con el siguiente error:\r\n\n {text} ({code})" revision="0" />
+  <Message key="error title" value="Operación fallida" revision="0" />
+  <Message key="Custom" value="Personalizado" revision="0" />
+  <Message key="Device creation aborted" value="\n\nHa abortado la creación de dispositivos.Esta operación puede haber dejado dispositivos no funcionales semicreados que pueden eliminarse manualmente mediante el Administrador de dispositivos de Windows." revision="0" />
+  <Message key="AppTitle" value="Herramientas de puerto serie virtual HHD{is free?} (Versión gratuita, No comercial){?is free}{is trial?} (Versión de prueba){?is trial}{is reg noncom?} (No comercial){?is reg noncom}" revision="0" />
+  <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
+  <Message key="LicenseFileFilter" value="Archivos de licencia (*.vsptlic)|*.vsptlic|Todos los archivos|*||" revision="0" />
+  <Message key="License has been successfully installed." value="La licencia se ha instalado correctamente." revision="0" />
+  <Message key="There was an error installing a license file." value="Se ha producido un error al instalar un archivo de licencia. Es posible que el archivo esté dañado o haya caducado. Inicie sesión en su cuenta en el sitio web de HHD Software y descargue el nuevo archivo de licencia." revision="0" />
+  <Message key="NewAliasPortTitle" value="Crear alias de puerto" revision="0" />
+  <Message key="UpgradePrompt" value="La versión {major}.{minor}.{revision}.{build} de las Herramientas de Puerto Serie Virtual está disponible.¿Quiere actualizar ahora?" revision="0" />
+  <Message key="Library creation failed" value="Error de conexión con el componente COM de las Herramientas de Puerto Serie Virtual: {message} ({code}).\r\n\nPrueba a reinstalar la aplicación." revision="0" />
+  <Message key="Port not selected" value="Debe seleccionar un puerto existente que desee dividir." revision="0" />
+  <Message key="Too few aliases" value="Tienes que añadir al menos dos alias para el puerto." revision="0" />
+  <Message key="Export successful" value="La configuración seleccionada se ha colocado correctamente en el Portapapeles." revision="0" />
+  <Message key="RemoteHostCue" value="192.168.0.1 o example.com" revision="0" />
+  <Message key="IgnoreInvalidSpecialChars" value="Los dispositivos de puerto serie virtuales ignorarán las solicitudes no válidas que especifiquen los mismos caracteres XON y XOFF.\n\nPor defecto, un intento de establecer XON = XOFF produce un error (según la especificación) y esto puede impedir que las aplicaciones heredadas abran puertos virtuales con éxito." revision="0" />
+  <Message key="IgnoreTxClear" value="Los dispositivos serie virtuales ignorarán las peticiones de purga serie con la bandera TXCLEAR. Esto evita comportamientos no deseados si la solicitud es enviada erróneamente por la aplicación mientras todavía hay datos en la cola de transmisión." revision="0" />
+  <Message key="All" value="Todos" revision="0" />
+  <Message key="Firewall rule" value="HHD Software Puerto Serie Virtual TCP {address}:{port}" revision="0" />
+  <Message key="Firewall rule description" value="HHD Software Puerto Serie Virtual escuchando en TCP {address}:{port}" revision="0" />
+  <Message key="Firewall group" value="Herramientas de Puerto Serie Virtual de HHD Software" revision="0" />
+  <Message key="Create Local Bridge" value="Crear puente local" revision="0" />
+  <Message key="First port name" value="Nombre del primer puerto" revision="0" />
+  <Message key="Second port name" value="Nombre del segundo puerto" revision="0" />
+  <Message key="Create Remote Bridge" value="Crear puente remoto" revision="0" />
+  <Message key="Local port name" value="Nombre del puerto local" revision="0" />
+  <Message key="Remote computer" value="Ordenador remoto" revision="0" />
+  <Message key="Remote port name" value="Nombre del puerto remoto" revision="0" />
+  <Message key="Permanent" value="Permanente" revision="0" />
+  <Message key="Login" value="Inicio de sesión" revision="0" />
+  <Message key="Password" value="Contraseña" revision="0" />
+  <Message key="Domain" value="Dominio" revision="0" />
+  <Message key="Create TCP/IP Serial Port" value="Crear puerto serie TCP/IP" revision="0" />
+  <Message key="Connect to remote endpoint" value="Conectarse al punto final remoto" revision="0" />
+  <Message key="Listen for incoming connections" value="Escucha de conexiones entrantes" revision="0" />
+  <Message key="Add Firewall exception" value="Añadir excepción de Firewall" revision="0" />
+  <Message key="TCP Server link" value="Descargue e instale &lt;a&gt;Servidor de Puertos Serie TCP/IP de HHD Software&lt;/a&gt; en el ordenador remoto.\nAdemás, se admite cualquier servidor TCP/IP compatible con RFC2217. También puede conectarse al puerto serie virtual en modo de escucha TCP/IP." revision="0" />
+  <Message key="Create local virtual port" value="Crear puerto virtual local" revision="0" />
+  <Message key="Listen on local address" value="Escuchar en dirección local" revision="0" />
+  <Message key="Local TCP port" value="Puerto TCP local" revision="0" />
+  <Message key="Protocol" value="Protocolo" revision="0" />
+  <Message key="Remote host IP address or name" value="Dirección IP o nombre del host remoto" revision="0" />
+  <Message key="Remote TCP port" value="Puerto TCP remoto" revision="0" />
+  <Message key="Reconnection timeout, seconds" value="Tiempo límite de reconexión, segundos" revision="0" />
+  <Message key="Connect Remote Port" value="Conectar puerto remoto" revision="0" />
+  <Message key="Discover" value="Descubra" revision="0" />
+  <Message key="Add Server" value="Añadir servidor…" revision="0" />
+  <Message key="Remove Server" value="Eliminar servidor" revision="0" />
+  <Message key="Connect" value="Conectar" revision="0" />
+  <Message key="Remote Server link" value="Para compartir puertos serie, instale [[[h#[Obtenga más información]#Servidor de Puerto Serie Remoto del Software HHD]]] en un ordenador remoto." revision="0" />
+  <Message key="Select remote port to connect to" value="Seleccione el puerto remoto al que conectarse" revision="0" />
+  <Message key="Domain or server" value="Dominio o servidor" revision="0" />
+  <Message key="Remote cred info" value="Introduzca a continuación sus credenciales de usuario. Se utilizarán cada vez que se abra un puerto serie local." revision="0" />
+  <Message key="Split Port" value="Puerto dividido" revision="0" />
+  <Message key="Select existing device" value="Seleccionar dispositivo existente" revision="0" />
+  <Message key="Split to (add at least 2 entries)" value="Dividir en (añadir al menos 2 entradas)" revision="0" />
+  <Message key="Split to" value="Dividir en" revision="0" />
+  <Message key="Add new port" value="Añadir nuevo puerto" revision="0" />
+  <Message key="Share Local Port" value="Crear puerto compartido" revision="0" />
+  <Message key="Existing device" value="Dispositivo existente" revision="0" />
+  <Message key="Virtual port" value="Puerto virtual" revision="0" />
+  <Message key="Create Listening Port" value="Crear puerto de escucha" revision="0" />
+  <Message key="Permissions" value="Permisos…" revision="0" />
+  <Message key="Port name" value="Nombre del puerto" revision="0" />
+  <Message key="Listening note" value="El puerto de escucha permite crear puentes remotos. El puerto de escucha actuará como servidor de un puente. Cree un puente remoto desde otro ordenador para conectarse al puerto de escucha." revision="0" />
+  <Message key="Create Pipe Port" value="Crear puerto de canalización" revision="0" />
+  <Message key="Create pipe" value="Crear canalización" revision="0" />
+  <Message key="Pipe name" value="Nombre de canalización" revision="0" />
+  <Message key="Number of instances" value="Número de instancias" revision="0" />
+  <Message key="Output buffer size in bytes" value="Tamaño del búfer de salida en bytes" revision="0" />
+  <Message key="Input buffer size in bytes" value="Tamaño del búfer de entrada en bytes" revision="0" />
+  <Message key="Timeout, ms" value="Tiempo de espera, ms" revision="0" />
+  <Message key="Bridge Options" value="Opciones de puente" revision="0" />
+  <Message key="Emulate TX Queue overflow" value="Emular desbordamiento de cola TX" revision="0" />
+  <Message key="Emulate line noise" value="Emular el ruido de línea" revision="0" />
+  <Message key="Save as" value="Guardar como" revision="0" />
+  <Message key="Single bit crossover probability (BSCp):" value="Probabilidad de cruce de bit único (BSCp):" revision="0" />
+  <Message key="Pinout scheme" value="Esquema de conexiones" revision="0" />
+  <Message key="Emulation Options" value="Opciones de emulación" revision="0" />
+  <Message key="Pinout" value="Disposición de contactos" revision="0" />
+  <Message key="Emulate baud rate" value="Emular velocidad de transmisión" revision="0" />
+  <Message key="Save Scheme" value="Guardar esquema" revision="0" />
+  <Message key="Name" value="Nombre" revision="0" />
+  <Message key="Shared Port Options" value="Opciones de puerto compartido" revision="0" />
+  <Message key="Override baud rate" value="Sustituir velocidad en baudios" revision="0" />
+  <Message key="Override line parameters" value="Sustituir parámetros de línea" revision="0" />
+  <Message key="Override flow control" value="Sustituir el control de flujo" revision="0" />
+  <Message key="Override port timeouts" value="Sustituir los tiempos de espera de los puertos" revision="0" />
+  <Message key="Override port parameters" value="Sustituir los parámetros del puerto" revision="0" />
+  <Message key="Baud rate" value="Velocidad en baudios" revision="0" />
+  <Message key="Data bits" value="Bits de datos" revision="0" />
+  <Message key="PParity" value="Paridad" revision="0" />
+  <Message key="Stop bits" value="Bits de parada" revision="0" />
+  <Message key="Flow control" value="Control de flujo" revision="0" />
+  <Message key="Read interval timeout" value="Tiempo de espera del intervalo de lectura" revision="0" />
+  <Message key="Read total multiplier" value="Multiplicador de lectura total" revision="0" />
+  <Message key="Read total constant" value="Constante de lectura total" revision="0" />
+  <Message key="Write total multiplier" value="Multiplicador de registro total" revision="0" />
+  <Message key="Write total constant" value="Constante de registro total" revision="0" />
+  <Message key="Please Wait" value="Espere, por favor" revision="0" />
+  <Message key="Please wait while the background operation is being processed" value="Por favor, espere mientras se procesa la operación en segundo plano…" revision="0" />
+  <Message key="Device Creation Warning" value="Aviso de creación de dispositivo" revision="0" />
+  <Message key="Create non-permanent device" value="Crear dispositivo no permanente" revision="0" />
+  <Message key="Free version does not support creation of permanent devices. Virtual serial device you create will become unusable after system restart." value="La versión gratuita no permite crear dispositivos permanentes. El dispositivo serie virtual que cree quedará inutilizable tras reiniciar el sistema." revision="0" />
+  <Message key="Export Configuration" value="Exportar configuración" revision="0" />
+  <Message key="Command Line" value="Línea de comandos" revision="0" />
+  <Message key="Export all devices of the same type" value="Exportar todos los dispositivos del mismo tipo" revision="0" />
+  <Message key="This window allows you to export the selected configuration. Select the type of configuration you want to get" value="Esta ventana le permite exportar la configuración seleccionada. Seleccione el tipo de configuración que desea obtener" revision="0" />
+  <Message key="License Management" value="Gestión de licencias" revision="0" />
+  <Message key="Install License..." value="Instalar licencia…" revision="0" />
+  <Message key="Download License..." value="Descargar licencia…" revision="0" />
+  <Message key="Remove License" value="Eliminar licencia" revision="0" />
+  <Message key="Start Trial now!" value="Iniciar prueba ahora!" revision="0" />
+  <Message key="Installed license" value="Licencia instalada" revision="0" />
+  <Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="Si necesita renovar una licencia, haga clic en el botón &quot;Descargar licencia…&quot;. (Requiere inicio de sesión y contraseña)." revision="0" />
+  <Message key="If you have already received a license file, click the &quot;Install License...&quot; button." value="Si ya ha recibido un archivo de licencia, haga clic en el botón &quot;Instalar licencia…&quot;." revision="0" />
+  <Message key="days-left" value="Le quedan &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; días para evaluar las características ampliadas del producto." revision="0" />
+  <Message key="14days" value="Puede seguir utilizando la versión limitada o probar primero la funcionalidad ampliada &lt;span style=&quot;white-space:nowrap&quot;&gt;durante 14 días&lt;/span&gt;y luego volver a la versión gratuita." revision="0" />
+  <Message key="Evaluation mode timer" value="Temporizador del modo de evaluación" revision="0" />
+  <Message key="Virtual Serial Port Tools is currently in evaluation mode." value="Las Herramientas de Puerto Serie Virtual se encuentran actualmente en modo de evaluación." revision="0" />
+  <Message key="Continue evaluation" value="Continuar la evaluación" revision="0" />
+  <Message key="Get extended functionality" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" value="Actualmente está utilizando una versión gratuita del producto con funciones limitadas. La versión completa soporta adicionalmente:" revision="0" />
+  <Message key="Permanent devices." value="Dispositivos permanentes." revision="0" />
+  <Message key="Remote bridges." value="Puentes remotos." revision="0" />
+  <Message key="Custom device names." value="Nombres de dispositivos personalizados." revision="0" />
+  <Message key="Multiple devices of the same type." value="Múltiples dispositivos del mismo tipo." revision="0" />
+  <Message key="Advanced device configuration." value="Configuración avanzada de dispositivos." revision="0" />
+  <Message key="Use for commercial, government or military purposes." value="Uso con fines comerciales, gubernamentales o militares." revision="0" />
+  <Message key="And much more" value="Y mucho más" revision="0" />
+  <Message key="Continue with limited features" value="Continuar con funciones limitadas" revision="0" />
+  <Message key="Get extended version" value="Obtener la versión ampliada" revision="0" />
+  <Message key="Your upgrade plan expired!" value="Tu plan de actualización ha caducado." revision="0" />
+  <Message key="Your upgrade plan has expired. Your license does not support the product version you currently have installed. You can either revert to the previous build or extend your upgrade plan. Extending, you will get:" value="Su plan de actualización ha caducado. Su licencia no es compatible con la versión del producto que tiene instalada actualmente. Puede volver a la versión anterior o ampliar su plan de actualización. Ampliando, obtendrá:" revision="0" />
+  <Message key="Immediate access to the newest features." value="Acceso inmediato a las nuevas funciones." revision="0" />
+  <Message key="Priority support and bug fixes." value="Prioridad de soporte y corrección de errores." revision="0" />
+  <Message key="Online license and feature management." value="Gestión en línea de licencias y funciones." revision="0" />
+  <Message key="Access to discount programs." value="Acceso a programas de descuento." revision="0" />
+  <Message key="If you continue using this product version, only features of a Free Edition will be available for you." value="Si sigue utilizando esta versión del producto, sólo dispondrá de las funciones de la Edición Gratuita." revision="0" />
+  <Message key="Extend your upgrade plan" value="Amplíe su plan de actualización" revision="0" />
+  <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Algunas funciones extendidas de Herramientas de Puerto Serial Virtual son de prueba y expirarán pronto." revision="0" />
+  <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="Puede continuar con la funcionalidad limitada o actualizar a la versión extendida. La compra de la funcionalidad ampliada eliminará esta pantalla." revision="0" />
+  <Enumeration key="FileExit">
+    <Item value="&amp;Salir" revision="0" />
+    <Item value="Salir de la aplicación" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item value="&amp;Dispositivos" revision="0" />
+    <Item value="Menú Archivo" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuCreate">
+    <Item value="&amp;Crear" revision="0" />
+    <Item value="Menú Crear" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item value="&amp;Ayuda" revision="0" />
+    <Item value="Menú Ayuda" revision="0" />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item value="&amp;" revision="0" />
+    <Item value="Menú Vista" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewHideEmptyGroups">
+    <Item value="&amp;Ocultar grupos vacíos" revision="0" />
+    <Item value="Ocultar grupos vacíos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewHideServers">
+    <Item value="Ocultar enlaces de &amp;servidor" revision="0" />
+    <Item value="Ocultar enlaces a servidores" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewCategories">
+    <Item value="&amp;Categorías" revision="0" />
+    <Item value="Controla qué categorías de dispositivos son visibles" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewShowVsp">
+    <Item value="Puertos Serie &amp;Virtual" revision="0" />
+    <Item value="Habilitar categorías de Puertos Serie &amp;Virtual" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewShowRsp">
+    <Item value="Puertos Serie &amp;Remotos" revision="0" />
+    <Item value="Habilitar categorías de Puertos Serie Remotos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewShowSsp">
+    <Item value="Puertos Serie &amp;Compartidos" revision="0" />
+    <Item value="Habilitar categorías de Puertos Serie Compartidos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewShowNsp">
+    <Item value="Puertos Serie de &amp;Red" revision="0" />
+    <Item value="Habilitar categorías de Puertos Serie de Red" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item value="&amp;Actualizar" revision="0" />
+    <Item value="Actualizar la lista de dispositivos" revision="0" />
+  </Enumeration>
+  <Enumeration key="ViewOptions">
+    <Item value="Opciones de &amp;compatibilidad…" revision="0" />
+    <Item value="Configurar las opciones de compatibilidad" revision="0" />
+  </Enumeration>
+  <Enumeration key="HelpView">
+    <Item value="&amp;Ver Ayuda…" revision="0" />
+    <Item value="Mostrar documentación" revision="0" />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item value="&amp;Acerca de…" revision="0" />
+    <Item value="Mostrar cuadro Acerca de" revision="0" />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item value="&amp;Gestión de licencias…" revision="0" />
+    <Item value="Gestionar las licencias instaladas" revision="0" />
+  </Enumeration>
+  <Enumeration key="HelpMonitorThesePorts">
+    <Item value="Monitorizar estos puertos…" revision="0" />
+    <Item value="Descargar la solución de monitorización de puertos" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateListeningPort">
+    <Item value="Crear puerto de escucha…" revision="0" />
+    <Item value="Crear puerto de escucha" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateLocalBridge">
+    <Item value="Crear puente local…" revision="0" />
+    <Item value="Crear puente local" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreatePipePort">
+    <Item value="Crear puerto de canalización" revision="0" />
+    <Item value="Crear puerto de canalización" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateRemoteBridge">
+    <Item value="Crear puente remoto…" revision="0" />
+    <Item value="Crear puente remoto" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateRemotePort">
+    <Item value="Conectar puerto remoto…" revision="0" />
+    <Item value="Conectar puerto remoto" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateSharedPort">
+    <Item value="Crear puerto compartido…" revision="0" />
+    <Item value="Crear puerto compartido" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateSplittedPort">
+    <Item value="Puerto dividido…" revision="0" />
+    <Item value="Puerto dividido" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateAliasPort">
+    <Item value="Crear alias de puerto…" revision="0" />
+    <Item value="Crear alias de puerto" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileCreateTcpPort">
+    <Item value="Crear puerto serie TCP/IP…" revision="0" />
+    <Item value="Crear puerto serie TCP/IP" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileTcpServer">
+    <Item value="Compartir puertos serie locales a través de TCP/IP…" revision="0" />
+    <Item value="Iniciar la utilidad de configuración del servidor de puertos serie TCP/IP" revision="0" />
+  </Enumeration>
+  <Enumeration key="FileRspServer">
+    <Item value="Compartir puertos serie locales…" revision="0" />
+    <Item value="Lanzar la utilidad de configuración del Servidor de Puertos Serie Remotos" revision="0" />
+  </Enumeration>
+  <Enumeration key="RemotePortModule">
+    <Item value="Puertos remotos" revision="0" />
+    <Item value="Conectar puerto remoto" revision="0" />
+    <Item value="infographics/remote-port.svg" revision="0" />
+    <Item value="Crea un nuevo puerto serie virtual que actuará como otro puerto serie conectado físicamente a otro ordenador." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemotePortServerModule">
+    <Item value="Servidor de Puertos Serie Remotos" revision="0" />
+    <Item value="Compartir puertos COM locales" revision="0" />
+    <Item value="infographics/remote-port-server.svg" revision="0" />
+    <Item value="Configure el Servidor de Puerto Serie Remoto de HHD Software, una aplicación que comparte puertos serie locales a través de una red." revision="0" />
+  </Enumeration>
+  <Enumeration key="TcpPortServerModule">
+    <Item value="Servidor de Puertos Serie RFC2217 TCP/IP" revision="0" />
+    <Item value="Compartir puertos COM locales a través de TCP/IP" revision="0" />
+    <Item value="infographics/tcp-port-server.svg" revision="0" />
+    <Item value="Configure el Servidor de Puertos Serie TCP/IP de HHD Software, una aplicación que expone los puertos serie locales como puntos finales TCP/IP para ser utilizados a través de una red." revision="0" />
+  </Enumeration>
+  <Enumeration key="SharedPortModule">
+    <Item value="Puertos compartidos" revision="0" />
+    <Item value="Crear puerto compartido" revision="0" />
+    <Item value="infographics/shared-port.svg" revision="0" />
+    <Item value="Crea un nuevo puerto serie virtual que proporcionará acceso compartido a un puerto serie local." revision="0" />
+  </Enumeration>
+  <Enumeration key="SplittedPortModule">
+    <Item value="Puertos divididos" revision="0" />
+    <Item value="Puerto dividido" revision="0" />
+    <Item value="infographics/splitted-port.svg" revision="0" />
+    <Item value="Divide un puerto serie existente en varios puertos serie virtuales; todos ellos proporcionarán acceso compartido al puerto original." revision="0" />
+  </Enumeration>
+  <Enumeration key="AliasPortModule">
+    <Item value="Alias Puertos" revision="0" />
+    <Item value="Crear alias de puerto" revision="0" />
+    <Item value="infographics/alias-port.svg" revision="0" />
+    <Item value="Crea un nuevo puerto serie virtual que será un alias de un puerto serie existente." revision="0" />
+  </Enumeration>
+  <Enumeration key="TcpPortModule">
+    <Item value="Puertos TCP/IP (RFC2217, Raw)" revision="0" />
+    <Item value="Crear puerto serie TCP/IP" revision="0" />
+    <Item value="infographics/tcp-port.svg" revision="0" />
+    <Item value="Crea un nuevo puerto serie virtual que se conectará a un servidor TCP/IP remoto a través de protocolos RFC2217 o raw." revision="0" />
+  </Enumeration>
+  <Enumeration key="LocalBridgeModule">
+    <Item value="Puentes locales" revision="0" />
+    <Item value="Crear puente local" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Crea un par de puertos serie virtuales conectados entre sí mediante un cable null-modem virtual." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteBridgeModule">
+    <Item value="Puentes remotos" revision="0" />
+    <Item value="Crear puente remoto" revision="0" />
+    <Item value="infographics/remote-bridge.svg" revision="0" />
+    <Item value="Crea un nuevo puerto serie virtual y conéctalo al puerto de escucha remoto, formando un puente remoto: un par de puertos virtuales conectados entre sí mediante un cable null-modem virtual." revision="0" />
+  </Enumeration>
+  <Enumeration key="ListeningPortModule">
+    <Item value="Puertos de escucha" revision="0" />
+    <Item value="Crear puerto de escucha" revision="0" />
+    <Item value="infographics/listening-port.svg" revision="0" />
+    <Item value="Crea un nuevo puerto serie virtual en modo escucha. Aceptará conexiones entrantes para formar un puente remoto." revision="0" />
+  </Enumeration>
+  <Enumeration key="PipePortModule">
+    <Item value="Puertos conectados a canalizaciones" revision="0" />
+    <Item value="Crear puerto de canalización" revision="0" />
+    <Item value="infographics/pipe-port.svg" revision="0" />
+    <Item value="Crear nuevo puerto serie virtual conectado a una canalización con nombre." revision="0" />
+  </Enumeration>
+  <Enumeration key="FilesPortModule">
+    <Item value="Puertos conectados a archivos" revision="0" />
+    <Item value="Crear puerto de archivos" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Crear nuevo puerto serie virtual respaldado por dos archivos." revision="0" />
+  </Enumeration>
+  <Enumeration key="PinoutsHelp">
+    <Item value="Haz clic en la pin para personalizar la configuración." revision="0" />
+    <Item value="Haz clic en la pin marrón y arrástrala a la verde para crear un enlace." revision="0" />
+  </Enumeration>
+  <Enumeration key="PinsHelpTooltips">
+    <Item value="Terminal de datos preparado" revision="0" />
+    <Item value="Conjunto de datos listo" revision="0" />
+    <Item value="Detección de portadora de datos" revision="0" />
+    <Item value="Solicitud de envío" revision="0" />
+    <Item value="Borrar para enviar" revision="0" />
+    <Item value="Indicador de anillo" revision="0" />
+    <Item value="Transmisión de datos" revision="0" />
+    <Item value="Recibir datos" revision="0" />
+  </Enumeration>
+  <Enumeration key="Parity">
+    <Item value="Ninguno" revision="0" />
+    <Item value="Impar" revision="0" />
+    <Item value="Par" revision="0" />
+    <Item value="Mark" revision="0" />
+    <Item value="Espacio" revision="0" />
+  </Enumeration>
+  <Enumeration key="StopBits">
+    <Item value="1" revision="0" />
+    <Item value="1.5" revision="0" />
+    <Item value="2" revision="0" />
+  </Enumeration>
+  <Enumeration key="FlowControl">
+    <Item value="Ninguno" revision="0" />
+    <Item value="Software (Xon/Xoff)" revision="0" />
+    <Item value="Hardware" revision="0" />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item value="Gratuito, no se ha iniciado el periodo de prueba." revision="1" />
+    <Item value="Gratis, el periodo de prueba termina en {days} días." revision="1" />
+    <Item value="Gratis, el periodo de prueba ha terminado." revision="1" />
+    <Item value="{edition}\r\nRegistrado en {user}.{non-lu?} El plan de actualización expira el {up expiration}.{?non-lu}" revision="1" />
+    <Item value="Plan de actualización caducado" revision="1" />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item value="Sólo uso no comercial" revision="0" />
+    <Item value="Uso comercial permitido" revision="0" />
+  </Enumeration>
+  <Enumeration key="TcpProtocols">
+    <Item value="RFC2217" revision="0" />
+    <Item value="Raw" revision="0" />
+  </Enumeration>
+  <Enumeration key="Timeout values">
+    <Item value="1 segundo" revision="0" />
+    <Item value="5 segundos" revision="0" />
+    <Item value="15 segundos" revision="0" />
+    <Item value="30 segundos" revision="0" />
+  </Enumeration>
+</Language>

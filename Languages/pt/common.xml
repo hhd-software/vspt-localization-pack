@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Cancel" value="Cancelar" revision="0" />
+  <Message key="Yes" value="Sim" revision="0" />
+  <Message key="No" value="Não" revision="0" />
+  <Message key="Retry" value="Repetir" revision="0" />
+  <Message key="Abort" value="Abortar" revision="0" />
+  <Message key="Ignore" value="Ignorar " revision="0" />
+  <Message key="Help" value="Ajuda" revision="0" />
+  <Message key="Create" value="Criar" revision="0" />
+  <Message key="Options" value="Opções…" revision="0" />
+  <Message key="Delete" value="Eliminar" revision="0" />
+  <Message key="Add" value="Adicionar" revision="0" />
+  <Message key="Close" value="Fechar" revision="0" />
+  <Message key="Install" value="Instalar&amp;" revision="0" />
+  <Message key="Start" value="&amp;Iniciar" revision="0" />
+  <Message key="Error" value="Erro de operação" revision="0" />
+  <Message key="OperationError" value="Erro {message} ({code})" revision="0" />
+  <Message key="Stop" value="&amp;Parar" revision="0" />
+  <Message key="About" value="&amp;Acerca de" revision="0" />
+  <Message key="Status" value="Estado" revision="0" />
+  <Message key="Apply" value="Aplicar" revision="0" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersão {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTodos os direitos reservados.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="Registered License" value="Registado em [[[b{name}]]].{non-lu?}\nO plano de atualização expira em [[[b{up expiration}]]].{?non-lu}" revision="0" />
+  <Message key="RegExpired" value="Registado, o Plano de Atualização expirou em {up expiration}, a licença gratuita está em vigor." revision="0" />
+  <Message key="Free license" value="Licença gratuita" revision="0" />
+  <Message key="Trial License" value="Licença de avaliação. {days} dias restantes." revision="0" />
+  <Enumeration key="InstallationStatus">
+    <Item value="Executar como autónomo" revision="0" />
+    <Item value="Não instalado" revision="0" />
+    <Item value="Interrompido" revision="0" />
+    <Item value="Em execução" revision="0" />
+    <Item value="Desconhecido" revision="0" />
+  </Enumeration>
+</Language>

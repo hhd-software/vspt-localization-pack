@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="OK" value="Aceptar" revision="0" />
+  <Message key="Cancel" value="Cancelar" revision="0" />
+  <Message key="Yes" value="Sí" revision="0" />
+  <Message key="No" value="No" revision="0" />
+  <Message key="Retry" value="Reintentar" revision="0" />
+  <Message key="Abort" value="Anular" revision="0" />
+  <Message key="Ignore" value="Ignorar" revision="0" />
+  <Message key="Help" value="Ayuda" revision="0" />
+  <Message key="Create" value="Crear" revision="0" />
+  <Message key="Options" value="Opciones…" revision="0" />
+  <Message key="Delete" value="Eliminar" revision="0" />
+  <Message key="Add" value="Agregar" revision="0" />
+  <Message key="Close" value="Cerrar" revision="0" />
+  <Message key="Install" value="&amp;Instalar" revision="0" />
+  <Message key="Start" value="&amp;Iniciar" revision="0" />
+  <Message key="Error" value="Error de operación" revision="0" />
+  <Message key="OperationError" value="Error {message} ({code})" revision="0" />
+  <Message key="Stop" value="&amp;Detener" revision="0" />
+  <Message key="About" value="&amp;Acerca de" revision="0" />
+  <Message key="Status" value="Estado" revision="0" />
+  <Message key="Apply" value="Aplicar" revision="0" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersión {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTodos los derechos reservados.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="Registered License" value="Registrado a [[[b{name}]]].{non-lu?}\nEl plan de actualización expira el [[[b{up expiration}]]].{?non-lu}" revision="0" />
+  <Message key="RegExpired" value="Registrado, el Plan de Actualización expiró el {up expiration}, la licencia gratuita está en vigor." revision="0" />
+  <Message key="Free license" value="Licencia gratuita" revision="0" />
+  <Message key="Trial License" value="Licencia de prueba. {days} días restantes." revision="0" />
+  <Enumeration key="InstallationStatus">
+    <Item value="Funcionamiento autónomo" revision="0" />
+    <Item value="No instalado" revision="0" />
+    <Item value="Detenido" revision="0" />
+    <Item value="Ejecutando" revision="0" />
+    <Item value="Desconocido" revision="0" />
+  </Enumeration>
+</Language>

@@ -6,7 +6,7 @@
   <Message key="ErrorConnectingServer" value="Ошибка {code} подсоединения к серверу {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Ошибка при создании устройства: {message} ({code})" revision="0" />
   <Message key="About title" value="О программе {product}" revision="0" />
-  <Message key="Title" value="Инструменты виртуальных ком портов от HHD Software" revision="0" />
+  <Message key="Title" value="Инструменты виртуальных Ком портов от HHD Software" revision="0" />
   <Message key="SharedPortDescription" value="Вновь созданный [[[bCOM{local port}]]] будет работать как существующий [[[b{source device}]]], но может быть открыт несколько раз." revision="0" />
   <Message key="AliasPortDescription" value="Вновь созданный [[[bCOM{local port}]]] будет работать в качестве псевдонима для [[[b{source device}]]]." revision="0" />
   <Message key="CannotSharePortDescription" value="Выбранное устройство уже расшарено как [[[bCOM{port}]]]." revision="0" />
@@ -23,7 +23,7 @@
   <Message key="DeleteSchemeError" value="Ошибка: предустановленная схема не может быть удалена." revision="0" />
   <Message key="Don't override" value="Не переопределять" revision="0" />
   <Message key="Banner" value="Использовать по умолчанию" revision="0" />
-  <Message key="Pipe name banner" value="Формат имени канала: \\\\&lt;servername&gt;\pipe\&lt;pipename&gt;" revision="0" />
+  <Message key="Pipe name banner" value="Формат имени pipe канала: \\\\&lt;servername&gt;\pipe\&lt;pipename&gt;" revision="0" />
   <Message key="NagFreeTitle" value="Функция недоступна" revision="0" />
   <Message key="Purchase extended version" value="Получить расширенную версию" revision="0" />
   <Message key="Extend your plan" value="Продлить план обновлений" revision="0" />
@@ -125,7 +125,7 @@
   <Message key="Select remote port to connect to" value="Выберите удаленный порт для подключения" revision="0" />
   <Message key="Domain or server" value="Домен или сервер" revision="0" />
   <Message key="Remote cred info" value="Введите свои учетные данные ниже. Они будут использоваться каждый раз при открытии локального последовательного порта." revision="0" />
-  <Message key="Split Port" value="Разделенный порт" revision="0" />
+  <Message key="Split Port" value="Разделить порт" revision="0" />
   <Message key="Select existing device" value="Выберите существующее устройство" revision="0" />
   <Message key="Split to (add at least 2 entries)" value="Разделить на (добавить не менее 2ух элементов)" revision="0" />
   <Message key="Split to" value="Разделить на" revision="0" />
@@ -195,12 +195,12 @@
   <Message key="Continue evaluation" value="Продолжить пробу" revision="0" />
   <Message key="Get extended functionality" value="Получить расширенные функции " revision="0" />
   <Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" value="В данный момент вы используете ограниченную по возможностям БЕСПЛАТНУЮ ВЕРСИЮ продукта. Полная версия дополнительно поддерживает:" revision="0" />
-  <Message key="Permanent devices." value="Постоянно действующие устройства." revision="0" />
+  <Message key="Permanent devices." value="Перманентные устройства." revision="0" />
   <Message key="Remote bridges." value="Удаленные мосты." revision="0" />
   <Message key="Custom device names." value="Пользовательские имена устройств." revision="0" />
-  <Message key="Multiple devices of the same type." value="Несколько однотипных устройств." revision="0" />
+  <Message key="Multiple devices of the same type." value="Множественные однотипные устройста." revision="0" />
   <Message key="Advanced device configuration." value="Расширенные настройки устройств." revision="0" />
-  <Message key="Use for commercial, government or military purposes." value="Коммерческое, правительственное или военное использование." revision="0" />
+  <Message key="Use for commercial, government or military purposes." value="Коммерческое, правительственное, военное использование." revision="0" />
   <Message key="And much more" value="И многое другое" revision="0" />
   <Message key="Continue with limited features" value="Продолжить с ограниченными функциями" revision="0" />
   <Message key="Get extended version" value="Получить расширенную версию" revision="0" />
@@ -267,7 +267,7 @@
     <Item value="Обновить список устройств" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOptions">
-    <Item value="&amp;Параметры совместимости…" revision="0" />
+    <Item value="Параметры совместимости…" revision="0" />
     <Item value="Настройка параметров совместимости " revision="0" />
   </Enumeration>
   <Enumeration key="HelpView">
