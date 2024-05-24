@@ -79,9 +79,9 @@
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="Ficheiros de licença (*.vsptlic)|*.vsptlic|Todos os ficheiros|*||" revision="0" />
   <Message key="License has been successfully installed." value="A licença foi instalada com sucesso." revision="0" />
-  <Message key="There was an error installing a license file." value="Ocorreu um erro ao instalar um ficheiro de licença. O ficheiro pode estar corrompido ou expirado. Inicie sessão na sua conta no site da HHD Software e transfira o novo ficheiro de licença." revision="0" />
   <Message key="NewAliasPortTitle" value="Criar alias de porta" revision="0" />
   <Message key="UpgradePrompt" value="Ferramentas de Porta Serial Virtual versão {major}.{minor}.{revision}.{build} está disponível. Pretende atualizar agora?" revision="0" />
+  <Message key="DownloadError" value="Ocorreu o seguinte erro ao descarregar a atualização: {error} ({code}). Tente novamente mais tarde ou vá ao nosso sítio Web para transferir manualmente a versão mais recente." revision="0" />
   <Message key="Library creation failed" value="Erro ao ligar ao componente COM das Ferramentas de Porta Série Virtual: {message} ({code}).\r\n\nTente reinstalar a aplicação." revision="0" />
   <Message key="Port not selected" value="É necessário selecionar um porto existente que se pretenda dividir." revision="0" />
   <Message key="Too few aliases" value="Tem de adicionar pelo menos dois aliases para a porta." revision="0" />
@@ -171,6 +171,7 @@
   <Message key="Read total constant" value="Constante de leitur total" revision="0" />
   <Message key="Write total multiplier" value="Multiplicador de registo total" revision="0" />
   <Message key="Write total constant" value="Constante de registo total" revision="0" />
+  <Message key="LangChanged" value="É necessário reiniciar o Ferramentas da Porta Serial Virtual para aplicar a alteração de idioma. Deseja reiniciar agora?" revision="0" />
   <Message key="Please Wait" value="Por favor, aguarde" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Por favor, aguarde enquanto a operação em segundo plano está a ser processada…" revision="0" />
   <Message key="Device Creation Warning" value="Aviso de criação de dispositivo" revision="0" />

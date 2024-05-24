@@ -4,7 +4,6 @@
   <Message key="UpgradeNotification" value="Está disponible la versión {major}.{minor}.{revision}.{build} del servidor de puertos serie TCP/IP. ¿Quiere actualizar ahora?" revision="0" />
   <Message key="License installation was successful." value="La instalación de la licencia se ha realizado correctamente." revision="0" />
   <Message key="License Installation" value="Instalación de licencias" revision="0" />
-  <Message key="There was an error installing a license. Please try a different file or contact HHD Software Ltd." value="Se ha producido un error al instalar una licencia. Pruebe con otro archivo o póngase en contacto con HHD Software Ltd." revision="0" />
   <Message key="License files|*.vsptlic|" value="Archivos de licencia|*.vsptlic|" revision="0" />
   <Message key="AlreadyListening" value="El servidor ya está configurado para escuchar en el puerto TCP {port}." revision="0" />
   <Message key="No serial ports detected" value="No se detectan puertos serie" revision="0" />

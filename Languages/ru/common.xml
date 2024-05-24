@@ -26,6 +26,7 @@
   <Message key="RegExpired" value="Зарегистрирован, срок действия обновлений истек {up expiration}, действует бесплатная лицензия." revision="0" />
   <Message key="Free license" value="Бесплатная лицензия" revision="0" />
   <Message key="Trial License" value="Пробная лицензия. Осталось {days} дней." revision="0" />
+  <Message key="There was an error installing a license file." value="Ошибка при установке файла лицензии. Возможно, файл поврежден или срок его действия истек. Пожалуйста, проверьте лицензию на продукт и Ваш план обновлений, войдите в свою учетную запись и скачайте новый файл лицензии." revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Работа в автономном режиме" revision="0" />
     <Item value="Не установлено" revision="0" />

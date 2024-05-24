@@ -655,7 +655,7 @@
 	<Message key="Access to discount programs." description="Access to discount programs." />
 	<Message key="If you continue using this product version, only features of a Free Edition will be available for you." description="If you continue using this product version…" />
 	<Message key="Extend your upgrade plan" description="Extend your upgrade plan" />
-	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features or Virtual Serial Port Tools are trial and will expire soon." />
+	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features of Virtual Serial Port Tools are trial and will expire soon." />
 	<Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." description="You may continue with limited functionality or upgrade…" />
 
 </Definition>

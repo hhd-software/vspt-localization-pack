@@ -75,15 +75,16 @@
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="Fichiers de licence (*.vsptlic)|*.vsptlic|Tous les fichiers|*||" revision="0" />
   <Message key="License has been successfully installed." value="La licence a été installée avec succès." revision="0" />
-  <Message key="There was an error installing a license file." value="Une erreur s'est produite lors de l'installation d'un fichier de licence. Le fichier peut être corrompu ou expiré. Veuillez vous connecter à votre compte sur le site web de HHD Software et télécharger le nouveau fichier de licence." revision="0" />
   <Message key="NewAliasPortTitle" value="Créer un alias de port" revision="0" />
   <Message key="UpgradePrompt" value="La version de Port Série Virtuel {major}.{minor}.{revision}.{build} est disponible. Voulez-vous passer à la mise à niveau maintenant ?" revision="0" />
+  <Message key="DownloadError" value="L'erreur suivante s'est produite lors du téléchargement de la mise à jour : {error} ({code}). Veuillez réessayer plus tard ou visitez notre site web pour télécharger la dernière version." revision="0" />
   <Message key="Library creation failed" value="Erreur de connexion au composant COM des Outils de Port Série Virtuel: {message} ({code}).\r\n\nEssayez de réinstaller l'application." revision="0" />
   <Message key="Port not selected" value="Vous devez sélectionner un port existant que vous souhaitez diviser." revision="0" />
   <Message key="Too few aliases" value="Vous devez ajouter au moins deux alias pour le port." revision="0" />
   <Message key="Export successful" value="La configuration sélectionnée a été placée avec succès dans le Presse-papiers." revision="0" />
   <Message key="RemoteHostCue" value="192.168.0.1 ou example.com" revision="0" />
   <Message key="IgnoreInvalidSpecialChars" value="Les dispositifs de port série virtuels ignorent les demandes non valides qui spécifient les mêmes caractères XON et XOFF.\n\nPar défaut, une tentative de définir XON = XOFF entraîne une erreur (conformément à la spécification), ce qui peut empêcher les applications existantes d'ouvrir avec succès des ports virtuels." revision="0" />
+  <Message key="LangChanged" value="Vous devez redémarrer les Outils de Port Série Virtuel pour appliquer le changement de langue. Voulez-vous redémarrer maintenant ?" revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />

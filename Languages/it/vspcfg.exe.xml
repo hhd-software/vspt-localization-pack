@@ -75,15 +75,16 @@
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="File di licenza (*.vsptlic)|*.vsptlic|Tutti i file|*||" revision="0" />
   <Message key="License has been successfully installed." value="La licenza è stata installata con successo." revision="0" />
-  <Message key="There was an error installing a license file." value="Si è verificato un errore nell'installazione di un file di licenza. Il file potrebbe essere danneggiato o scaduto. Accedere al proprio account sul sito web di HHD Software e scaricare il nuovo file di licenza." revision="0" />
   <Message key="NewAliasPortTitle" value="Crea alias di porta" revision="0" />
   <Message key="UpgradePrompt" value="È disponibile la versione di Strumenti per Porte Seriali Virtuali {major}.{minor}.{revision}.{build}. Volete fare l'upgrade adesso?" revision="0" />
+  <Message key="DownloadError" value="Si è verificato il seguente errore durante il download dell'aggiornamento: {error} ({code}). Riprovare più tardi o visitare il nostro sito Web per scaricare la versione più recente." revision="0" />
   <Message key="Library creation failed" value="Errore di connessione al componente COM degli Strumenti Porta Seriale Virtuale: {message} ({code}).\r\n\nProvare a reinstallare l'applicazione." revision="0" />
   <Message key="Port not selected" value="È necessario selezionare una porta esistente che si desidera dividere." revision="0" />
   <Message key="Too few aliases" value="È necessario aggiungere almeno due alias per la porta." revision="0" />
   <Message key="Export successful" value="La configurazione selezionata è stata inserita con successo negli Appunti." revision="0" />
   <Message key="RemoteHostCue" value="192.168.0.1 o example.com" revision="0" />
   <Message key="IgnoreInvalidSpecialChars" value="I dispositivi della porta seriale virtuale ignorano le richieste non valide che specificano gli stessi caratteri XON e XOFF.\n\nPer impostazione predefinita, il tentativo di impostare XON = XOFF dà luogo a un errore (secondo le specifiche) e ciò può impedire alle applicazioni legacy di aprire correttamente le porte virtuali." revision="0" />
+  <Message key="LangChanged" value="È necessario riavviare Strumenti Porta Seriale Virtuale per applicare la modifica della lingua. Volete ripartire ora?" revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />

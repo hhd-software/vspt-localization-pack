@@ -4,7 +4,6 @@
   <Message key="UpgradeNotification" value="Доступен сервер последовательных портов TCP/IP версии {major}.{minor}.{revision}.{build}. Обновить прямо сейчас?" revision="0" />
   <Message key="License installation was successful." value="Установка лицензии прошла успешно." revision="0" />
   <Message key="License Installation" value="Установка лицензий" revision="0" />
-  <Message key="There was an error installing a license. Please try a different file or contact HHD Software Ltd." value="Произошла ошибка при установке лицензии. Пожалуйста, попробуйте другой файл или свяжитесь с HHD Software Ltd." revision="0" />
   <Message key="License files|*.vsptlic|" value="Файлы лицензий|*.vsptlic|" revision="0" />
   <Message key="AlreadyListening" value="Сервер уже настроен на прослушивание TCP-порта {port}." revision="0" />
   <Message key="No serial ports detected" value="Последовательных портов не обнаружено" revision="0" />

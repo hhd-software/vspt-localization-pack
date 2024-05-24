@@ -26,6 +26,7 @@
   <Message key="RegExpired" value="Registado, o Plano de Atualização expirou em {up expiration}, a licença gratuita está em vigor." revision="0" />
   <Message key="Free license" value="Licença gratuita" revision="0" />
   <Message key="Trial License" value="Licença de avaliação. {days} dias restantes." revision="0" />
+  <Message key="There was an error installing a license file." value="Ocorreu um erro ao instalar um ficheiro de licença. O ficheiro pode estar corrompido ou expirado. Verifique a licença do produto e o plano de atualização, inicie sessão na sua conta e transfira um novo ficheiro de licença." revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Executar como autónomo" revision="0" />
     <Item value="Não instalado" revision="0" />
