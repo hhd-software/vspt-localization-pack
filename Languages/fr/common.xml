@@ -22,7 +22,7 @@
   <Message key="Status" value="Statut" revision="0" />
   <Message key="Apply" value="Appliquer" revision="0" />
   <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTous droits réservés.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
-  <Message key="Registered License" value="Enregistré au [[[b{name}]]].{non-lu?}\nLe plan de mise à niveau expire le[[[b{up expiration}]]].{?non-lu}" revision="0" />
+  <Message key="Registered License" value="Enregistré au [[[b{name}]]].{non-lu?}\nPlan de mise à niveau {future?}expire le [[[b{up expiration}]]]{|future}expiré le [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
   <Message key="RegExpired" value="Enregistré, le plan de mise à niveau a expiré le {up expiration}, la licence gratuite est en vigueur." revision="0" />
   <Message key="Free license" value="Licence gratuite" revision="0" />
   <Message key="Trial License" value="Licence d'essai. Il reste {days} jours." revision="0" />

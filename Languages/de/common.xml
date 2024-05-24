@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Cancel" value="Abbrechen" revision="0" />
+  <Message key="Yes" value="Ja" revision="0" />
+  <Message key="No" value="Nein" revision="0" />
+  <Message key="Retry" value="Wiederholen" revision="0" />
+  <Message key="Abort" value="Abbruch" revision="0" />
+  <Message key="Ignore" value="Ignorieren" revision="0" />
+  <Message key="Help" value="Hilfe" revision="0" />
+  <Message key="Create" value="Erstellen" revision="0" />
+  <Message key="Options" value="Optionen…" revision="0" />
+  <Message key="Delete" value="Löschen" revision="0" />
+  <Message key="Add" value="Hinzufügen" revision="0" />
+  <Message key="Close" value="Schließen" revision="0" />
+  <Message key="Install" value="&amp;Installieren" revision="0" />
+  <Message key="Start" value="&amp;Start" revision="0" />
+  <Message key="Error" value="Fehler im Betrieb" revision="0" />
+  <Message key="OperationError" value="Fehler {message} ({code})" revision="0" />
+  <Message key="Stop" value="S&amp;topp" revision="0" />
+  <Message key="About" value="&amp;Info" revision="0" />
+  <Message key="Status" value="Status" revision="0" />
+  <Message key="Apply" value="Anwenden" revision="0" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nAlle Rechte vorbehalten.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="Registered License" value="Registriert auf [[[b{name}]]].{non-lu?}\nDer Upgrade-Plan {future?}läuft am [[[b{up expiration}]]]{|future}ist abgelaufen am [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
+  <Message key="RegExpired" value="Registriert, Upgrade Plan ist am {up expiration} abgelaufen, kostenlose Lizenz ist in Kraft." revision="0" />
+  <Message key="Free license" value="Freie Lizenz" revision="0" />
+  <Message key="Trial License" value="Probe-Lizenz. {days} tage übrig." revision="0" />
+  <Message key="There was an error installing a license file." value="Bei der Installation einer Lizenzdatei ist ein Fehler aufgetreten. Die Datei ist möglicherweise beschädigt oder abgelaufen. Bitte überprüfen Sie Ihre Produktlizenz und Ihren Upgrade-Plan, melden Sie sich bei Ihrem Konto an und laden Sie eine neue Lizenzdatei herunter." revision="0" />
+  <Enumeration key="InstallationStatus">
+    <Item value="Autonome Funktionsweise" revision="0" />
+    <Item value="Nicht installiert" revision="0" />
+    <Item value="Gestoppt" revision="0" />
+    <Item value="Läuft" revision="0" />
+    <Item value="Unbekannt" revision="0" />
+  </Enumeration>
+</Language>

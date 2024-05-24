@@ -8,7 +8,7 @@
   <Message key="AlreadyListening" value="Le serveur est déjà configuré pour écouter sur le port TCP {port}." revision="0" />
   <Message key="No serial ports detected" value="Aucun port série n'est détecté" revision="0" />
   <Message key="Raw" value="Raw" revision="0" />
-  <Message key="PortFormat" value="COM{port} as *:{tcp port} ({is rfc?}RFC2217{|is rfc}RAW{?is rfc}{has overrides?} [{has baud?}{baud}{?has baud},{has size?}{size}{?has size},{has stop?}{stop}{?has stop},{has parity?}{parity}{?has parity},{has flow?}{flow}{?has flow}]{?has overrides})" revision="0" />
+  <Message key="PortFormat" value="COM{port} comme *:{tcp port} ({is rfc?}RFC2217{|is rfc}RAW{?is rfc}{has overrides?} [{has baud?}{baud}{?has baud},{has size?}{size}{?has size},{has stop?}{stop}{?has stop},{has parity?}{parity}{?has parity},{has flow?}{flow}{?has flow}]{?has overrides})" revision="0" />
   <Message key="Share New Port" value="Partager le nouveau port" revision="0" />
   <Message key="Confirm creation of time-limited shared ports." value="Confirmer la création de ports partagés à durée limitée." revision="0" />
   <Message key="FreeNotice" value="Les ports partagés avec la version gratuite ne fonctionnent que pendant 30 minutes après avoir été connectés. Passé ce délai, une connexion doit être rétablie." revision="0" />

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Invalid TCP port specified." value="Ungültiger TCP-Port angegeben." revision="0" />
+  <Message key="UpgradeNotification" value="TCP/IP Serial Ports Server Version {major}.{minor}.{revision}.{build} ist verfügbar. Möchten Sie jetzt aktualisieren?" revision="0" />
+  <Message key="License installation was successful." value="Die Lizenzinstallation war erfolgreich." revision="0" />
+  <Message key="License Installation" value="Lizenz-Installation" revision="0" />
+  <Message key="License files|*.vsptlic|" value="Lizenz-Dateien|*.vsptlic|" revision="0" />
+  <Message key="AlreadyListening" value="Der Server ist bereits so konfiguriert, dass er auf dem TCP-Port {port} lauscht." revision="0" />
+  <Message key="No serial ports detected" value="Keine seriellen Anschlüsse gefunden" revision="0" />
+  <Message key="Raw" value="Raw" revision="0" />
+  <Message key="PortFormat" value="COM{port} als *:{tcp port} ({is rfc?}RFC2217{|is rfc}RAW{?is rfc}{has overrides?} [{has baud?}{baud}{?has baud},{has size?}{size}{?has size},{has stop?}{stop}{?has stop},{has parity?}{parity}{?has parity},{has flow?}{flow}{?has flow}]{?has overrides})" revision="0" />
+  <Message key="Share New Port" value="Neuen Port teilen" revision="0" />
+  <Message key="Confirm creation of time-limited shared ports." value="Bestätigen Sie die Erstellung von zeitlich begrenzten geteilten Ports." revision="0" />
+  <Message key="FreeNotice" value="Mit der kostenlosen Version geteilte Ports funktionieren nur für 30 Minuten, nachdem sie verbunden wurden. Nach dieser Zeit muss die Verbindung neu aufgebaut werden." revision="0" />
+  <Message key="Try extended functionality" value="Erweiterte Funktionalität ausprobieren" revision="0" />
+  <Message key="Share Port" value="Teilen des Ports" revision="0" />
+  <Message key="Local serial port" value="Lokaler serieller Port" revision="0" />
+  <Message key="TCP Port" value="TCP-Port" revision="0" />
+  <Message key="Protocol" value="Protokoll" revision="0" />
+  <Message key="Share New Port..." value="&amp;Neuen Port teilen…" revision="0" />
+  <Message key="Stop Sharing" value="&amp;Teilen aufhören" revision="0" />
+  <Message key="Remove All" value="Alle &amp;entfernen" revision="0" />
+  <Message key="About" value="&amp;Info" revision="0" />
+  <Message key="Shared serial ports" value="Gemeinsam genutzte serielle Ports" revision="0" />
+  <Message key="Install License..." value="Lizenz installieren…" revision="0" />
+  <Enumeration key="FlowControl">
+    <Item value="Keine" revision="0" />
+    <Item value="Software" revision="0" />
+    <Item value="Hardware" revision="0" />
+  </Enumeration>
+  <Enumeration key="Parity">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

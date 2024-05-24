@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="FileExit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuCreate">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewHideEmptyGroups">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewHideServers">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewCategories">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewShowVsp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewShowRsp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewShowSsp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewShowNsp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOptions">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpLicenseManagement">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpMonitorThesePorts">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateListeningPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateLocalBridge">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreatePipePort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateRemoteBridge">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateRemotePort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateSharedPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateSplittedPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateAliasPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileCreateTcpPort">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileTcpServer">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileRspServer">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RemotePortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RemotePortServerModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TcpPortServerModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SharedPortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SplittedPortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AliasPortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TcpPortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LocalBridgeModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RemoteBridgeModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ListeningPortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PipePortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilesPortModule">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PinoutsHelp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PinsHelpTooltips">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Parity">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StopBits">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FlowControl">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LicenseState">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ComNonCom">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TcpProtocols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Timeout values">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
