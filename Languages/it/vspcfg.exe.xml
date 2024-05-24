@@ -20,6 +20,70 @@
   <Message key="DeleteSchemeError" value="Errore: lo schema predefinito non può essere eliminato." revision="0" />
   <Message key="Don't override" value="Non sovrascrivere" revision="0" />
   <Message key="Banner" value="Utilizzare l' predefinito" revision="0" />
+  <Message key="NagFreeTitle" value="Funzionalità non disponibile" revision="0" />
+  <Message key="Purchase extended version" value="Ottenere la versione estesa" revision="0" />
+  <Message key="Extend your plan" value="Estendere il piano di aggiornamento" revision="0" />
+  <Message key="FreeVersionNagText1" value="La funzione {feature} non è inclusa nella versione gratuita.\n\nÈ possibile continuare a utilizzare le funzioni limitate della versione gratuita o provare le funzionalità estese GRATUITAMENTE per 14 giorni." revision="0" />
+  <Message key="FreeVersionNagText2" value="La funzione {feature} non è inclusa nella versione gratuita.\n\nÈ possibile continuare a utilizzare le funzioni limitate della versione Gratuita o effettuare l'aggiornamento alla versione Estesa." revision="0" />
+  <Message key="PurchasedVersionNagText" value="La funzione {feature} non è inclusa nell'edizione corrente.\n\nÈ possibile continuare a utilizzare le funzioni dell'edizione corrente o passare alla versione estesa." revision="0" />
+  <Message key="UpgradePlanExpiredNagText" value="Il piano di aggiornamento è scaduto. Se continuate a usare la versione attuale, saranno disponibili solo le funzioni dell'edizione gratuita. La funzione {feature} non è inclusa nell'edizione gratuita.\n\nÈ possibile continuare a utilizzare le funzioni dell'edizione gratuita o estendere il piano di aggiornamento." revision="0" />
+  <Message key="Trial text: free" value="Alcune funzioni estese delle Porte Seriali Virtuali sono in Prova o Scadute.\n\nÈ possibile continuare con le funzionalità limitate della versione gratuita o passare alla versione estesa.\nL'acquisto di funzionalità estese eliminerà questa schermata." revision="0" />
+  <Message key="Trial text: trial" value="Alcune funzioni estese delle Porte Seriali Virtuali sono in prova e scadranno presto.\n\nÈ possibile continuare con le funzionalità limitate o passare alla versione estesa.\nL'acquisto di funzionalità estese eliminerà questa schermata." revision="0" />
+  <Message key="Trial text: trialnotstarted" value="La versione gratuita del prodotto ha un set limitato di funzioni.\n\nPotete continuare con le funzioni limitate o provare le funzionalità estese GRATUITAMENTE per 14 giorni." revision="0" />
+  <Message key="Trial dialog title: free" value="Ottenere funzionalità estese" revision="0" />
+  <Message key="Try extended version" value="Prova la versione estesa" revision="0" />
+  <Message key="Try extended functionality" value="Prova la funzionalità estesa" revision="0" />
+  <Message key="Purchase extended functionality" value="Ottenete funzionalità estese" revision="0" />
+  <Message key="Close this notification" value="Chiudere questa notifica" revision="0" />
+  <Message key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Creare ponti locali" revision="0" />
+  <Message key="{eae873d4-7d48-4b01-a296-7ffa6a677fc8}" value="Creazione di porte pipe" revision="0" />
+  <Message key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Creazione di porte remote" revision="0" />
+  <Message key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Creazione di porte condivise" revision="0" />
+  <Message key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Creare porte alias" revision="0" />
+  <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Creazione di ponti remoti" revision="0" />
+  <Message key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Creazione di porte di ascolto" revision="0" />
+  <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Creazione di porte di file" revision="0" />
+  <Message key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Modifica dei nomi delle porte" revision="0" />
+  <Message key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API" revision="0" />
+  <Message key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Creazione di più dispositivi" revision="0" />
+  <Message key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Modifica dei nomi delle porte" revision="0" />
+  <Message key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API" revision="0" />
+  <Message key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Creazione di più dispositivi" revision="0" />
+  <Message key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Modifica dei nomi delle porte" revision="0" />
+  <Message key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API" revision="0" />
+  <Message key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Creazione di più dispositivi" revision="0" />
+  <Message key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Pin-out personalizzato" revision="0" />
+  <Message key="{bec21bff-44fc-4a90-b8d0-c635384d6096}" value="Emulare l'overflow" revision="0" />
+  <Message key="{10991f32-4c08-4f28-a218-be67cd68e1c7}" value="Emulare il rumore" revision="0" />
+  <Message key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Sostituire i parametri della porta condivisa" revision="0" />
+  <Message key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Creare ponti permanenti" revision="0" />
+  <Message key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Emulare la velocità in baudrate" revision="0" />
+  <Message key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Modifica dei nomi delle porte" revision="0" />
+  <Message key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API" revision="0" />
+  <Message key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Creazione di più dispositivi" revision="0" />
+  <Message key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Sostituire i parametri della porta alias" revision="0" />
+  <Message key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Modifica dei nomi delle porte" revision="0" />
+  <Message key="{33a0ecd5-0ea7-4b0a-b520-cf84ca81c0e9}" value="API" revision="0" />
+  <Message key="{06954e27-3908-4e76-ba45-f9df20b0b689}" value="Creazione di più dispositivi" revision="0" />
+  <Message key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Sostituire i parametri della porta TCP/IP" revision="0" />
+  <Message key="Error creating device" value="La creazione del dispositivo non è riuscita con il seguente errore:\r\n\n {text} ({code})" revision="0" />
+  <Message key="Error creating bridge" value="La creazione del ponte non è riuscita con il seguente errore`:\r\n\n {text} ({code})" revision="0" />
+  <Message key="error title" value="Operazione fallita" revision="0" />
+  <Message key="Custom" value="Personalizzato" revision="0" />
+  <Message key="Device creation aborted" value="\n\nLa creazione del dispositivo è stata interrotta. Questa operazione potrebbe aver lasciato dispositivi semi-creati non funzionanti che possono essere eliminati manualmente utilizzando Gestione periferiche di Windows." revision="0" />
+  <Message key="AppTitle" value="Strumenti della Porta Seriale Virtuale HHD{is free?} (Versione gratuita, uso non commerciale){?is free}{is trial?} (Versione di prova){?is trial}{is reg noncom?} (Non commerciale){?is reg noncom}" revision="0" />
+  <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
+  <Message key="LicenseFileFilter" value="File di licenza (*.vsptlic)|*.vsptlic|Tutti i file|*||" revision="0" />
+  <Message key="License has been successfully installed." value="La licenza è stata installata con successo." revision="0" />
+  <Message key="There was an error installing a license file." value="Si è verificato un errore nell'installazione di un file di licenza. Il file potrebbe essere danneggiato o scaduto. Accedere al proprio account sul sito web di HHD Software e scaricare il nuovo file di licenza." revision="0" />
+  <Message key="NewAliasPortTitle" value="Crea alias di porta" revision="0" />
+  <Message key="UpgradePrompt" value="È disponibile la versione di Strumenti per Porte Seriali Virtuali {major}.{minor}.{revision}.{build}. Volete fare l'upgrade adesso?" revision="0" />
+  <Message key="Library creation failed" value="Errore di connessione al componente COM degli Strumenti Porta Seriale Virtuale: {message} ({code}).\r\n\nProvare a reinstallare l'applicazione." revision="0" />
+  <Message key="Port not selected" value="È necessario selezionare una porta esistente che si desidera dividere." revision="0" />
+  <Message key="Too few aliases" value="È necessario aggiungere almeno due alias per la porta." revision="0" />
+  <Message key="Export successful" value="La configurazione selezionata è stata inserita con successo negli Appunti." revision="0" />
+  <Message key="RemoteHostCue" value="192.168.0.1 o example.com" revision="0" />
+  <Message key="IgnoreInvalidSpecialChars" value="I dispositivi della porta seriale virtuale ignorano le richieste non valide che specificano gli stessi caratteri XON e XOFF.\n\nPer impostazione predefinita, il tentativo di impostare XON = XOFF dà luogo a un errore (secondo le specifiche) e ciò può impedire alle applicazioni legacy di aprire correttamente le porte virtuali." revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />

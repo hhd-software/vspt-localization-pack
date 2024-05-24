@@ -46,7 +46,7 @@
   <Message key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Создание портов-псевдонимов" revision="0" />
   <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Создание удаленных мостов" revision="0" />
   <Message key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Создание &quot;слушающих&quot; портов" revision="0" />
-  <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Создание портов на основе файлов" revision="0" />
+  <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Создание файловых портов" revision="0" />
   <Message key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Изменение имен портов" revision="0" />
   <Message key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API" revision="0" />
   <Message key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Создание множества устройств" revision="0" />
@@ -75,7 +75,7 @@
   <Message key="error title" value="Операция не удалась" revision="0" />
   <Message key="Custom" value="Пользовательская" revision="0" />
   <Message key="Device creation aborted" value="\n\nВы прервали создание устройства. В результате этой операции могут остаться недосозданные и нефункционирующие устройства, которые можно удалить вручную с помощью диспетчера устройств Windows." revision="0" />
-  <Message key="AppTitle" value="Инструменты виртуальных Ком портов HHD{is free?} (Бесплатная, Некоммерческая){?is free}{is trial?} (Пробная){?is trial}{is reg noncom?} (Некоммерческая){?is reg noncom}" revision="0" />
+  <Message key="AppTitle" value="Инструменты Виртуальных Ком Портов HHD{is free?} (Бесплатная, Некоммерческая){?is free}{is trial?} (Пробная){?is trial}{is reg noncom?} (Некоммерческая){?is reg noncom}" revision="0" />
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="Файлы лицензии (*.vsptlic)|*.vsptlic|Все файлы|*||" revision="0" />
   <Message key="License has been successfully installed." value="Лицензия успешно установлена." revision="0" />

@@ -75,7 +75,7 @@
   <Message key="error title" value="Falha na operação" revision="0" />
   <Message key="Custom" value="Personalizado" revision="0" />
   <Message key="Device creation aborted" value="\n\nA criação do dispositivo foi abortada. Esta operação pode ter deixado dispositivos não funcionais semi-criados que podem ser eliminados manualmente através do Gestor de Dispositivos do Windows." revision="0" />
-  <Message key="AppTitle" value="Ferramentas da porta serial virtual HHD{is free?} (Versão gratuita, Não comercial){?is free}{is trial?} (Versão de avaliação){?is trial}{is reg noncom?} (Não comercial){?is reg noncom}" revision="0" />
+  <Message key="AppTitle" value="Ferramentas da Porta Serial Virtual HHD{is free?} (Versão gratuita, Não comercial){?is free}{is trial?} (Versão de avaliação){?is trial}{is reg noncom?} (Não comercial){?is reg noncom}" revision="0" />
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="Ficheiros de licença (*.vsptlic)|*.vsptlic|Todos os ficheiros|*||" revision="0" />
   <Message key="License has been successfully installed." value="A licença foi instalada com sucesso." revision="0" />
