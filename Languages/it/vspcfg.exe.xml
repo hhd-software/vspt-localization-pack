@@ -338,52 +338,52 @@
     <Item value="Creare una nuova porta seriale virtuale che fungerà da porta seriale collegata fisicamente a un altro computer." revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortServerModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Server di Porte Seriali Remote" revision="0" />
+    <Item value="Condividere le porte COM locali" revision="0" />
+    <Item value="infographics/remote-port-server.svg" revision="0" />
+    <Item value="Configurare HHD Software Server di Porte Seriali Remote, un'applicazione che condivide le porte seriali locali su una rete." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Server di Porte Seriali TCP/IP" revision="0" />
+    <Item value="Condividere le porte COM su TCP/IP" revision="0" />
+    <Item value="infographics/tcp-port-server.svg" revision="0" />
+    <Item value="Configurare HHD Software Server di Porte Seriali TCP/IP, un'applicazione che espone le porte seriali locali come endpoint TCP/IP da utilizzare in rete." revision="0" />
   </Enumeration>
   <Enumeration key="SharedPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte condivise" revision="0" />
+    <Item value="Creare una porta condivisa" revision="0" />
+    <Item value="infographics/shared-port.svg" revision="0" />
+    <Item value="Creare una nuova porta seriale virtuale che fornisca un accesso condiviso a una porta seriale locale." revision="0" />
   </Enumeration>
   <Enumeration key="SplittedPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte divise" revision="0" />
+    <Item value="Porta divisa" revision="0" />
+    <Item value="infographics/splitted-port.svg" revision="0" />
+    <Item value="Divide una porta seriale esistente in diverse porte seriali virtuali; tutte forniranno un accesso condiviso alla porta originale." revision="0" />
   </Enumeration>
   <Enumeration key="AliasPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Alias Porte" revision="0" />
+    <Item value="Crea alias di porta" revision="0" />
+    <Item value="infographics/alias-port.svg" revision="0" />
+    <Item value="Crea una nuova porta seriale virtuale che sarà un alias di una porta seriale esistente." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte TCP/IP (RFC2217, Raw)" revision="0" />
+    <Item value="Creare una porta seriale TCP/IP" revision="0" />
+    <Item value="infographics/tcp-port.svg" revision="0" />
+    <Item value="Crea una nuova porta seriale virtuale che si connetterà al server TCP/IP remoto tramite i protocolli RFC2217 o raw." revision="0" />
   </Enumeration>
   <Enumeration key="LocalBridgeModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ponti locali" revision="0" />
+    <Item value="Creare un ponte locale" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Creare una coppia di porte seriali virtuali collegate tra loro mediante un cavo null-modem virtuale." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteBridgeModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ponti remoti" revision="0" />
+    <Item value="Creare un ponte remoto" revision="0" />
+    <Item value="infographics/remote-bridge.svg" revision="0" />
+    <Item value="Creare una nuova porta seriale virtuale e collegarla alla porta di ascolto remota, formando un ponte remoto: una coppia di porte virtuali collegate tra loro tramite un cavo null-modem virtuale." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
     <Item />
@@ -392,37 +392,37 @@
     <Item />
   </Enumeration>
   <Enumeration key="PipePortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte collegate ai pipe" revision="0" />
+    <Item value="Creare la porta del pipe" revision="0" />
+    <Item value="infographics/pipe-port.svg" revision="0" />
+    <Item value="Creare una nuova porta seriale virtuale collegata a una pipe." revision="0" />
   </Enumeration>
   <Enumeration key="FilesPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte collegate ai file" revision="0" />
+    <Item value="Creare la porta dei file" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Creare una nuova porta seriale virtuale supportata da due file." revision="0" />
   </Enumeration>
   <Enumeration key="PinoutsHelp">
     <Item value="Fare clic sul pin per personalizzare le impostazioni di pinout." revision="0" />
     <Item value="Fare clic sul pin marrone e trascinarlo su un pin verde per creare un collegamento." revision="0" />
   </Enumeration>
   <Enumeration key="PinsHelpTooltips">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Terminale dati pronto" revision="0" />
+    <Item value="Set di dati pronto" revision="0" />
+    <Item value="Rilevamento della portante dati" revision="0" />
+    <Item value="Richiesta di invio" revision="0" />
+    <Item value="Libera per l'invio" revision="0" />
+    <Item value="Indicatore ad anello" revision="0" />
+    <Item value="Trasmissione dei dati" revision="0" />
+    <Item value="Ricezione dei dati" revision="0" />
   </Enumeration>
   <Enumeration key="Parity">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nessuno" revision="0" />
+    <Item value="Dispari" revision="0" />
+    <Item value="Pari" revision="0" />
+    <Item value="Mark" revision="0" />
+    <Item value="Spazio" revision="0" />
   </Enumeration>
   <Enumeration key="StopBits">
     <Item value="1" revision="0" />
@@ -435,11 +435,11 @@
     <Item value="Hardware" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Il periodo di prova non è ancora iniziato." revision="1" />
+    <Item value="Gratuito, il periodo di prova termina tra {days} giorni." revision="1" />
+    <Item value="Gratuito, il periodo di prova è terminato." revision="1" />
+    <Item value="{edition}\r\nRegistrato a {user}.{non-lu?}\nPiano di aggiornamento {future?}scade{|future}scaduto{?future} su {up expiration}.{?non-lu}" revision="1" />
+    <Item value="Piano di aggiornamento scaduto" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Uso non commerciale" revision="0" />

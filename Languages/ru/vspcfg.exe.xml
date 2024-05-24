@@ -438,7 +438,7 @@
     <Item value="Бесплатная, пробный период еще не начат." revision="1" />
     <Item value="Бесплатная, пробный период заканчивается через {days} дней." revision="1" />
     <Item value="Бесплатная, пробный период закончился." revision="1" />
-    <Item value="{edition}\r\nЗарегистрирован на {user}.{non-lu?} Срок действия плана обновлений истекает {up expiration}.{?non-lu}" revision="1" />
+    <Item value="{edition}\r\nЗарегистрирован на {user}.{non-lu?}\nСрок действия плана обновлений{future?}истекает{|future}истёк{?future} {up expiration}.{?non-lu}" revision="1" />
     <Item value="Срок действия плана обновлений истек" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">

@@ -421,7 +421,7 @@
     <Item value="Ninguno" revision="0" />
     <Item value="Impar" revision="0" />
     <Item value="Par" revision="0" />
-    <Item value="Mark" revision="0" />
+    <Item value="Marca" revision="0" />
     <Item value="Espacio" revision="0" />
   </Enumeration>
   <Enumeration key="StopBits">
@@ -438,7 +438,7 @@
     <Item value="Gratuito, no se ha iniciado el periodo de prueba." revision="1" />
     <Item value="Gratis, el periodo de prueba termina en {days} días." revision="1" />
     <Item value="Gratis, el periodo de prueba ha terminado." revision="1" />
-    <Item value="{edition}\r\nRegistrado en {user}.{non-lu?} El plan de actualización expira el {up expiration}.{?non-lu}" revision="1" />
+    <Item value="{edition}\r\nRegistrado en {user}.{non-lu?}\nPlan de actualización {future?}expira{|future}expirado{?future} en {up expiration}.{?non-lu}" revision="1" />
     <Item value="Plan de actualización caducado" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">

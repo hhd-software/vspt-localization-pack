@@ -338,52 +338,52 @@
     <Item value="Créer un nouveau port série virtuel qui agira comme un autre port série physiquement connecté à un autre ordinateur." revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortServerModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Serveur de Ports Série à Distante" revision="0" />
+    <Item value="Partager les ports COM locaux" revision="0" />
+    <Item value="infographics/remote-port-server.svg" revision="0" />
+    <Item value="Configurer HHD Software Serveur de Ports Série à Distante, une application qui partage les ports série locaux sur un réseau." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Serveur de Ports Série TCP/IP" revision="0" />
+    <Item value="Partager des ports COM via TCP/IP" revision="0" />
+    <Item value="infographics/tcp-port-server.svg" revision="0" />
+    <Item value="Configurer HHD Software Serveur de Ports Série TCP/IP, une application qui expose les ports série locaux en tant que points d'extrémité TCP/IP à utiliser sur un réseau." revision="0" />
   </Enumeration>
   <Enumeration key="SharedPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ports partagés" revision="0" />
+    <Item value="Créer un port partagé" revision="0" />
+    <Item value="infographics/shared-port.svg" revision="0" />
+    <Item value="Créer un nouveau port série virtuel qui fournira un accès partagé à un port série local." revision="0" />
   </Enumeration>
   <Enumeration key="SplittedPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ports divisés" revision="0" />
+    <Item value="Port divisé" revision="0" />
+    <Item value="infographics/splitted-port.svg" revision="0" />
+    <Item value="Diviser un port série existant en plusieurs ports série virtuels ; tous ces ports fourniront un accès partagé au port d'origine." revision="0" />
   </Enumeration>
   <Enumeration key="AliasPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Alias Ports" revision="0" />
+    <Item value="Créer un alias de port" revision="0" />
+    <Item value="infographics/alias-port.svg" revision="0" />
+    <Item value="Créer un nouveau port série virtuel qui sera un alias d'un port série existant." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ports TCP/IP (RFC2217, Raw)" revision="0" />
+    <Item value="Créer un port série TCP/IP" revision="0" />
+    <Item value="infographics/tcp-port.svg" revision="0" />
+    <Item value="Créer un nouveau port série virtuel qui se connectera à un serveur TCP/IP distant via les protocoles RFC2217 ou raw." revision="0" />
   </Enumeration>
   <Enumeration key="LocalBridgeModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ponts locaux" revision="0" />
+    <Item value="Créer un pont local" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Créez une paire de ports série virtuels connectés l'un à l'autre au moyen d'un câble null-modem virtuel." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteBridgeModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ponts distants" revision="0" />
+    <Item value="Créer un pont à distance" revision="0" />
+    <Item value="infographics/remote-bridge.svg" revision="0" />
+    <Item value="Créez un nouveau port série virtuel et connectez-le au port d'écoute distant, formant ainsi un pont distant : une paire de ports virtuels connectés l'un à l'autre au moyen d'un câble null-modem virtuel." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
     <Item />
@@ -392,37 +392,37 @@
     <Item />
   </Enumeration>
   <Enumeration key="PipePortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ports connectés aux pipes" revision="0" />
+    <Item value="Créer un port de pipe" revision="0" />
+    <Item value="infographics/pipe-port.svg" revision="0" />
+    <Item value="Créez un nouveau port série virtuel connecté à un pipe nommé." revision="0" />
   </Enumeration>
   <Enumeration key="FilesPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ports connectés aux fichiers" revision="0" />
+    <Item value="Créer un port de fichiers" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Créer un nouveau port série virtuel sauvegardé par deux fichiers." revision="0" />
   </Enumeration>
   <Enumeration key="PinoutsHelp">
     <Item value="Cliquez sur la pin pour personnaliser les paramètres de connexion." revision="0" />
     <Item value="Cliquez sur le pin marron et faites-le glisser sur le pin vert afin de créer un lien." revision="0" />
   </Enumeration>
   <Enumeration key="PinsHelpTooltips">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Terminal de données prêt" revision="0" />
+    <Item value="Jeu de données prêt" revision="0" />
+    <Item value="Détection de porteuse de données" revision="0" />
+    <Item value="Demande de transmission" revision="0" />
+    <Item value="Effacer pour envoyer" revision="0" />
+    <Item value="Indicateur d'anneau" revision="0" />
+    <Item value="Transmission des données" revision="0" />
+    <Item value="Recevoir des données" revision="0" />
   </Enumeration>
   <Enumeration key="Parity">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Aucun" revision="0" />
+    <Item value="Impair" revision="0" />
+    <Item value="Pair" revision="0" />
+    <Item value="Marque" revision="0" />
+    <Item value="Espace" revision="0" />
   </Enumeration>
   <Enumeration key="StopBits">
     <Item value="1" revision="0" />
@@ -435,11 +435,11 @@
     <Item value="Matériel" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gratuit, la période d'essai n'a pas commencé." revision="1" />
+    <Item value="Gratuit, la période d'essai se termine dans {days} jours." revision="1" />
+    <Item value="Gratuit, la période d'essai est terminée." revision="1" />
+    <Item value="{edition}\r\nEnregistré auprès de {user}.{non-lu?}\nPlan de mise à niveau {future?}expire{|future}expiré{?future} le {up expiration}.{?non-lu}" revision="1" />
+    <Item value="Plan de mise à niveau a expiré" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">
     <Item value="Utilisation non commerciale" revision="0" />
