@@ -328,14 +328,14 @@
     <Item value="Avviare l'utilità di configurazione del server delle porte seriali TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileRspServer">
-    <Item />
-    <Item />
+    <Item value="Condividere le porte seriali locali…" revision="0" />
+    <Item value="Avviare l'utilità di configurazione del server delle porte seriali remote" revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte remote" revision="0" />
+    <Item value="Connetti la porta remota" revision="0" />
+    <Item value="infographics/remote-port.svg" revision="0" />
+    <Item value="Creare una nuova porta seriale virtuale che fungerà da porta seriale collegata fisicamente a un altro computer." revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortServerModule">
     <Item />
@@ -404,8 +404,8 @@
     <Item />
   </Enumeration>
   <Enumeration key="PinoutsHelp">
-    <Item />
-    <Item />
+    <Item value="Fare clic sul pin per personalizzare le impostazioni di pinout." revision="0" />
+    <Item value="Fare clic sul pin marrone e trascinarlo su un pin verde per creare un collegamento." revision="0" />
   </Enumeration>
   <Enumeration key="PinsHelpTooltips">
     <Item />
@@ -425,14 +425,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="StopBits">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="1" revision="0" />
+    <Item value="1.5" revision="0" />
+    <Item value="2" revision="0" />
   </Enumeration>
   <Enumeration key="FlowControl">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nessuno" revision="0" />
+    <Item value="Software (Xon/Xoff)" revision="0" />
+    <Item value="Hardware" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
     <Item />
@@ -442,17 +442,17 @@
     <Item />
   </Enumeration>
   <Enumeration key="ComNonCom">
-    <Item />
-    <Item />
+    <Item value="Uso non commerciale" revision="0" />
+    <Item value="Uso commerciale consentito" revision="0" />
   </Enumeration>
   <Enumeration key="TcpProtocols">
-    <Item />
-    <Item />
+    <Item value="RFC2217" revision="0" />
+    <Item value="Raw" revision="0" />
   </Enumeration>
   <Enumeration key="Timeout values">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="1 secondo" revision="0" />
+    <Item value="5 secondi" revision="0" />
+    <Item value="15 secondi" revision="0" />
+    <Item value="30 secondi" revision="0" />
   </Enumeration>
 </Language>
