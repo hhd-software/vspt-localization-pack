@@ -421,10 +421,11 @@
 			<Param name="days"/>
 		</Item>
 		<Item text="Free, trial period is over." />
-		<Item text="{edition}\r\nRegistered to {user}.{non-lu?} Upgrade plan expires on {up expiration}.{?non-lu}">
+		<Item text="{edition}\r\nRegistered to {user}.{non-lu?}\nUpgrade plan {future?}expires{|future}expired{?future} on {up expiration}.{?non-lu}">
 			<Param name="edition"/>
 			<Param name="user"/>
 			<Param name="non-lu" format="?"/>
+			<Param name="future" format="?"/>
 			<Param name="up expiration" format="t(%x)"/>
 		</Item>
 		<Item text="Upgrade plan expired"/>
@@ -443,7 +444,6 @@
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
 	<Message key="License has been successfully installed." description="License has been successfully installed."/>
-	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please log in to your account at the HHD Software website and download the new license file."/>
 
 	<Message key="NewAliasPortTitle" description="Window title: Create Port Alias" value="Create Port Alias"/>
 
@@ -452,6 +452,11 @@
 		<Param name="minor" format="w2arf0"/>
 		<Param name="revision" format="w2arf0"/>
 		<Param name="build" format="w4arf0"/>
+	</Message>
+	
+	<Message key="DownloadError" description="Upgrade downloading error" value="A following error occurred during downloading upgrade: {error} ({code}). Please try again later or visit our web site to download latest version.">
+		<Param name="error"/>
+		<Param name="code" format="ub016x"/>
 	</Message>
 
 	<Message key="Library creation failed" description="Library creation failed" value="Error connecting to Virtual Serial Port Tools COM component: {message} ({code}).\r\n\nTry re-installing application.">
@@ -595,6 +600,7 @@
 	<Message key="Read total constant" description="Field: Read total constant" />
 	<Message key="Write total multiplier" description="Field: Write total multiplier" />
 	<Message key="Write total constant" description="Field: Write total constant" />
+	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart Virtual Serial Port Tools to apply language change. Do you want to restart now?"/>
 
 	<!-- Wait Dialog -->
 	<Message key="Please Wait" description="Window title: Please Wait"/>
@@ -649,6 +655,7 @@
 	<Message key="Access to discount programs." description="Access to discount programs." />
 	<Message key="If you continue using this product version, only features of a Free Edition will be available for you." description="If you continue using this product version…" />
 	<Message key="Extend your upgrade plan" description="Extend your upgrade plan" />
-	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Some extended features of Virtual Serial Port Tools are trial and will expire soon." description="Some extended features of Virtual Serial Port Tools are trial and will expire soon." />
+	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features or Virtual Serial Port Tools are trial and will expire soon." />
 	<Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." description="You may continue with limited functionality or upgrade…" />
+
 </Definition>

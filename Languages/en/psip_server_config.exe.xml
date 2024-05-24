@@ -10,7 +10,6 @@
 
 	<Message key="License installation was successful." description="Message: License installation was successful"/>
 	<Message key="License Installation" description="Window title: License Installation"/>
-	<Message key="There was an error installing a license. Please try a different file or contact HHD Software Ltd." description="Message: There was an error installing a license."/>
 	<Message key="License files|*.vsptlic|" description="File pattern: License files" />
 	<Message key="AlreadyListening" description="Error message: already listening on a port" value="Server is already configured to listen on TCP port {port}.">
 		<Param name="port"/>

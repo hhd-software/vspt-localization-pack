@@ -48,9 +48,10 @@
 	<Param name="license"/>
 </Message>
 
-<Message key="Registered License" description="License type (about): Registered license" value="Registered to [[[b{name}]]].{non-lu?}\nUpgrade plan expires on [[[b{up expiration}]]].{?non-lu}">
+<Message key="Registered License" description="License type (about): Registered license" value="Registered to [[[b{name}]]].{non-lu?}\nUpgrade plan {future?}expires on [[[b{up expiration}]]]{|future}expired on [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}">
 	<Param name="name"/>
 	<Param name="non-lu" format="?"/>
+	<Param name="future" format="?"/>
 	<Param name="up expiration" format="t(%x)"/>
 </Message>
 
@@ -63,5 +64,7 @@
 	<Message key="Trial License" value="Trial license. {days} days left." description="Trial license">
 		<Param name="days"/>
 	</Message>
+
+	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please check your product license and upgrade plan, log into your account and download new license file."/>
 
 </Definition>
