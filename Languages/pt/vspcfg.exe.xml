@@ -324,7 +324,7 @@
     <Item value="Criar porta serial TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileTcpServer">
-    <Item value="Partilhar portas de série locais através de TCP/IP…" revision="0" />
+    <Item value="Partilhar portas de série através de TCP/IP…" revision="0" />
     <Item value="Iniciar o utilitário de configuração do servidor de portas de série TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileRspServer">
@@ -345,7 +345,7 @@
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
     <Item value="Servidor de Portas de Série TCP/IP RFC2217" revision="0" />
-    <Item value="Partilhar portas COM locais através de TCP/IP" revision="0" />
+    <Item value="Partilhar portas COM através de TCP/IP" revision="0" />
     <Item value="infographics/tcp-port-server.svg" revision="0" />
     <Item value="Configurar o Servidor de Portas de Série TCP/IP do Software HHD, uma aplicação que expõe portas de série locais como pontos finais TCP/IP a serem utilizados numa rede." revision="0" />
   </Enumeration>

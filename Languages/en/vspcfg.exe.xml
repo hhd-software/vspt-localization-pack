@@ -184,7 +184,7 @@
 	</Enumeration>
 
 	<Enumeration key="TcpPortServerModule" description="Module description: TCP server advertisement">
-		<Item text="RFC2217 TCP/IP Serial Ports Server"/>
+		<Item text="TCP/IP Serial Ports Server"/>
 		<Item text="Share local COM ports over TCP/IP"/>
 		<Item optional="true" text="infographics/tcp-port-server.svg"/>
 		<Item text="Configure HHD Software TCP/IP Serial Ports Server, an application that exposes local serial ports as TCP/IP endpoints to be used over a network."/>

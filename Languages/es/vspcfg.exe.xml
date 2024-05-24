@@ -324,7 +324,7 @@
     <Item value="Crear puerto serie TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileTcpServer">
-    <Item value="Compartir puertos serie locales a través de TCP/IP…" revision="0" />
+    <Item value="Compartir puertos serie a través de TCP/IP…" revision="0" />
     <Item value="Iniciar la utilidad de configuración del servidor de puertos serie TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileRspServer">
@@ -344,8 +344,8 @@
     <Item value="Configure el Servidor de Puerto Serie Remoto de HHD Software, una aplicación que comparte puertos serie locales a través de una red." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
-    <Item value="Servidor de Puertos Serie RFC2217 TCP/IP" revision="0" />
-    <Item value="Compartir puertos COM locales a través de TCP/IP" revision="0" />
+    <Item value="Servidor de Puertos Serie TCP/IP" revision="0" />
+    <Item value="Compartir puertos COM a través de TCP/IP" revision="0" />
     <Item value="infographics/tcp-port-server.svg" revision="0" />
     <Item value="Configure el Servidor de Puertos Serie TCP/IP de HHD Software, una aplicación que expone los puertos serie locales como puntos finales TCP/IP para ser utilizados a través de una red." revision="0" />
   </Enumeration>

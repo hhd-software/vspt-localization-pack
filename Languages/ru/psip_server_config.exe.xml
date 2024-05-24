@@ -14,7 +14,7 @@
   <Message key="FreeNotice" value="Порты, используемые в бесплатной версии, работают только в течение 30 минут после подключения к ним. По истечении этого времени соединение должно быть установлено заново." revision="0" />
   <Message key="Try extended functionality" value="Попробовать расширенные функции" revision="0" />
   <Message key="Share Port" value="Расшарить порт" revision="0" />
-  <Message key="Local serial port" value="Локальный Ком порт" revision="0" />
+  <Message key="Local serial port" value="Локальный COM порт" revision="0" />
   <Message key="TCP Port" value="TCP-порт" revision="0" />
   <Message key="Protocol" value="Протокол" revision="0" />
   <Message key="Share New Port..." value="Расшарить &amp;новый порт…" revision="0" />
