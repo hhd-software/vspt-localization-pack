@@ -92,7 +92,7 @@
   <Message key="All" value="Todos" revision="0" />
   <Message key="Firewall rule" value="HHD Software Porta de Serial Virtual TCP {address}:{port}" revision="0" />
   <Message key="Firewall rule description" value="HHD Software Porta Serial Virtual à escuta em TCP {address}:{port}" revision="0" />
-  <Message key="Firewall group" value="Ferramentas de Porta Serial Virtual por HHD Software" revision="0" />
+  <Message key="Firewall group" value="HHD Software Ferramentas de Porta Serial Virtual" revision="0" />
   <Message key="Create Local Bridge" value="Criar ponte local" revision="0" />
   <Message key="First port name" value="Nome do primeiro porto" revision="0" />
   <Message key="Second port name" value="Nome do segundo porto " revision="0" />
@@ -344,8 +344,8 @@
     <Item value="Configurar o Servidor de Portas de Série Remotas do Software HHD, uma aplicação que partilha portas de série locais através de uma rede." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
-    <Item value="Servidor de Portas de Série TCP/IP RFC2217" revision="0" />
-    <Item value="Partilhar portas COM através de TCP/IP" revision="0" />
+    <Item value="Servidor de Portas de Série TCP/IP" revision="0" />
+    <Item value="Partilhar portas COM por TCP/IP" revision="0" />
     <Item value="infographics/tcp-port-server.svg" revision="0" />
     <Item value="Configurar o Servidor de Portas de Série TCP/IP do Software HHD, uma aplicação que expõe portas de série locais como pontos finais TCP/IP a serem utilizados numa rede." revision="0" />
   </Enumeration>

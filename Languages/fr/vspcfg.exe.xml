@@ -7,7 +7,10 @@
   <Message key="ErrorCreatingDevice" value="Erreur lors de la création d'un appareil : {message} ({code})" revision="0" />
   <Message key="About title" value="A propos de {product}" revision="0" />
   <Message key="Title" value="Outils de Port Série Virtuel par HHD Software" revision="0" />
+  <Message key="SharedPortDescription" value="Le nouveau {port local} se comportera comme le [[[b{source device}]]] existant, mais il peut être ouvert plusieurs fois." revision="0" />
+  <Message key="AliasPortDescription" value="Le [[[bCOM{local port}]]] nouvellement créé servira d'alias à [[[b{source device}]]]." revision="0" />
   <Message key="CannotSharePortDescription" value="Le dispositif sélectionné est déjà partagé en tant que [[[bCOM{port}]]]." revision="0" />
+  <Message key="AlreadySharedEntry" value="{device} (partagé comme COM{shared port})" revision="0" />
   <Message key="Full Control" value="Contrôle total" revision="0" />
   <Message key="Connect to server" value="Connecter" revision="0" />
   <Message key="Security Title" value="Sécurité du port d'écoute" revision="0" />
@@ -20,6 +23,7 @@
   <Message key="DeleteSchemeError" value="Erreur : le schéma prédéfini ne peut pas être supprimé." revision="0" />
   <Message key="Don't override" value="Ne pas remplacer" revision="0" />
   <Message key="Banner" value="Utiliser le défaut" revision="0" />
+  <Message key="Pipe name banner" value="Format du nom du pipe : \\\\&lt;servername&gt;\pipe\&lt;pipename&gt;" revision="0" />
   <Message key="NagFreeTitle" value="Fonctionnalité non disponible" revision="0" />
   <Message key="Purchase extended version" value="Obtenir la version étendue" revision="0" />
   <Message key="Extend your plan" value="Prolongez votre plan de mise à niveau" revision="0" />
@@ -84,7 +88,97 @@
   <Message key="Export successful" value="La configuration sélectionnée a été placée avec succès dans le Presse-papiers." revision="0" />
   <Message key="RemoteHostCue" value="192.168.0.1 ou example.com" revision="0" />
   <Message key="IgnoreInvalidSpecialChars" value="Les dispositifs de port série virtuels ignorent les demandes non valides qui spécifient les mêmes caractères XON et XOFF.\n\nPar défaut, une tentative de définir XON = XOFF entraîne une erreur (conformément à la spécification), ce qui peut empêcher les applications existantes d'ouvrir avec succès des ports virtuels." revision="0" />
+  <Message key="IgnoreTxClear" value="Les périphériques série virtuels ignorent les demandes de purge série avec l'indicateur TXCLEAR. Cela permet d'éviter un comportement indésirable si la demande est envoyée par erreur par l'application alors qu'il y a encore des données dans la file d'attente de transmission." revision="0" />
+  <Message key="All" value="Tous" revision="0" />
+  <Message key="Firewall rule" value="HHD Software Port Série Virtuel TCP {address}:{port}" revision="0" />
+  <Message key="Firewall rule description" value="HHD Software Port Série Virtuel écoutant sur TCP {address}:{port}" revision="0" />
+  <Message key="Firewall group" value="HHD Software Outils de Port Série Virtuel" revision="0" />
+  <Message key="Create Local Bridge" value="Créer un pont local" revision="0" />
+  <Message key="First port name" value="Nom du premier port" revision="0" />
+  <Message key="Second port name" value="Nom du deuxième port" revision="0" />
+  <Message key="Create Remote Bridge" value="Créer un pont à distance" revision="0" />
+  <Message key="Local port name" value="Nom du port local" revision="0" />
+  <Message key="Remote computer" value="Ordinateur distant" revision="0" />
+  <Message key="Remote port name" value="Nom du port distant" revision="0" />
+  <Message key="Permanent" value="Permanent" revision="0" />
+  <Message key="Login" value="ID de connexion" revision="0" />
+  <Message key="Password" value="Mot de passe" revision="0" />
+  <Message key="Domain" value="Domaine" revision="0" />
+  <Message key="Create TCP/IP Serial Port" value="Créer un port série TCP/IP" revision="0" />
+  <Message key="Connect to remote endpoint" value="Connexion à un point d'accès distant" revision="0" />
+  <Message key="Listen for incoming connections" value="Écouter les connexions entrantes" revision="0" />
+  <Message key="Add Firewall exception" value="Ajouter une exception au pare-feu" revision="0" />
+  <Message key="TCP Server link" value="Téléchargez et installez le &lt;a&gt;HHD Software Serveur de Ports Série TCP/IP&lt;/a&gt; sur l'ordinateur distant.\nEn outre, tout serveur TCP/IP conforme à la norme RFC2217 est pris en charge. Vous pouvez également vous connecter au port série virtuel en mode d'écoute TCP/IP." revision="0" />
+  <Message key="Create local virtual port" value="Créer un port virtuel local" revision="0" />
+  <Message key="Listen on local address" value="Écouter l'adresse locale" revision="0" />
+  <Message key="Local TCP port" value="Port TCP local" revision="0" />
+  <Message key="Protocol" value="Protocole" revision="0" />
+  <Message key="Remote host IP address or name" value="Adresse IP ou nom de l'hôte distant" revision="0" />
+  <Message key="Remote TCP port" value="Port TCP distant" revision="0" />
+  <Message key="Reconnection timeout, seconds" value="Délai de reconnexion, secondes" revision="0" />
+  <Message key="Connect Remote Port" value="Connecter le port distant" revision="0" />
+  <Message key="Discover" value="Découvrir" revision="0" />
+  <Message key="Add Server" value="Ajouter un serveur…" revision="0" />
+  <Message key="Remove Server" value="Supprimer le serveur" revision="0" />
+  <Message key="Connect" value="Connecter" revision="0" />
+  <Message key="Remote Server link" value="Pour partager des ports série, installez [[[h#[Get more information]#HHD Software Serveur de Ports Série à Distance]]] sur un ordinateur distant." revision="0" />
+  <Message key="Select remote port to connect to" value="Sélectionner le port distant auquel se connecter" revision="0" />
+  <Message key="Domain or server" value="Domaine ou serveur" revision="0" />
+  <Message key="Remote cred info" value="Saisissez vos identifiants ci-dessous. Ils seront utilisés à chaque fois qu'un port série local sera ouvert." revision="0" />
+  <Message key="Split Port" value="Diviser le port" revision="0" />
+  <Message key="Select existing device" value="Sélectionner un dispositif existant" revision="0" />
+  <Message key="Split to (add at least 2 entries)" value="Diviser pour (ajouter au moins 2 entrées)" revision="0" />
+  <Message key="Split to" value="Diviser pour" revision="0" />
+  <Message key="Add new port" value="Ajouter un nouveau port" revision="0" />
+  <Message key="Share Local Port" value="Créer un port partagé" revision="0" />
+  <Message key="Existing device" value="Dispositif existant" revision="0" />
+  <Message key="Virtual port" value="Port virtuel" revision="0" />
+  <Message key="Create Listening Port" value="Créer un port d'écoute" revision="0" />
+  <Message key="Permissions" value="Permissions…" revision="0" />
+  <Message key="Port name" value="Nom du port" revision="0" />
+  <Message key="Listening note" value="Le port d'écoute permet de créer des ponts à distance. Le port d'écoute agira comme le côté serveur du pont. Créez un pont distant à partir d'un autre ordinateur pour vous connecter au port d'écoute." revision="0" />
+  <Message key="Create Pipe Port" value="Créer un port de pipe" revision="0" />
+  <Message key="Create pipe" value="Créer un pipe" revision="0" />
+  <Message key="Pipe name" value="Nom du pipe" revision="0" />
+  <Message key="Number of instances" value="Nombre d'instances" revision="0" />
+  <Message key="Output buffer size in bytes" value="Taille du tampon de sortie en octets" revision="0" />
+  <Message key="Input buffer size in bytes" value="Taille du tampon d'entrée en octets" revision="0" />
+  <Message key="Timeout, ms" value="Délai d'attente, ms" revision="0" />
+  <Message key="Bridge Options" value="Options de pont" revision="0" />
+  <Message key="Emulate TX Queue overflow" value="Emuler un dépassement de la file d'attente TX" revision="0" />
+  <Message key="Emulate line noise" value="Emuler le bruit de la ligne" revision="0" />
+  <Message key="Save as" value="Enregistrer sous" revision="0" />
+  <Message key="Single bit crossover probability (BSCp):" value="Probabilité de croisement d'un seul bit (BSCp) :" revision="0" />
+  <Message key="Pinout scheme" value="Schéma de connexion" revision="0" />
+  <Message key="Emulation Options" value="Options d'émulation" revision="0" />
+  <Message key="Pinout" value="Connexions" revision="0" />
+  <Message key="Emulate baud rate" value="Emuler la vitesse baud" revision="0" />
+  <Message key="Save Scheme" value="Sauvegarde du système" revision="0" />
+  <Message key="Name" value="Nom" revision="0" />
+  <Message key="Shared Port Options" value="Options de port partagé" revision="0" />
+  <Message key="Override baud rate" value="Remplacer la vitesse baud" revision="0" />
+  <Message key="Override line parameters" value="Remplacer les paramètres de la ligne" revision="0" />
+  <Message key="Override flow control" value="Remplacer le contrôle de flux" revision="0" />
+  <Message key="Override port timeouts" value="Remplacer les délais d'attente des ports" revision="0" />
+  <Message key="Override port parameters" value="Remplacer les paramètres du port" revision="0" />
+  <Message key="Baud rate" value="Vitesse du baud" revision="0" />
+  <Message key="Data bits" value="Bits de données" revision="0" />
+  <Message key="PParity" value="Parité" revision="0" />
+  <Message key="Stop bits" value="Bits d'arrêt" revision="0" />
+  <Message key="Flow control" value="Contrôle des flux" revision="0" />
+  <Message key="Read interval timeout" value="Délai d'attente de l'intervalle de lecture" revision="0" />
+  <Message key="Read total multiplier" value="Multiplicateur de lecture total" revision="0" />
+  <Message key="Read total constant" value="Constante de lecture totale" revision="0" />
+  <Message key="Write total multiplier" value="Multiplicateur d'enregistrement total" revision="0" />
+  <Message key="Write total constant" value="Constante d'enregistrement totale" revision="0" />
   <Message key="LangChanged" value="Vous devez redémarrer les Outils de Port Série Virtuel pour appliquer le changement de langue. Voulez-vous redémarrer maintenant ?" revision="0" />
+  <Message key="Please Wait" value="Veuillez patienter" revision="0" />
+  <Message key="Please wait while the background operation is being processed" value="Veuillez patienter pendant le traitement de l'opération en arrière-plan…" revision="0" />
+  <Message key="Device Creation Warning" value="Avertissement relatif à la création d'un dispositif" revision="0" />
+  <Message key="Create non-permanent device" value="Créer un dispositif non permanent" revision="0" />
+  <Message key="Free version does not support creation of permanent devices. Virtual serial device you create will become unusable after system restart." value="La version gratuite ne permet pas de créer des dispositifs permanents. Le dispositif sériel virtuel que vous créez devient inutilisable après le redémarrage du système." revision="0" />
+  <Message key="Export Configuration" value="Exporter configuration" revision="0" />
+  <Message key="Command Line" value="Ligne de commande" revision="0" />
   <Enumeration key="FileExit">
     <Item />
     <Item />

@@ -92,7 +92,7 @@
   <Message key="All" value="Todos" revision="0" />
   <Message key="Firewall rule" value="HHD Software Puerto Serie Virtual TCP {address}:{port}" revision="0" />
   <Message key="Firewall rule description" value="HHD Software Puerto Serie Virtual escuchando en TCP {address}:{port}" revision="0" />
-  <Message key="Firewall group" value="Herramientas de Puerto Serie Virtual de HHD Software" revision="0" />
+  <Message key="Firewall group" value="HHD Software Herramientas de Puerto Serie Virtual" revision="0" />
   <Message key="Create Local Bridge" value="Crear puente local" revision="0" />
   <Message key="First port name" value="Nombre del primer puerto" revision="0" />
   <Message key="Second port name" value="Nombre del segundo puerto" revision="0" />
@@ -345,7 +345,7 @@
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
     <Item value="Servidor de Puertos Serie TCP/IP" revision="0" />
-    <Item value="Compartir puertos COM a través de TCP/IP" revision="0" />
+    <Item value="Compartir puertos COM por TCP/IP" revision="0" />
     <Item value="infographics/tcp-port-server.svg" revision="0" />
     <Item value="Configure el Servidor de Puertos Serie TCP/IP de HHD Software, una aplicación que expone los puertos serie locales como puntos finales TCP/IP para ser utilizados a través de una red." revision="0" />
   </Enumeration>
