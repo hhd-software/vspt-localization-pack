@@ -268,64 +268,64 @@
     <Item value="Aggiornare l'elenco dei dispositivi" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOptions">
-    <Item />
-    <Item />
+    <Item value="Opzioni di &amp;compatibilità…" revision="0" />
+    <Item value="Configurare le opzioni di compatibilità" revision="0" />
   </Enumeration>
   <Enumeration key="HelpView">
-    <Item />
-    <Item />
+    <Item value="&amp;Vedi Aiuto…" revision="0" />
+    <Item value="Visualizzare la documentazione" revision="0" />
   </Enumeration>
   <Enumeration key="HelpAbout">
-    <Item />
-    <Item />
+    <Item value="&amp;Informazioni su…" revision="0" />
+    <Item value="Visualizzare il riquadro Informazioni su" revision="0" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">
-    <Item />
-    <Item />
+    <Item value="&amp;Gestione delle licenze…" revision="0" />
+    <Item value="Gestire le licenze installate" revision="0" />
   </Enumeration>
   <Enumeration key="HelpMonitorThesePorts">
-    <Item />
-    <Item />
+    <Item value="Monitorare queste porte…" revision="0" />
+    <Item value="Scarica la soluzione di monitoraggio delle porte" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateListeningPort">
-    <Item />
-    <Item />
+    <Item value="Creare una porta di ascolto…" revision="0" />
+    <Item value="Creare una porta di ascolto" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateLocalBridge">
-    <Item />
-    <Item />
+    <Item value="Creare un ponte locale…" revision="0" />
+    <Item value="Creare un ponte locale" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreatePipePort">
-    <Item />
-    <Item />
+    <Item value="Creare la porta del pipe…" revision="0" />
+    <Item value="Creare la porta del pipe" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateRemoteBridge">
-    <Item />
-    <Item />
+    <Item value="Creare un ponte remoto…" revision="0" />
+    <Item value="Creare un ponte remoto" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateRemotePort">
-    <Item />
-    <Item />
+    <Item value="Connetti la porta remota…" revision="0" />
+    <Item value="Connetti la porta remota" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateSharedPort">
-    <Item />
-    <Item />
+    <Item value="Crea porta condivisa…" revision="0" />
+    <Item value="Crea porta condivisa" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateSplittedPort">
-    <Item />
-    <Item />
+    <Item value="Porto diviso…" revision="0" />
+    <Item value="Dividere la porta" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateAliasPort">
-    <Item />
-    <Item />
+    <Item value="Crea alias di porta…" revision="0" />
+    <Item value="Crea alias di porta" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateTcpPort">
-    <Item />
-    <Item />
+    <Item value="Creare una porta seriale TCP/IP…" revision="0" />
+    <Item value="Creare una porta seriale TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileTcpServer">
-    <Item />
-    <Item />
+    <Item value="Condividere porte seriali locali su TCP/IP…" revision="0" />
+    <Item value="Avviare l'utilità di configurazione del server delle porte seriali TCP/IP" revision="0" />
   </Enumeration>
   <Enumeration key="FileRspServer">
     <Item />
