@@ -386,10 +386,10 @@
     <Item value="Creare una nuova porta seriale virtuale e collegarla alla porta di ascolto remota, formando un ponte remoto: una coppia di porte virtuali collegate tra loro tramite un cavo null-modem virtuale." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Porte di ascolto" revision="0" />
+    <Item value="Creare una porta di ascolto" revision="0" />
+    <Item value="infographics/listening-port.svg" revision="0" />
+    <Item value="Creare una nuova porta seriale virtuale in modalità di ascolto. Accetterà le connessioni in entrata per formare un ponte remoto." revision="0" />
   </Enumeration>
   <Enumeration key="PipePortModule">
     <Item value="Porte collegate ai pipe" revision="0" />

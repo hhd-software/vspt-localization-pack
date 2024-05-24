@@ -386,10 +386,10 @@
     <Item value="Créez un nouveau port série virtuel et connectez-le au port d'écoute distant, formant ainsi un pont distant : une paire de ports virtuels connectés l'un à l'autre au moyen d'un câble null-modem virtuel." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ports d'écoute" revision="0" />
+    <Item value="Créer un port d'écoute" revision="0" />
+    <Item value="infographics/listening-port.svg" revision="0" />
+    <Item value="Créez un nouveau port série virtuel en mode écoute. Il acceptera les connexions entrantes pour former un pont distant." revision="0" />
   </Enumeration>
   <Enumeration key="PipePortModule">
     <Item value="Ports connectés aux pipes" revision="0" />
