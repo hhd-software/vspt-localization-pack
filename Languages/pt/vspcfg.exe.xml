@@ -232,7 +232,7 @@
     <Item value="Menu Ajuda" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item value="&amp;" revision="0" />
+    <Item value="&amp;Vista" revision="0" />
     <Item value="Menu Vista" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHideEmptyGroups">

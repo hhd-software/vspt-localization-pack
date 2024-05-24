@@ -179,57 +179,93 @@
   <Message key="Free version does not support creation of permanent devices. Virtual serial device you create will become unusable after system restart." value="La versione gratuita non supporta la creazione di dispositivi permanenti. Il dispositivo seriale virtuale creato diventerà inutilizzabile dopo il riavvio del sistema." revision="0" />
   <Message key="Export Configuration" value="Esportare configurazione" revision="0" />
   <Message key="Command Line" value="Linea di comando" revision="0" />
+  <Message key="Export all devices of the same type" value="Esportazione di tutti i dispositivi dello stesso tipo" revision="0" />
+  <Message key="This window allows you to export the selected configuration. Select the type of configuration you want to get" value="Questa finestra consente di esportare la configurazione selezionata. Selezionare il tipo di configurazione che si desidera ottenere" revision="0" />
+  <Message key="License Management" value="Gestione delle licenze" revision="0" />
+  <Message key="Install License..." value="Installare la licenza…" revision="0" />
+  <Message key="Download License..." value="Scarica la licenza…" revision="0" />
+  <Message key="Remove License" value="Rimuovere la licenza" revision="0" />
+  <Message key="Start Trial now!" value="Iniziate subito la valutazione!" revision="0" />
+  <Message key="Installed license" value="Licenza installata" revision="0" />
+  <Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="Se è necessario rinnovare una licenza, fare clic sul pulsante “Scarica la licenza…”. (Richiede ID di accesso e password)." revision="0" />
+  <Message key="If you have already received a license file, click the &quot;Install License...&quot; button." value="Se si è già ricevuto un file di licenza, fare clic sul pulsante “Installare la licenza…”." revision="0" />
+  <Message key="days-left" value="Avete ancora &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; giorni per testare le funzionalità estese del prodotto." revision="0" />
+  <Message key="14days" value="È possibile continuare a utilizzare la versione limitata o provare prima le funzionalità estese &lt;span style=&quot;white-space:nowrap&quot;&gt;per 14 giorni&lt;/span&gt;, quindi tornare alla versione gratuita." revision="0" />
+  <Message key="Evaluation mode timer" value="Timer della modalità di valutazione" revision="0" />
+  <Message key="Virtual Serial Port Tools is currently in evaluation mode." value="Gli Strumenti di Porta Seriale Virtuale sono attualmente in modalità di valutazione." revision="0" />
+  <Message key="Continue evaluation" value="Continuare la valutazione" revision="0" />
+  <Message key="Get extended functionality" value="Ottenere funzionalità estese" revision="0" />
+  <Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" value="Al momento si sta utilizzando la VERSIONE GRATUITA del prodotto con funzionalità limitate. La versione completa supporta inoltre:" revision="0" />
+  <Message key="Permanent devices." value="Dispositivi permanenti." revision="0" />
+  <Message key="Remote bridges." value="Ponti remoti." revision="0" />
+  <Message key="Custom device names." value="Nomi di dispositivi personalizzati." revision="0" />
+  <Message key="Multiple devices of the same type." value="Molteplici dispositivi dello stesso tipo." revision="0" />
+  <Message key="Advanced device configuration." value="Configurazione avanzata del dispositivo." revision="0" />
+  <Message key="Use for commercial, government or military purposes." value="Utilizzo per scopi commerciali, governativi o militari." revision="0" />
+  <Message key="And much more" value="E molto altro ancora" revision="0" />
+  <Message key="Continue with limited features" value="Continuare con funzioni limitate" revision="0" />
+  <Message key="Get extended version" value="Ottenere la versione estesa" revision="0" />
+  <Message key="Your upgrade plan expired!" value="Il tuo piano di aggiornamento è scaduto!" revision="0" />
+  <Message key="Your upgrade plan has expired. Your license does not support the product version you currently have installed. You can either revert to the previous build or extend your upgrade plan. Extending, you will get:" value="Il piano di aggiornamento è scaduto. La licenza non supporta la versione del prodotto attualmente installata. È possibile tornare alla versione precedente o estendere il piano di aggiornamento. Estendendolo, si otterrà:" revision="0" />
+  <Message key="Immediate access to the newest features." value="Accesso immediato alle funzioni più recenti." revision="0" />
+  <Message key="Priority support and bug fixes." value="Assistenza prioritaria e correzione di bug." revision="0" />
+  <Message key="Online license and feature management." value="Gestione online di licenze e funzionalità." revision="0" />
+  <Message key="Access to discount programs." value="Accesso a programmi di sconto." revision="0" />
+  <Message key="If you continue using this product version, only features of a Free Edition will be available for you." value="Se si continua a utilizzare questa versione del prodotto, saranno disponibili solo le funzioni della Edizione Gratuita." revision="0" />
+  <Message key="Extend your upgrade plan" value="Estendere il piano di aggiornamento" revision="0" />
+  <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Alcune funzioni estese di Strumenti per Porte Seriali Virtuali sono in prova e scadranno presto." revision="0" />
+  <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="È possibile continuare con le funzionalità limitate o passare alla versione estesa. L'acquisto della funzionalità estesa eliminerà questa schermata." revision="0" />
   <Enumeration key="FileExit">
-    <Item />
-    <Item />
+    <Item value="&amp;Uscire" revision="0" />
+    <Item value="Uscire dall'applicazione" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Dispositivi" revision="0" />
+    <Item value="Menu File" revision="0" />
   </Enumeration>
   <Enumeration key="MenuCreate">
-    <Item />
-    <Item />
+    <Item value="&amp;Creare" revision="0" />
+    <Item value="Menu Crea" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Aiuto" revision="0" />
+    <Item value="Menu Aiuto" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Vista" revision="0" />
+    <Item value="Menu Vista" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHideEmptyGroups">
-    <Item />
-    <Item />
+    <Item value="&amp;Nascondere i gruppi vuoti" revision="0" />
+    <Item value="Nascondere i gruppi vuoti" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHideServers">
-    <Item />
-    <Item />
+    <Item value="Nascondere i link al &amp;server" revision="0" />
+    <Item value="Nascondere i link al server" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCategories">
-    <Item />
-    <Item />
+    <Item value="&amp;Categorie" revision="0" />
+    <Item value="Controllare quali categorie di dispositivi sono visibili" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowVsp">
-    <Item />
-    <Item />
+    <Item value="Porte Seriali &amp;Virtuali" revision="0" />
+    <Item value="Abilitare le categorie di porte seriali virtuali" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowRsp">
-    <Item />
-    <Item />
+    <Item value="Porte Seriali &amp;Remote" revision="0" />
+    <Item value="Categorie di abilitazione delle porte seriali remote" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowSsp">
-    <Item />
-    <Item />
+    <Item value="Porte Seriali &amp;Condivise" revision="0" />
+    <Item value="Abilitare le categorie di porte seriali condivise" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowNsp">
-    <Item />
-    <Item />
+    <Item value="Porte Seriali di &amp;Rete" revision="0" />
+    <Item value="Categorie di abilitazione delle porte seriali di rete" revision="0" />
   </Enumeration>
   <Enumeration key="ViewRefresh">
-    <Item />
-    <Item />
+    <Item value="&amp;Aggiornare" revision="0" />
+    <Item value="Aggiornare l'elenco dei dispositivi" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOptions">
     <Item />

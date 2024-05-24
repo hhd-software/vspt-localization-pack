@@ -232,7 +232,7 @@
     <Item value="Menú Ayuda" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item value="&amp;" revision="0" />
+    <Item value="&amp;Vista" revision="0" />
     <Item value="Menú Vista" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHideEmptyGroups">
@@ -249,7 +249,7 @@
   </Enumeration>
   <Enumeration key="ViewShowVsp">
     <Item value="Puertos Serie &amp;Virtual" revision="0" />
-    <Item value="Habilitar categorías de Puertos Serie &amp;Virtual" revision="0" />
+    <Item value="Habilitar categorías de Puertos Serie Virtual" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowRsp">
     <Item value="Puertos Serie &amp;Remotos" revision="0" />
