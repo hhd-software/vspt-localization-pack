@@ -7,7 +7,7 @@
   <Message key="ErrorCreatingDevice" value="Erreur lors de la création d'un appareil : {message} ({code})" revision="0" />
   <Message key="About title" value="A propos de {product}" revision="0" />
   <Message key="Title" value="Outils de Port Série Virtuel par HHD Software" revision="0" />
-  <Message key="SharedPortDescription" value="Le nouveau {port local} se comportera comme le [[[b{source device}]]] existant, mais il peut être ouvert plusieurs fois." revision="0" />
+  <Message key="SharedPortDescription" value="Le nouveau [[[bCOM{local port}]]] se comportera comme le [[[b{source device}]]] existant, mais il peut être ouvert plusieurs fois." revision="0" />
   <Message key="AliasPortDescription" value="Le [[[bCOM{local port}]]] nouvellement créé servira d'alias à [[[b{source device}]]]." revision="0" />
   <Message key="CannotSharePortDescription" value="Le dispositif sélectionné est déjà partagé en tant que [[[bCOM{port}]]]." revision="0" />
   <Message key="AlreadySharedEntry" value="{device} (partagé comme COM{shared port})" revision="0" />
