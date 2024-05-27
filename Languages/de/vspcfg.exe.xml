@@ -332,76 +332,76 @@
     <Item value="Starten Sie das Konfigurationsprogramm für den Remote Serial Ports Server" revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Remote-Anschlüsse" revision="0" />
+    <Item value="Remote-Anschluss verbinden" revision="0" />
+    <Item value="infographics/remote-port.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die als eine weitere serielle Schnittstelle fungiert, die physisch mit einem anderen Computer verbunden ist." revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortServerModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Remote Anschlüsse Server" revision="0" />
+    <Item value="COM-Anschlüsse gemeinsam nutzen" revision="0" />
+    <Item value="infographics/remote-port-server.svg" revision="0" />
+    <Item value="Konfigurieren Sie den HHD Software Remote Serial Ports Server, eine Anwendung, die lokale serielle Schnittstellen über ein Netzwerk freigibt." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="TCP/IP Serielle Anschlüsse Server" revision="0" />
+    <Item value="COM-Ports über TCP/IP freigeben" revision="0" />
+    <Item value="infographics/tcp-port-server.svg" revision="0" />
+    <Item value="Konfigurieren Sie den HHD Software TCP/IP Serial Ports Server, eine Anwendung, die lokale serielle Schnittstellen als TCP/IP-Endpunkte für die Verwendung über ein Netzwerk bereitstellt." revision="0" />
   </Enumeration>
   <Enumeration key="SharedPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gemeinsame Ports" revision="0" />
+    <Item value="Gemeinsamen Anschluss erstellen" revision="0" />
+    <Item value="infographics/shared-port.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die den gemeinsamen Zugriff auf eine lokale serielle Schnittstelle ermöglicht." revision="0" />
   </Enumeration>
   <Enumeration key="SplittedPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Geteilte Anschlüsse" revision="0" />
+    <Item value="Teilen Anschluss" revision="0" />
+    <Item value="infographics/splitted-port.svg" revision="0" />
+    <Item value="Aufteilung einer vorhandenen seriellen Schnittstelle in mehrere virtuelle serielle Schnittstellen, die alle einen gemeinsamen Zugriff auf die ursprüngliche Schnittstelle ermöglichen." revision="0" />
   </Enumeration>
   <Enumeration key="AliasPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Alias-Anschlüsse" revision="0" />
+    <Item value="Anschluss-Alias erstellen" revision="0" />
+    <Item value="infographics/alias-port.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die ein Alias einer vorhandenen seriellen Schnittstelle sein wird." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="TCP/IP-Anschlüsse (RFC2217, Raw)" revision="0" />
+    <Item value="TCP/IP COM-Anschluss erstellen" revision="0" />
+    <Item value="infographics/tcp-port.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die eine Verbindung zu einem entfernten TCP/IP-Server über RFC2217 oder Raw-Protokolle herstellt" revision="0" />
   </Enumeration>
   <Enumeration key="LocalBridgeModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Lokale Brücken" revision="0" />
+    <Item value="Lokale Brücke erstellen" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Erstellen Sie ein Paar virtueller serieller Schnittstellen, die über ein virtuelles Nullmodemkabel miteinander verbunden sind." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteBridgeModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Remote-Brücken" revision="0" />
+    <Item value="Remote-Brücke erstellen" revision="0" />
+    <Item value="infographics/remote-bridge.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle und verbinden Sie sie mit der entfernten Abhörschnittstelle, so dass eine entfernte Brücke entsteht: ein Paar virtueller Schnittstellen, die über ein virtuelles Nullmodemkabel miteinander verbunden sind." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Abhöranschlüsse" revision="0" />
+    <Item value="Abhör-Anschluss erstellen" revision="0" />
+    <Item value="infographics/listening-port.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle im Abhörmodus. Er nimmt eingehende Verbindungen an, um eine entfernte Brücke zu bilden." revision="0" />
   </Enumeration>
   <Enumeration key="PipePortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Mit Pipes verbundene Anschlüsse" revision="0" />
+    <Item value="Pipe Anschluss erstellen" revision="0" />
+    <Item value="infographics/pipe-port.svg" revision="0" />
+    <Item value="Erstellen einer neuen virtuellen seriellen Schnittstelle, die mit einer benannten Pipe verbunden ist." revision="0" />
   </Enumeration>
   <Enumeration key="FilesPortModule">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Mit Dateien verbundene Anschlüsse" revision="0" />
+    <Item value="Datei- Anschluss erstellen" revision="0" />
+    <Item value="infographics/local-bridge.svg" revision="0" />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die durch zwei Dateien gesichert ist." revision="0" />
   </Enumeration>
   <Enumeration key="PinoutsHelp">
     <Item value="Klicke auf den Pin, um die Pinbelegung anzupassen." revision="0" />
