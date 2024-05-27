@@ -149,7 +149,7 @@
   <Message key="Emulate line noise" value="Эмулировать шум в линии" revision="0" />
   <Message key="Save as" value="Сохранить как" revision="0" />
   <Message key="Single bit crossover probability (BSCp):" value="Вероятность однобитного перекрещивания (BSCp):" revision="0" />
-  <Message key="Pinout scheme" value="Схема распиновки выводов" revision="0" />
+  <Message key="Pinout scheme" value="Коммутация выводов" revision="0" />
   <Message key="Emulation Options" value="Параметры эмуляции" revision="0" />
   <Message key="Pinout" value="Распиновка выводов" revision="0" />
   <Message key="Emulate baud rate" value="Эмулировать скорость передачи" revision="0" />
