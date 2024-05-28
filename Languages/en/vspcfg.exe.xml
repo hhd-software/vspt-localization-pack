@@ -657,5 +657,5 @@
 	<!-- Compatibility dialog -->
 	<Message key="Compatibility Options" description="Window title: Compatibility Options"/>
 	<Message key="Ignore invalid special characters" description="Checkbox: Ignore invalid special characters"/>
-	<Message key="Ignore transmit queue clear purge requests" description="Checkbox: Ignore transmit queue clear purge requests"/>
+	<Message key="Ignore transmit queue clear purge requests" value="Ignore clear output buffer requests" description="Checkbox: Ignore transmit queue clear purge requests"/>
 </Definition>

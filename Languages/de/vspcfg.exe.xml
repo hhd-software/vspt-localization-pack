@@ -212,7 +212,7 @@
   <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="Sie können mit der eingeschränkten Funktionalität fortfahren oder auf die erweiterte Version upgraden. Mit dem Erwerb der erweiterten Funktionalität wird dieser Bildschirm entfernt." revision="0" />
   <Message key="Compatibility Options" value="Kompatibilitätsoptionen" revision="0" />
   <Message key="Ignore invalid special characters" value="Ungültige Sonderzeichen ignorieren" revision="0" />
-  <Message key="Ignore transmit queue clear purge requests" value="Ignorieren von Anfragen zum Löschen und Bereinigen der Sendewarteschlange" revision="0" />
+  <Message key="Ignore transmit queue clear purge requests" value="Ignorieren von Anforderungen zum Löschen des Ausgabepuffers" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />
