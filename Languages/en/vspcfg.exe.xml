@@ -595,7 +595,6 @@
 	<Message key="Read total constant" description="Field: Read total constant" />
 	<Message key="Write total multiplier" description="Field: Write total multiplier" />
 	<Message key="Write total constant" description="Field: Write total constant" />
-	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart Virtual Serial Port Tools to apply language change. Do you want to restart now?"/>
 
 	<!-- Wait Dialog -->
 	<Message key="Please Wait" description="Window title: Please Wait"/>

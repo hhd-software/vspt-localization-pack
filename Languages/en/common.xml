@@ -76,4 +76,9 @@
 	<Message key="Invalid buffer size specified" description="Error message: Invalid buffer size specified" value="Invalid buffer size specified. Supported buffer size: 4KB .. 10MB." />
 	<Message key="Buffer size hint" description="Buffer size hint message" value="Optional TCP buffer size, in bytes"/>
 	<Message key="TCP buffer size" description="Field: TCP buffer size"/>
+
+	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart {name} to apply language change. Do you want to restart now?">
+		<Param name="name"/>
+	</Message>
+	
 </Definition>
