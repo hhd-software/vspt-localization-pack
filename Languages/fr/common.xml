@@ -13,6 +13,11 @@
   <Message key="Delete" value="Supprimer" revision="0" />
   <Message key="Add" value="Ajouter" revision="0" />
   <Message key="Close" value="Fermer" revision="0" />
+  <Message key="Baud rate" value="Vitesse du baud" revision="0" />
+  <Message key="Data bits" value="Bits de données" revision="0" />
+  <Message key="Stop bits" value="Bits d'arrêt" revision="0" />
+  <Message key="Flow control" value="Contrôle des flux" revision="0" />
+  <Message key="PParity" value="Parité" revision="0" />
   <Message key="Install" value="&amp;Installer" revision="0" />
   <Message key="Start" value="&amp;Démarrer" revision="0" />
   <Message key="Error" value="Erreur de fonctionnement" revision="0" />

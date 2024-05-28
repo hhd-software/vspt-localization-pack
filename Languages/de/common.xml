@@ -13,6 +13,11 @@
   <Message key="Delete" value="Löschen" revision="0" />
   <Message key="Add" value="Hinzufügen" revision="0" />
   <Message key="Close" value="Schließen" revision="0" />
+  <Message key="Baud rate" value="Baudrate" revision="0" />
+  <Message key="Data bits" value="Datenbits" revision="0" />
+  <Message key="Stop bits" value="Stoppbits" revision="0" />
+  <Message key="Flow control" value="Flusskontrolle" revision="0" />
+  <Message key="PParity" value="Parität" revision="0" />
   <Message key="Install" value="&amp;Installieren" revision="0" />
   <Message key="Start" value="&amp;Start" revision="0" />
   <Message key="Error" value="Fehler im Betrieb" revision="0" />

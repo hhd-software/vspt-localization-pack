@@ -13,6 +13,11 @@
   <Message key="Delete" value="Eliminar" revision="0" />
   <Message key="Add" value="Adicionar" revision="0" />
   <Message key="Close" value="Fechar" revision="0" />
+  <Message key="Baud rate" value="Velocidade de transmissão" revision="0" />
+  <Message key="Data bits" value="Bits de dados" revision="0" />
+  <Message key="Stop bits" value="Bits de paragem" revision="0" />
+  <Message key="Flow control" value="Controlo do fluxo" revision="0" />
+  <Message key="PParity" value="Paridade" revision="0" />
   <Message key="Install" value="Instalar&amp;" revision="0" />
   <Message key="Start" value="&amp;Iniciar" revision="0" />
   <Message key="Error" value="Erro de operação" revision="0" />

@@ -161,11 +161,6 @@
   <Message key="Override flow control" value="Substituir o controlo do fluxo" revision="0" />
   <Message key="Override port timeouts" value="Substituir os tempos limite das portas" revision="0" />
   <Message key="Override port parameters" value="Substituir os parâmetros do porto" revision="0" />
-  <Message key="Baud rate" value="Velocidade de transmissão" revision="0" />
-  <Message key="Data bits" value="Bits de dados" revision="0" />
-  <Message key="PParity" value="Paridade" revision="0" />
-  <Message key="Stop bits" value="Bits de paragem" revision="0" />
-  <Message key="Flow control" value="Controlo do fluxo" revision="0" />
   <Message key="Read interval timeout" value="Tempo limite do intervalo de leitura" revision="0" />
   <Message key="Read total multiplier" value="Multiplicador de leitura total" revision="0" />
   <Message key="Read total constant" value="Constante de leitur total" revision="0" />

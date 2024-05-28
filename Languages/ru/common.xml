@@ -13,6 +13,11 @@
   <Message key="Delete" value="Удалить" revision="0" />
   <Message key="Add" value="Добавить" revision="0" />
   <Message key="Close" value="Закрыть" revision="0" />
+  <Message key="Baud rate" value="Скорость передачи" revision="0" />
+  <Message key="Data bits" value="Биты данных" revision="0" />
+  <Message key="Stop bits" value="Стоп-биты" revision="0" />
+  <Message key="Flow control" value="Управление потоком" revision="0" />
+  <Message key="PParity" value="Четность" revision="0" />
   <Message key="Install" value="&amp;Установить" revision="0" />
   <Message key="Start" value="&amp;Пуск" revision="0" />
   <Message key="Error" value="Ошибка работы" revision="0" />

@@ -161,11 +161,6 @@
   <Message key="Override flow control" value="Flusskontrolle außer Kraft setzen" revision="0" />
   <Message key="Override port timeouts" value="Zeitüberschreitungen für Ports außer Kraft setzen" revision="0" />
   <Message key="Override port parameters" value="Anschlussparameter außer Kraft setzen" revision="0" />
-  <Message key="Baud rate" value="Baudrate" revision="0" />
-  <Message key="Data bits" value="Datenbits" revision="0" />
-  <Message key="PParity" value="Parität" revision="0" />
-  <Message key="Stop bits" value="Stoppbits" revision="0" />
-  <Message key="Flow control" value="Flusskontrolle" revision="0" />
   <Message key="Read interval timeout" value="Zeitüberschreitung beim Lesen" revision="0" />
   <Message key="Read total multiplier" value="Gesamtmultiplikator lesen" revision="0" />
   <Message key="Read total constant" value="Gesamtkonstante lesen" revision="0" />

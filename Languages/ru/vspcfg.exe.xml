@@ -161,11 +161,6 @@
   <Message key="Override flow control" value="Переопределить управление потоком" revision="0" />
   <Message key="Override port timeouts" value="Переопределить тайм-ауты портов" revision="0" />
   <Message key="Override port parameters" value="Переопределить параметры порта" revision="0" />
-  <Message key="Baud rate" value="Скорость передачи" revision="0" />
-  <Message key="Data bits" value="Биты данных" revision="0" />
-  <Message key="PParity" value="Четность" revision="0" />
-  <Message key="Stop bits" value="Стоп-биты" revision="0" />
-  <Message key="Flow control" value="Управление потоком" revision="0" />
   <Message key="Read interval timeout" value="Таймаут интервала чтения" revision="0" />
   <Message key="Read total multiplier" value="Общий множитель чтения" revision="0" />
   <Message key="Read total constant" value="Общая константа чтения" revision="0" />
