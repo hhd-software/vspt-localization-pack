@@ -652,4 +652,8 @@
 	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features or Virtual Serial Port Tools are trial and will expire soon." />
 	<Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." description="You may continue with limited functionality or upgrade…" />
 
+	<!-- Compatibility dialog -->
+	<Message key="Compatibility Options" description="Window title: Compatibility Options"/>
+	<Message key="Ignore invalid special characters" description="Checkbox: Ignore invalid special characters"/>
+	<Message key="Ignore transmit queue clear purge requests" description="Checkbox: Ignore transmit queue clear purge requests"/>
 </Definition>
