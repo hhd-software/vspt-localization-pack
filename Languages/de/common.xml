@@ -35,6 +35,7 @@
   <Message key="Invalid buffer size specified" value="Ungültige Puffergröße angegeben. Unterstützte Puffergröße: 4KB .. 10MB." revision="0" />
   <Message key="Buffer size hint" value="Optionale TCP-Puffergröße, in Bytes" revision="0" />
   <Message key="TCP buffer size" value="TCP-Puffergröße" revision="0" />
+  <Message key="LangChanged" value="Sie müssen {name} neu starten, um die Sprachänderung anzuwenden. Möchten Sie jetzt neu starten?" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Autonome Funktionsweise" revision="0" />
     <Item value="Nicht installiert" revision="0" />

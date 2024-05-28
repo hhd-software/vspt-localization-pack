@@ -166,7 +166,6 @@
   <Message key="Read total constant" value="Общая константа чтения" revision="0" />
   <Message key="Write total multiplier" value="Общий множитель записи" revision="0" />
   <Message key="Write total constant" value="Общая константа записи" revision="0" />
-  <Message key="LangChanged" value="Для применения изменений языка необходимо перезапустить Virtual Serial Port Tools. Хотите перезапустить сейчас?" revision="0" />
   <Message key="Please Wait" value="Пожалуйста, подождите" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Пожалуйста, подождите, пока выполняется фоновая операция…" revision="0" />
   <Message key="Device Creation Warning" value="Предупреждение о создании устройства" revision="0" />

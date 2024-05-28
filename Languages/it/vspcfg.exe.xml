@@ -166,7 +166,6 @@
   <Message key="Read total constant" value="Costante di lettura totale" revision="0" />
   <Message key="Write total multiplier" value="Moltiplicatore di registrazione totale" revision="0" />
   <Message key="Write total constant" value="Costante di registrazione totale" revision="0" />
-  <Message key="LangChanged" value="È necessario riavviare Strumenti Porta Seriale Virtuale per applicare la modifica della lingua. Volete ripartire ora?" revision="0" />
   <Message key="Please Wait" value="Attendere prego" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Attendere mentre l'operazione in background viene elaborata…" revision="0" />
   <Message key="Device Creation Warning" value="Avviso di creazione del dispositivo" revision="0" />

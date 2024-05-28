@@ -35,6 +35,7 @@
   <Message key="Invalid buffer size specified" value="Dimensione del buffer specificata non valida. Dimensioni del buffer supportate: 4KB .. 10MB." revision="0" />
   <Message key="Buffer size hint" value="Dimensione opzionale del buffer TCP, in byte" revision="0" />
   <Message key="TCP buffer size" value="Dimensione del buffer TCP" revision="0" />
+  <Message key="LangChanged" value="È necessario riavviare {name} per applicare la modifica della lingua. Volete ripartire ora?" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Esecuzione come standalone" revision="0" />
     <Item value="Non installato" revision="0" />

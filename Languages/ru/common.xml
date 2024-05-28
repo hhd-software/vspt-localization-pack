@@ -35,6 +35,7 @@
   <Message key="Invalid buffer size specified" value="Указан неверный размер буфера. Поддерживаемые размеры: 4KB .. 10MB." revision="0" />
   <Message key="Buffer size hint" value="Возможный размер буфера TCP, в байтах" revision="0" />
   <Message key="TCP buffer size" value="Размер буфера TCP" revision="0" />
+  <Message key="LangChanged" value="Для применения изменений языка необходимо перезапустить {name}. Хотите перезапустить сейчас?" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Работа в автономном режиме" revision="0" />
     <Item value="Не установлено" revision="0" />

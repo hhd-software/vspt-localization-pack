@@ -35,6 +35,7 @@
   <Message key="Invalid buffer size specified" value="Tamanho de memória intermédia inválido especificado. Tamanho da memória intermédia suportado: 4KB .. 10MB." revision="0" />
   <Message key="Buffer size hint" value="Tamanho opcional do buffer TCP, em bytes" revision="0" />
   <Message key="TCP buffer size" value="Tamanho do buffer TCP" revision="0" />
+  <Message key="LangChanged" value="É necessário reiniciar o {name} para aplicar a alteração de idioma. Deseja reiniciar agora?" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Executar como autónomo" revision="0" />
     <Item value="Não instalado" revision="0" />

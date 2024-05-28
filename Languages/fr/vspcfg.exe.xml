@@ -166,7 +166,6 @@
   <Message key="Read total constant" value="Constante de lecture totale" revision="0" />
   <Message key="Write total multiplier" value="Multiplicateur d'enregistrement total" revision="0" />
   <Message key="Write total constant" value="Constante d'enregistrement totale" revision="0" />
-  <Message key="LangChanged" value="Vous devez redémarrer les Outils de Port Série Virtuel pour appliquer le changement de langue. Voulez-vous redémarrer maintenant ?" revision="0" />
   <Message key="Please Wait" value="Veuillez patienter" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Veuillez patienter pendant le traitement de l'opération en arrière-plan…" revision="0" />
   <Message key="Device Creation Warning" value="Avertissement relatif à la création d'un dispositif" revision="0" />

@@ -166,7 +166,6 @@
   <Message key="Read total constant" value="Gesamtkonstante lesen" revision="0" />
   <Message key="Write total multiplier" value="Gesamtmultiplikator schreiben" revision="0" />
   <Message key="Write total constant" value="Gesamtkonstante schreiben" revision="0" />
-  <Message key="LangChanged" value="Sie müssen Virtual Serial Port Tools neu starten, um die Sprachänderung anzuwenden. Möchten Sie jetzt neu starten?" revision="0" />
   <Message key="Please Wait" value="Bitte warten" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Bitte warten Sie, während der Hintergrundvorgang bearbeitet wird…" revision="0" />
   <Message key="Device Creation Warning" value="Warnung zur Geräteerstellung" revision="0" />

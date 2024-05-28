@@ -166,7 +166,6 @@
   <Message key="Read total constant" value="Constante de leitur total" revision="0" />
   <Message key="Write total multiplier" value="Multiplicador de registo total" revision="0" />
   <Message key="Write total constant" value="Constante de registo total" revision="0" />
-  <Message key="LangChanged" value="É necessário reiniciar o Ferramentas da Porta Serial Virtual para aplicar a alteração de idioma. Deseja reiniciar agora?" revision="0" />
   <Message key="Please Wait" value="Por favor, aguarde" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Por favor, aguarde enquanto a operação em segundo plano está a ser processada…" revision="0" />
   <Message key="Device Creation Warning" value="Aviso de criação de dispositivo" revision="0" />
