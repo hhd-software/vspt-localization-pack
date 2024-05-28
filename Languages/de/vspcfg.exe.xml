@@ -6,7 +6,7 @@
   <Message key="ErrorConnectingServer" value="Fehler {code} beim Verbinden mit Server {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Fehler beim Erstellen des Geräts: {message} ({code})" revision="0" />
   <Message key="About title" value="Info über {product}" revision="0" />
-  <Message key="Title" value="Virtual Serial Port Tools von HHD Software" revision="0" />
+  <Message key="Title" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="SharedPortDescription" value="Die neu erstellte [[[bCOM{local port}]]] verhält sich wie die bestehende [[[b{source device}]]], kann aber mehrfach geöffnet werden." revision="0" />
   <Message key="AliasPortDescription" value="Der neu erstellte [[[bCOM{local port}]]] wird als Alias für [[[b{source device}]]] fungieren." revision="0" />
   <Message key="CannotSharePortDescription" value="Das ausgewählte Gerät wird bereits als [[[bCOM{port}]]] freigegeben." revision="0" />

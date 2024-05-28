@@ -6,7 +6,7 @@
   <Message key="ErrorConnectingServer" value="Ошибка {code} подсоединения к серверу {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Ошибка при создании устройства: {message} ({code})" revision="0" />
   <Message key="About title" value="О программе {product}" revision="0" />
-  <Message key="Title" value="Инструменты виртуальных COM портов от HHD Software" revision="0" />
+  <Message key="Title" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="SharedPortDescription" value="Вновь созданный [[[bCOM{local port}]]] будет работать как существующий [[[b{source device}]]], но может быть открыт несколько раз." revision="0" />
   <Message key="AliasPortDescription" value="Вновь созданный [[[bCOM{local port}]]] будет работать в качестве псевдонима для [[[b{source device}]]]." revision="0" />
   <Message key="CannotSharePortDescription" value="Выбранное устройство уже расшарено как [[[bCOM{port}]]]." revision="0" />
@@ -32,7 +32,7 @@
   <Message key="PurchasedVersionNagText" value="Функция {feature} не включена в текущую версию.\n\nВы можете продолжать пользоваться функциями текущей версии или перейти на расширенную версию." revision="0" />
   <Message key="UpgradePlanExpiredNagText" value="Срок действия вашего плана обновлений истек. Если вы продолжите использовать текущую версию, вам будут доступны только функции бесплатной версии. Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжить использовать функции бесплатной версии или продлить план обновлений." revision="0" />
   <Message key="Trial text: free" value="Некоторые расширенные возможности виртуальных последовательных портов являются пробными или просроченными.\n\nВы можете продолжать пользоваться ограниченной функциональностью бесплатной версии или перейти на расширенную версию.\nПриобретение расширенной функциональности уберёт этот экран." revision="0" />
-  <Message key="Trial text: trial" value="Некоторые расширенные возможности виртуальных последовательных портов являются пробными и скоро перестанут работать.\n\nВы можете продолжить работу с ограниченной функциональностью или перейти на расширенную версию.\nПриобретение расширенной функциональности уберёт этот экран." revision="0" />
+  <Message key="Trial text: trial" value="Некоторые расширенные возможности Virtual Serial Ports являются пробными и скоро перестанут работать.\n\nВы можете продолжить работу с ограниченной функциональностью или перейти на расширенную версию.\nПриобретение расширенной функциональности уберёт этот экран." revision="0" />
   <Message key="Trial text: trialnotstarted" value="Бесплатная версия продукта имеет ограниченный набор функций.\n\nВы можете продолжать пользоваться ограниченными возможностями или попробовать расширенные функции в течение 14 дней БЕСПЛАТНО." revision="0" />
   <Message key="Trial dialog title: free" value="Получить расширенные функции" revision="0" />
   <Message key="Try extended version" value="Попробовать расширенную версию" revision="0" />
@@ -75,14 +75,14 @@
   <Message key="error title" value="Операция не удалась" revision="0" />
   <Message key="Custom" value="Пользовательская" revision="0" />
   <Message key="Device creation aborted" value="\n\nВы прервали создание устройства. В результате этой операции могут остаться недосозданные и нефункционирующие устройства, которые можно удалить вручную с помощью диспетчера устройств Windows." revision="0" />
-  <Message key="AppTitle" value="Инструменты Виртуальных COM Портов HHD{is free?} (Бесплатная, Некоммерческая){?is free}{is trial?} (Пробная){?is trial}{is reg noncom?} (Некоммерческая){?is reg noncom}" revision="0" />
+  <Message key="AppTitle" value="HHD Virtual Serial Port Tools{is free?} (Бесплатная, Некоммерческая){?is free}{is trial?} (Пробная){?is trial}{is reg noncom?} (Некоммерческая){?is reg noncom}" revision="0" />
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="Файлы лицензии (*.vsptlic)|*.vsptlic|Все файлы|*||" revision="0" />
   <Message key="License has been successfully installed." value="Лицензия успешно установлена." revision="0" />
   <Message key="NewAliasPortTitle" value="Создание портов-псевдонимов" revision="0" />
-  <Message key="UpgradePrompt" value="Доступны инструменты виртуальных COM портов версии {major}.{minor}.{revision}.{build}. Хотите обновить сейчас?" revision="0" />
+  <Message key="UpgradePrompt" value="Доступна Virtual Serial Port Tools версии {major}.{minor}.{revision}.{build}. Хотите обновить сейчас?" revision="0" />
   <Message key="DownloadError" value="Во время скачивания обновления произошла следующая ошибка: {error} ({code}). Пожалуйста, повторите попытку позже или перейдите на наш веб-сайт, чтобы загрузить последнюю версию вручную." revision="0" />
-  <Message key="Library creation failed" value="Ошибка при подключении к COM-компоненту: {message} ({code}).\r\n\nПопробуйте переустановить приложение." revision="0" />
+  <Message key="Library creation failed" value="Ошибка при подключении к COM-компоненту Virtual Serial Port Tools: {message} ({code}).\r\n\nПопробуйте переустановить приложение." revision="0" />
   <Message key="Port not selected" value="Вам нужно выбрать существующий порт, который вы хотите разделить." revision="0" />
   <Message key="Too few aliases" value="Вы должны добавить как минимум два псевдонима для порта." revision="0" />
   <Message key="Export successful" value="Выбранная конфигурация была успешно помещена в буфер обмена." revision="0" />
@@ -90,9 +90,9 @@
   <Message key="IgnoreInvalidSpecialChars" value="Устройства виртуального последовательного порта будут игнорировать недействительные запросы, в которых указаны одинаковые символы XON и XOFF.\n\nПо умолчанию попытка установить XON = XOFF приводит к ошибке (согласно спецификации), и это может помешать устаревшим приложениям успешно открывать виртуальные порты." revision="0" />
   <Message key="IgnoreTxClear" value="Виртуальные последовательные устройства будут игнорировать запросы на очистку последовательного интерфейса с флагом TXCLEAR. Это предотвращает нежелательное поведение, если запрос будет ошибочно отправлен приложением, когда в очереди на передачу еще есть данные." revision="0" />
   <Message key="All" value="Все" revision="0" />
-  <Message key="Firewall rule" value="HHD Виртуальный TCP COM порт {address}:{port}" revision="0" />
-  <Message key="Firewall rule description" value="HHD Виртуальный COM порт, слушающий на TCP {address}:{port}" revision="0" />
-  <Message key="Firewall group" value="HHD инструменты виртуальных COM портов" revision="0" />
+  <Message key="Firewall rule" value="HHD Software Virtual Serial Port TCP {address}:{port}" revision="0" />
+  <Message key="Firewall rule description" value="HHD Software Virtual Serial Port, слушающий на TCP {address}:{port}" revision="0" />
+  <Message key="Firewall group" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="Create Local Bridge" value="Создание локального моста" revision="0" />
   <Message key="First port name" value="Имя первого порта" revision="0" />
   <Message key="Second port name" value="Имя второго порта" revision="0" />
@@ -108,7 +108,7 @@
   <Message key="Connect to remote endpoint" value="Подключиться к удаленной конечной точке" revision="0" />
   <Message key="Listen for incoming connections" value="Слушать входящие соединения" revision="0" />
   <Message key="Add Firewall exception" value="Добавить исключение для брандмауэра" revision="0" />
-  <Message key="TCP Server link" value="Скачайте и установите &lt;a&gt;HHD сервер последовательных портов TCP/IP&lt;/a&gt; на удаленный компьютер.\nКроме того, поддерживается любой RFC2217-совместимый TCP/IP-сервер. Вы также можете подключиться к виртуальному последовательному порту в режиме прослушивания TCP/IP." revision="0" />
+  <Message key="TCP Server link" value="Скачайте и установите &lt;a&gt;HHD Software TCP/IP Serial Ports Server&lt;/a&gt; на удаленный компьютер.\nКроме того, поддерживается любой RFC2217-совместимый TCP/IP-сервер. Вы также можете подключиться к виртуальному последовательному порту в режиме прослушивания TCP/IP." revision="0" />
   <Message key="Create local virtual port" value="Создать локальный виртуальный порт" revision="0" />
   <Message key="Listen on local address" value="Слушать по локальному адресу" revision="0" />
   <Message key="Local TCP port" value="Локальный TCP-порт" revision="0" />
@@ -121,7 +121,7 @@
   <Message key="Add Server" value="Добавить сервер…" revision="0" />
   <Message key="Remove Server" value="Убрать сервер" revision="0" />
   <Message key="Connect" value="Подключиться" revision="0" />
-  <Message key="Remote Server link" value="Для обеспечения общего доступа к последовательным портам установите [[[h#[Больше информации]#HHD сервер удаленных COM портов]]] на удаленном компьютере." revision="0" />
+  <Message key="Remote Server link" value="Для обеспечения общего доступа к последовательным портам установите [[[h#[Больше информации]#HHD Software Remote Serial Ports Server]]] на удаленном компьютере." revision="0" />
   <Message key="Select remote port to connect to" value="Выберите удаленный порт для подключения" revision="0" />
   <Message key="Domain or server" value="Домен или сервер" revision="0" />
   <Message key="Remote cred info" value="Введите свои учетные данные ниже. Они будут использоваться каждый раз при открытии локального последовательного порта." revision="0" />
@@ -186,7 +186,7 @@
   <Message key="days-left" value="У вас осталось &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; дней, чтобы протестировать расширенные возможности продукта." revision="0" />
   <Message key="14days" value="Вы можете либо продолжить использовать ограниченную версию, либо попробовать расширенные функции &lt;span style=&quot;white-space:nowrap&quot;&gt; в течение 14 дней&lt;/span&gt;, а затем снова перейти на бесплатную." revision="0" />
   <Message key="Evaluation mode timer" value="Таймер пробного режима" revision="0" />
-  <Message key="Virtual Serial Port Tools is currently in evaluation mode." value="Инструменты виртуальных COM портов находятся в пробном режиме." revision="0" />
+  <Message key="Virtual Serial Port Tools is currently in evaluation mode." value="Virtual Serial Port Tools находится в пробном режиме." revision="0" />
   <Message key="Continue evaluation" value="Продолжить пробу" revision="0" />
   <Message key="Get extended functionality" value="Получить расширенные функции " revision="0" />
   <Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" value="В данный момент вы используете ограниченную по возможностям БЕСПЛАТНУЮ ВЕРСИЮ продукта. Полная версия дополнительно поддерживает:" revision="0" />
@@ -207,7 +207,7 @@
   <Message key="Access to discount programs." value="Доступ к программам скидок." revision="0" />
   <Message key="If you continue using this product version, only features of a Free Edition will be available for you." value="Если вы продолжите использовать эту версию продукта, вам будут доступны только функции бесплатной версии." revision="0" />
   <Message key="Extend your upgrade plan" value="Продлить план обновлений" revision="0" />
-  <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Некоторые расширенные возможности инструментов виртуальных COM портов являются пробными и скоро закончатся." revision="0" />
+  <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Некоторые расширенные возможности Virtual Serial Port Tools являются пробными и скоро закончатся." revision="0" />
   <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="Вы можете продолжить работу с ограниченной функциональностью или перейти на расширенную версию. Приобретение расширенной функциональности уберет это окно." revision="0" />
   <Enumeration key="FileExit">
     <Item value="Вы&amp;ход" revision="0" />

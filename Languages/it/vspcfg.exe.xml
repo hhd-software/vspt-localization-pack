@@ -6,7 +6,7 @@
   <Message key="ErrorConnectingServer" value="Errore {code} nella connessione al server {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Errore nella creazione del dispositivo: {message} ({code})" revision="0" />
   <Message key="About title" value="Informazioni su {product}" revision="0" />
-  <Message key="Title" value="Strumenti per Porte Seriali Virtuali di HHD Software" revision="0" />
+  <Message key="Title" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="SharedPortDescription" value="La nuova porta [[[bCOM{local port}]]] si comporterà come il [[[b{source device}]]] esistente, ma potrà essere aperta più volte." revision="0" />
   <Message key="AliasPortDescription" value="Il nuovo [[[bCOM{local port}]]] creato fungerà da alias per [[[b{source device}]]]." revision="0" />
   <Message key="CannotSharePortDescription" value="Il dispositivo selezionato è già condiviso come [[[bCOM{port}]]]." revision="0" />
@@ -32,7 +32,7 @@
   <Message key="PurchasedVersionNagText" value="La funzione {feature} non è inclusa nell'edizione corrente.\n\nÈ possibile continuare a utilizzare le funzioni dell'edizione corrente o passare alla versione estesa." revision="0" />
   <Message key="UpgradePlanExpiredNagText" value="Il piano di aggiornamento è scaduto. Se continuate a usare la versione attuale, saranno disponibili solo le funzioni dell'edizione gratuita. La funzione {feature} non è inclusa nell'edizione gratuita.\n\nÈ possibile continuare a utilizzare le funzioni dell'edizione gratuita o estendere il piano di aggiornamento." revision="0" />
   <Message key="Trial text: free" value="Alcune funzioni estese delle Porte Seriali Virtuali sono in Prova o Scadute.\n\nÈ possibile continuare con le funzionalità limitate della versione gratuita o passare alla versione estesa.\nL'acquisto di funzionalità estese eliminerà questa schermata." revision="0" />
-  <Message key="Trial text: trial" value="Alcune funzioni estese delle Porte Seriali Virtuali sono in prova e scadranno presto.\n\nÈ possibile continuare con le funzionalità limitate o passare alla versione estesa.\nL'acquisto di funzionalità estese eliminerà questa schermata." revision="0" />
+  <Message key="Trial text: trial" value="Alcune funzioni estese delle Virtual Serial Ports sono in prova e scadranno presto.\n\nÈ possibile continuare con le funzionalità limitate o passare alla versione estesa.\nL'acquisto di funzionalità estese eliminerà questa schermata." revision="0" />
   <Message key="Trial text: trialnotstarted" value="La versione gratuita del prodotto ha un set limitato di funzioni.\n\nPotete continuare con le funzioni limitate o provare le funzionalità estese GRATUITAMENTE per 14 giorni." revision="0" />
   <Message key="Trial dialog title: free" value="Ottenere funzionalità estese" revision="0" />
   <Message key="Try extended version" value="Prova la versione estesa" revision="0" />
@@ -75,14 +75,14 @@
   <Message key="error title" value="Operazione fallita" revision="0" />
   <Message key="Custom" value="Personalizzato" revision="0" />
   <Message key="Device creation aborted" value="\n\nLa creazione del dispositivo è stata interrotta. Questa operazione potrebbe aver lasciato dispositivi semi-creati non funzionanti che possono essere eliminati manualmente utilizzando Gestione periferiche di Windows." revision="0" />
-  <Message key="AppTitle" value="Strumenti della Porta Seriale Virtuale HHD{is free?} (Versione gratuita, uso non commerciale){?is free}{is trial?} (Versione di prova){?is trial}{is reg noncom?} (Non commerciale){?is reg noncom}" revision="0" />
+  <Message key="AppTitle" value="HHD Virtual Serial Port Tools{is free?} (Versione gratuita, uso non commerciale){?is free}{is trial?} (Versione di prova){?is trial}{is reg noncom?} (Non commerciale){?is reg noncom}" revision="0" />
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
   <Message key="LicenseFileFilter" value="File di licenza (*.vsptlic)|*.vsptlic|Tutti i file|*||" revision="0" />
   <Message key="License has been successfully installed." value="La licenza è stata installata con successo." revision="0" />
   <Message key="NewAliasPortTitle" value="Crea alias di porta" revision="0" />
-  <Message key="UpgradePrompt" value="È disponibile la versione di Strumenti per Porte Seriali Virtuali {major}.{minor}.{revision}.{build}. Volete fare l'upgrade adesso?" revision="0" />
+  <Message key="UpgradePrompt" value="È disponibile la versione di Virtual Serial Port Tools {major}.{minor}.{revision}.{build}. Volete fare l'upgrade adesso?" revision="0" />
   <Message key="DownloadError" value="Si è verificato il seguente errore durante il download dell'aggiornamento: {error} ({code}). Riprovare più tardi o visitare il nostro sito Web per scaricare la versione più recente." revision="0" />
-  <Message key="Library creation failed" value="Errore di connessione al componente COM degli Strumenti Porta Seriale Virtuale: {message} ({code}).\r\n\nProvare a reinstallare l'applicazione." revision="0" />
+  <Message key="Library creation failed" value="Errore di connessione al componente COM degli Virtual Serial Port Tools: {message} ({code}).\r\n\nProvare a reinstallare l'applicazione." revision="0" />
   <Message key="Port not selected" value="È necessario selezionare una porta esistente che si desidera dividere." revision="0" />
   <Message key="Too few aliases" value="È necessario aggiungere almeno due alias per la porta." revision="0" />
   <Message key="Export successful" value="La configurazione selezionata è stata inserita con successo negli Appunti." revision="0" />
@@ -90,9 +90,9 @@
   <Message key="IgnoreInvalidSpecialChars" value="I dispositivi della porta seriale virtuale ignorano le richieste non valide che specificano gli stessi caratteri XON e XOFF.\n\nPer impostazione predefinita, il tentativo di impostare XON = XOFF dà luogo a un errore (secondo le specifiche) e ciò può impedire alle applicazioni legacy di aprire correttamente le porte virtuali." revision="0" />
   <Message key="IgnoreTxClear" value="I dispositivi seriali virtuali ignorano le richieste di spurgo seriale con il flag TXCLEAR. Ciò impedisce un comportamento indesiderato se la richiesta viene erroneamente inviata dall'applicazione mentre ci sono ancora dati nella coda di trasmissione." revision="0" />
   <Message key="All" value="Tutti" revision="0" />
-  <Message key="Firewall rule" value="HHD Software Porta Seriale Virtuale TCP {address}:{port}" revision="0" />
-  <Message key="Firewall rule description" value="HHD Software Porta Seriale Virtuale in ascolto su TCP {address}:{port}" revision="0" />
-  <Message key="Firewall group" value="HHD Software Strumenti per Porte Seriali Virtuali" revision="0" />
+  <Message key="Firewall rule" value="HHD Software Virtual Serial Port TCP {address}:{port}" revision="0" />
+  <Message key="Firewall rule description" value="HHD Software Virtual Serial Port in ascolto su TCP {address}:{port}" revision="0" />
+  <Message key="Firewall group" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="Create Local Bridge" value="Creare un ponte locale" revision="0" />
   <Message key="First port name" value="Nome della prima porta" revision="0" />
   <Message key="Second port name" value="Nome della seconda porta" revision="0" />
@@ -108,7 +108,7 @@
   <Message key="Connect to remote endpoint" value="Connettersi all'endpoint remoto" revision="0" />
   <Message key="Listen for incoming connections" value="Ascoltare le connessioni in arrivo" revision="0" />
   <Message key="Add Firewall exception" value="Aggiungere l'eccezione del firewall" revision="0" />
-  <Message key="TCP Server link" value="Scaricate e installate &lt;a&gt;HHD Software Server Porte Seriali TCP/IP&lt;/a&gt; sul computer remoto.\nInoltre, è supportato qualsiasi server TCP/IP conforme a RFC2217. È anche possibile collegarsi alla porta seriale virtuale in modalità di ascolto TCP/IP." revision="0" />
+  <Message key="TCP Server link" value="Scaricate e installate &lt;a&gt;HHD Software TCP/IP Serial Ports Server&lt;/a&gt; sul computer remoto.\nInoltre, è supportato qualsiasi server TCP/IP conforme a RFC2217. È anche possibile collegarsi alla porta seriale virtuale in modalità di ascolto TCP/IP." revision="0" />
   <Message key="Create local virtual port" value="Creare una porta virtuale locale" revision="0" />
   <Message key="Listen on local address" value="Ascoltare l'indirizzo locale" revision="0" />
   <Message key="Local TCP port" value="Porta TCP locale" revision="0" />
@@ -121,7 +121,7 @@
   <Message key="Add Server" value="Aggiungi server…" revision="0" />
   <Message key="Remove Server" value="Rimuovere il server" revision="0" />
   <Message key="Connect" value="Connetti" revision="0" />
-  <Message key="Remote Server link" value="Per condividere le porte seriali, installare [[[h#[Get more information]#HHD Software Server di Porte Seriali Remote]]] su un computer remoto." revision="0" />
+  <Message key="Remote Server link" value="Per condividere le porte seriali, installare [[[h#[Get more information]#HHD Software Remote Serial Ports Server]]] su un computer remoto." revision="0" />
   <Message key="Select remote port to connect to" value="Selezionare la porta remota a cui connettersi" revision="0" />
   <Message key="Domain or server" value="Dominio o server" revision="0" />
   <Message key="Remote cred info" value="Inserire le proprie credenziali utente qui sotto. Verranno utilizzate ogni volta che si apre una porta seriale locale." revision="0" />
@@ -186,7 +186,7 @@
   <Message key="days-left" value="Avete ancora &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; giorni per testare le funzionalità estese del prodotto." revision="0" />
   <Message key="14days" value="È possibile continuare a utilizzare la versione limitata o provare prima le funzionalità estese &lt;span style=&quot;white-space:nowrap&quot;&gt;per 14 giorni&lt;/span&gt;, quindi tornare alla versione gratuita." revision="0" />
   <Message key="Evaluation mode timer" value="Timer della modalità di valutazione" revision="0" />
-  <Message key="Virtual Serial Port Tools is currently in evaluation mode." value="Gli Strumenti di Porta Seriale Virtuale sono attualmente in modalità di valutazione." revision="0" />
+  <Message key="Virtual Serial Port Tools is currently in evaluation mode." value="Virtual Serial Port Tools sono attualmente in modalità di valutazione." revision="0" />
   <Message key="Continue evaluation" value="Continuare la valutazione" revision="0" />
   <Message key="Get extended functionality" value="Ottenere funzionalità estese" revision="0" />
   <Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" value="Al momento si sta utilizzando la VERSIONE GRATUITA del prodotto con funzionalità limitate. La versione completa supporta inoltre:" revision="0" />
@@ -207,7 +207,7 @@
   <Message key="Access to discount programs." value="Accesso a programmi di sconto." revision="0" />
   <Message key="If you continue using this product version, only features of a Free Edition will be available for you." value="Se si continua a utilizzare questa versione del prodotto, saranno disponibili solo le funzioni della Edizione Gratuita." revision="0" />
   <Message key="Extend your upgrade plan" value="Estendere il piano di aggiornamento" revision="0" />
-  <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Alcune funzioni estese di Strumenti per Porte Seriali Virtuali sono in prova e scadranno presto." revision="0" />
+  <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Alcune funzioni estese di Virtual Serial Port Tools sono in prova e scadranno presto." revision="0" />
   <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="È possibile continuare con le funzionalità limitate o passare alla versione estesa. L'acquisto della funzionalità estesa eliminerà questa schermata." revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Uscire" revision="0" />

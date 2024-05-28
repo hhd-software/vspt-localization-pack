@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Invalid TCP port specified." value="Указан недопустимый TCP-порт." revision="0" />
-  <Message key="UpgradeNotification" value="Доступен сервер последовательных портов TCP/IP версии {major}.{minor}.{revision}.{build}. Обновить прямо сейчас?" revision="0" />
+  <Message key="UpgradeNotification" value="Доступен TCP/IP Serial Ports Server версии {major}.{minor}.{revision}.{build}. Обновить прямо сейчас?" revision="0" />
   <Message key="License installation was successful." value="Установка лицензии прошла успешно." revision="0" />
   <Message key="License Installation" value="Установка лицензий" revision="0" />
   <Message key="License files|*.vsptlic|" value="Файлы лицензий|*.vsptlic|" revision="0" />
