@@ -166,6 +166,7 @@
   <Message key="Read total constant" value="Constante de lectura total" revision="0" />
   <Message key="Write total multiplier" value="Multiplicador de registro total" revision="0" />
   <Message key="Write total constant" value="Constante de registro total" revision="0" />
+  <Message key="Invalid argument" value="Número no válido o inexistente." revision="0" />
   <Message key="Please Wait" value="Espere, por favor" revision="0" />
   <Message key="Please wait while the background operation is being processed" value="Por favor, espere mientras se procesa la operación en segundo plano…" revision="0" />
   <Message key="Device Creation Warning" value="Aviso de creación de dispositivo" revision="0" />
@@ -209,6 +210,9 @@
   <Message key="Extend your upgrade plan" value="Amplíe su plan de actualización" revision="0" />
   <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Algunas funciones extendidas de Virtual Serial Port Tools son de prueba y expirarán pronto." revision="0" />
   <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="Puede continuar con la funcionalidad limitada o actualizar a la versión extendida. La compra de la funcionalidad ampliada eliminará esta pantalla." revision="0" />
+  <Message key="Compatibility Options" value="Opciones de compatibilidad" revision="0" />
+  <Message key="Ignore invalid special characters" value="Ignorar caracteres especiales no válidos" revision="0" />
+  <Message key="Ignore transmit queue clear purge requests" value="Ignorar las solicitudes de limpieza y purga de la cola de transmisión" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Salir" revision="0" />
     <Item value="Salir de la aplicación" revision="0" />
