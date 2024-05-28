@@ -9,4 +9,5 @@
   <Message key="Share the following ports:" value="Teilen Sie die folgenden Ports:" revision="0" />
   <Message key="Enable auto-discovery" value="Automatische Erkennung einschalten" revision="0" />
   <Message key="Security..." value="Sicherheit…" revision="0" />
+  <Message key="About Remote Serial Ports Server" value="Info über Remote Serial Ports Server" revision="0" />
 </Language>

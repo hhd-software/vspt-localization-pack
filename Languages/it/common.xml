@@ -32,6 +32,9 @@
   <Message key="Free license" value="Licenza gratuita" revision="0" />
   <Message key="Trial License" value="Licenza di prova. {days} giorni rimanenti." revision="0" />
   <Message key="There was an error installing a license file." value="Si è verificato un errore nell'installazione di un file di licenza. Il file potrebbe essere danneggiato o scaduto. Controllare la licenza del prodotto e il piano di aggiornamento, accedere al proprio account e scaricare un nuovo file di licenza." revision="0" />
+  <Message key="Invalid buffer size specified" value="Dimensione del buffer specificata non valida. Dimensioni del buffer supportate: 4KB .. 10MB." revision="0" />
+  <Message key="Buffer size hint" value="Dimensione opzionale del buffer TCP, in byte" revision="0" />
+  <Message key="TCP buffer size" value="Dimensione del buffer TCP" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Esecuzione come standalone" revision="0" />
     <Item value="Non installato" revision="0" />

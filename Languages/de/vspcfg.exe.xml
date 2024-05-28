@@ -5,7 +5,7 @@
   <Message key="CredentialsInvalid" value="Die angegebenen Anmeldeinformationen sind ungültig: {message} ({code})\n\nMöchten Sie sie trotzdem verwenden?" revision="0" />
   <Message key="ErrorConnectingServer" value="Fehler {code} beim Verbinden mit Server {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Fehler beim Erstellen des Geräts: {message} ({code})" revision="0" />
-  <Message key="About title" value="Info {product}" revision="0" />
+  <Message key="About title" value="Info über {product}" revision="0" />
   <Message key="Title" value="Virtual Serial Port Tools von HHD Software" revision="0" />
   <Message key="SharedPortDescription" value="Die neu erstellte [[[bCOM{local port}]]] verhält sich wie die bestehende [[[b{source device}]]], kann aber mehrfach geöffnet werden." revision="0" />
   <Message key="AliasPortDescription" value="Der neu erstellte [[[bCOM{local port}]]] wird als Alias für [[[b{source device}]]] fungieren." revision="0" />
@@ -271,7 +271,7 @@
     <Item value="Dokumentation anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="HelpAbout">
-    <Item value="&amp;Info…" revision="0" />
+    <Item value="&amp;Info über…" revision="0" />
     <Item value="Produktinformation anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="HelpLicenseManagement">

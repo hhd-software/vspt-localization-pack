@@ -23,6 +23,8 @@
   <Message key="About" value="&amp;О программе" revision="0" />
   <Message key="Shared serial ports" value="Расшаренные порты" revision="0" />
   <Message key="Install License..." value="Установить лицензию…" revision="0" />
+  <Message key="Specify default port parameters" value="Задайте параметры порта по умолчанию" revision="0" />
+  <Message key="About TCP/IP Serial Ports Server" value="О программе TCP/IP Serial Ports Server" revision="0" />
   <Enumeration key="FlowControl">
     <Item value="Отсутствует" revision="0" />
     <Item value="Программный" revision="0" />

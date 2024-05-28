@@ -23,6 +23,8 @@
   <Message key="About" value="&amp;Acerca de" revision="0" />
   <Message key="Shared serial ports" value="Portas de série partilhadas" revision="0" />
   <Message key="Install License..." value="Instalar a licença…" revision="0" />
+  <Message key="Specify default port parameters" value="Especificar parâmetros de porta predefinidos" revision="0" />
+  <Message key="About TCP/IP Serial Ports Server" value="Acerca de TCP/IP Serial Ports Server" revision="0" />
   <Enumeration key="FlowControl">
     <Item value="Nenhuma" revision="0" />
     <Item value="Software" revision="0" />

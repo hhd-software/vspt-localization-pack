@@ -9,4 +9,5 @@
   <Message key="Share the following ports:" value="Расшарить только эти порты:" revision="0" />
   <Message key="Enable auto-discovery" value="Включить автообнаружение" revision="0" />
   <Message key="Security..." value="Безопасность…" revision="0" />
+  <Message key="About Remote Serial Ports Server" value="О программе Remote Serial Ports Server" revision="0" />
 </Language>

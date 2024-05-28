@@ -32,6 +32,9 @@
   <Message key="Free license" value="Бесплатная лицензия" revision="0" />
   <Message key="Trial License" value="Пробная лицензия. Осталось {days} дней." revision="0" />
   <Message key="There was an error installing a license file." value="Ошибка при установке файла лицензии. Возможно, файл поврежден или срок его действия истек. Пожалуйста, проверьте лицензию на продукт и Ваш план обновлений, войдите в свою учетную запись и скачайте новый файл лицензии." revision="0" />
+  <Message key="Invalid buffer size specified" value="Указан неверный размер буфера. Поддерживаемые размеры: 4KB .. 10MB." revision="0" />
+  <Message key="Buffer size hint" value="Возможный размер буфера TCP, в байтах" revision="0" />
+  <Message key="TCP buffer size" value="Размер буфера TCP" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Работа в автономном режиме" revision="0" />
     <Item value="Не установлено" revision="0" />

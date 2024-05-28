@@ -32,6 +32,9 @@
   <Message key="Free license" value="Freie Lizenz" revision="0" />
   <Message key="Trial License" value="Probe-Lizenz. {days} tage übrig." revision="0" />
   <Message key="There was an error installing a license file." value="Bei der Installation einer Lizenzdatei ist ein Fehler aufgetreten. Die Datei ist möglicherweise beschädigt oder abgelaufen. Bitte überprüfen Sie Ihre Produktlizenz und Ihren Upgrade-Plan, melden Sie sich bei Ihrem Konto an und laden Sie eine neue Lizenzdatei herunter." revision="0" />
+  <Message key="Invalid buffer size specified" value="Ungültige Puffergröße angegeben. Unterstützte Puffergröße: 4KB .. 10MB." revision="0" />
+  <Message key="Buffer size hint" value="Optionale TCP-Puffergröße, in Bytes" revision="0" />
+  <Message key="TCP buffer size" value="TCP-Puffergröße" revision="0" />
   <Enumeration key="InstallationStatus">
     <Item value="Autonome Funktionsweise" revision="0" />
     <Item value="Nicht installiert" revision="0" />
