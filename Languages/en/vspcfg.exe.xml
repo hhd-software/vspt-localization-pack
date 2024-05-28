@@ -584,6 +584,7 @@
 	<Message key="Save Scheme" description="Window title: Save Scheme" />
 	<Message key="Name" description="Field: Name" />
 
+	<!-- Shared options dialog -->
 	<Message key="Shared Port Options" description="Window title: Shared Port Options" />
 	<Message key="Override baud rate" description="Checkbox: Override baud rate" />
 	<Message key="Override line parameters" description="Checkbox: Override line parameters" />
@@ -595,7 +596,8 @@
 	<Message key="Read total constant" description="Field: Read total constant" />
 	<Message key="Write total multiplier" description="Field: Write total multiplier" />
 	<Message key="Write total constant" description="Field: Write total constant" />
-
+	<Message key="Invalid argument" description="Error message: Invalid argument" value="Invalid or missing number."/>
+	
 	<!-- Wait Dialog -->
 	<Message key="Please Wait" description="Window title: Please Wait"/>
 	<Message key="Please wait while the background operation is being processed" description="Message: Please wait while the background operation is being processed…" value="Please wait while the background operation is being processed…"/>
