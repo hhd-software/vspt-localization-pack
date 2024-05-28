@@ -14,6 +14,12 @@
 	<Message key="Add" description="Button: Add" />
 	<Message key="Close" description="Button: Close"/>
 
+	<Message key="Baud rate" description="Field: Baud rate" />
+	<Message key="Data bits" description="Field: Data bits" />
+	<Message key="Stop bits" description="Field: Stop bits" />
+	<Message key="Flow control" description="Field: Flow control" />
+	<Message key="PParity" description="Field: Parity" value="Parity" />
+
 	<Enumeration key="InstallationStatus" description="Service installation status">
 		<Item text="Running as standalone"/>
 		<Item text="Not installed"/>
@@ -67,4 +73,7 @@
 
 	<Message key="There was an error installing a license file." description="There was an error installing a license file." value="There was an error installing a license file. The file might be corrupted or expired. Please check your product license and upgrade plan, log into your account and download new license file."/>
 
+	<Message key="Invalid buffer size specified" description="Error message: Invalid buffer size specified" value="Invalid buffer size specified. Supported buffer size: 4KB .. 10MB." />
+	<Message key="Buffer size hint" description="Buffer size hint message" value="Optional TCP buffer size, in bytes"/>
+	<Message key="TCP buffer size" description="Field: TCP buffer size"/>
 </Definition>

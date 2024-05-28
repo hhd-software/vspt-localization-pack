@@ -184,7 +184,7 @@
 	</Enumeration>
 
 	<Enumeration key="TcpPortServerModule" description="Module description: TCP server advertisement">
-		<Item text="TCP/IP Serial Ports Server"/>
+		<Item text="RFC2217 TCP/IP Serial Ports Server"/>
 		<Item text="Share local COM ports over TCP/IP"/>
 		<Item optional="true" text="infographics/tcp-port-server.svg"/>
 		<Item text="Configure HHD Software TCP/IP Serial Ports Server, an application that exposes local serial ports as TCP/IP endpoints to be used over a network."/>
@@ -590,11 +590,6 @@
 	<Message key="Override flow control" description="Checkbox: Override flow control" />
 	<Message key="Override port timeouts" description="Checkbox: Override port timeouts" />
 	<Message key="Override port parameters" description="Checkbox: Override port parameters" />
-	<Message key="Baud rate" description="Field: Baud rate" />
-	<Message key="Data bits" description="Field: Data bits" />
-	<Message key="PParity" description="Field: Parity" value="Parity" />
-	<Message key="Stop bits" description="Field: Stop bits" />
-	<Message key="Flow control" description="Field: Flow control" />
 	<Message key="Read interval timeout" description="Field: Read interval timeout" />
 	<Message key="Read total multiplier" description="Field: Read total multiplier" />
 	<Message key="Read total constant" description="Field: Read total constant" />
@@ -655,7 +650,7 @@
 	<Message key="Access to discount programs." description="Access to discount programs." />
 	<Message key="If you continue using this product version, only features of a Free Edition will be available for you." description="If you continue using this product version…" />
 	<Message key="Extend your upgrade plan" description="Extend your upgrade plan" />
-	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Some extended features of Virtual Serial Port Tools are trial and will expire soon." description="Some extended features of Virtual Serial Port Tools are trial and will expire soon." />
+	<Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." description="Some extended features or Virtual Serial Port Tools are trial and will expire soon." />
 	<Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." description="You may continue with limited functionality or upgrade…" />
 
 </Definition>

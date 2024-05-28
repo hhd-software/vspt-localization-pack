@@ -18,5 +18,5 @@
 	<Message key="Share the following ports:" description="Option: Share the following ports:" />
 	<Message key="Enable auto-discovery" description="Checkbox: Enable auto-discovery" />
 	<Message key="Security..." description="Button: Security..." value="Security…"/>
-
+	<Message key="About Remote Serial Ports Server" description="Window title: About Remote Serial Ports Server"/>
 </Definition>

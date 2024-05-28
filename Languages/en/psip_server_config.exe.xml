@@ -68,4 +68,6 @@
 	<Item text="Space"/>
 </Enumeration>
 
+	<Message key="Specify default port parameters" description="Checkbox: Specify default port parameters"/>
+	<Message key="About TCP/IP Serial Ports Server" description="Window title: About TCP/IP Serial Ports Server"/>
 </Definition>
