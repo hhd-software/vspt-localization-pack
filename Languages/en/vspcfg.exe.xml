@@ -421,7 +421,7 @@
 			<Param name="days"/>
 		</Item>
 		<Item text="Free, trial period is over." />
-		<Item text="{edition}\r\nRegistered to {user}.{non-lu?}\nUpgrade plan {future?}expires{|future}expired{?future} on {up expiration}.{?non-lu}">
+		<Item text="{edition}\r\nRegistered to {user}.{non-lu?}\r\nUpgrade plan {future?}expires{|future}expired{?future} on {up expiration}.{?non-lu}">
 			<Param name="edition"/>
 			<Param name="user"/>
 			<Param name="non-lu" format="?"/>

@@ -436,7 +436,7 @@
     <Item value="Il periodo di prova non è ancora iniziato." revision="1" />
     <Item value="Gratuito, il periodo di prova termina tra {days} giorni." revision="1" />
     <Item value="Gratuito, il periodo di prova è terminato." revision="1" />
-    <Item value="{edition}\r\nRegistrato a {user}.{non-lu?}\nPiano di aggiornamento {future?}scade{|future}scaduto{?future} su {up expiration}.{?non-lu}" revision="1" />
+    <Item value="{edition}\r\nRegistrato a {user}.{non-lu?}\r\nPiano di aggiornamento {future?}scade{|future}scaduto{?future} su {up expiration}.{?non-lu}" revision="1" />
     <Item value="Piano di aggiornamento scaduto" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">

@@ -436,7 +436,7 @@
     <Item value="Gratuito, o período de avaliação ainda não foi iniciado." revision="1" />
     <Item value="Gratuito, o período de avaliação termina em {days} dias." revision="1" />
     <Item value="Gratuito, o período de avaliação terminou." revision="1" />
-    <Item value="{edition}\r\nRegistado em {user}.{non-lu?}\nPlano de atualização {future?}expira{|future}expirado{?future} em {up expiration}.{?non-lu}" revision="1" />
+    <Item value="{edition}\r\nRegistado em {user}.{non-lu?}\r\nPlano de atualização {future?}expira{|future}expirado{?future} em {up expiration}.{?non-lu}" revision="1" />
     <Item value="Plano de atualização expirou" revision="1" />
   </Enumeration>
   <Enumeration key="ComNonCom">
