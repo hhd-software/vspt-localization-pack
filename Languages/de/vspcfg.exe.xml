@@ -35,8 +35,8 @@
   <Message key="Trial text: trial" value="Einige erweiterte Features von Virtual Serial Ports sind in der Testphase und werden bald abgelaufen.\n\nSie können mit der eingeschränkten Funktionalität fortfahren oder auf die erweiterte Version upgraden.\nMit dem Erwerb der erweiterten Funktionalität wird dieser Bildschirm entfernt." revision="0" />
   <Message key="Trial text: trialnotstarted" value="Die kostenlose Version des Produkts hat einen begrenzten Funktionsumfang.\n\nSie können mit eingeschränkten Funktionen fortfahren oder die erweiterten Funktionen 14 Tage lang KOSTENLOS testen." revision="0" />
   <Message key="Trial dialog title: free" value="Erweiterte Funktionen erhalten" revision="0" />
-  <Message key="Try extended version" value="Erweiterte Version ausprobieren" revision="0" />
-  <Message key="Try extended functionality" value="Erweiterte Funktionen ausprobieren" revision="0" />
+  <Message key="Try extended version" value="Erweiterte Version testen" revision="0" />
+  <Message key="Try extended functionality" value="Erweiterte Funktionen testen" revision="0" />
   <Message key="Purchase extended functionality" value="Erweiterte Funktionen erhalten" revision="0" />
   <Message key="Close this notification" value="Diese Meldung schließen" revision="0" />
   <Message key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Lokale-Brücken erstellen" revision="0" />
@@ -198,7 +198,7 @@
   <Message key="Advanced device configuration." value="Erweiterte Gerätekonfiguration." revision="0" />
   <Message key="Use for commercial, government or military purposes." value="Kommerzielle, staatliche oder militärische Nutzung." revision="0" />
   <Message key="And much more" value="Und vieles mehr" revision="0" />
-  <Message key="Continue with limited features" value="Weiter mit eingeschränkten Funktionen" revision="0" />
+  <Message key="Continue with limited features" value="Weiter mit begrenzten Funktionen" revision="0" />
   <Message key="Get extended version" value="Erweiterte Version erhalten" revision="0" />
   <Message key="Your upgrade plan expired!" value="Ihr Upgrade-Plan ist abgelaufen!" revision="0" />
   <Message key="Your upgrade plan has expired. Your license does not support the product version you currently have installed. You can either revert to the previous build or extend your upgrade plan. Extending, you will get:" value="Ihr Upgrade-Plan ist abgelaufen. Ihre Lizenz unterstützt nicht die Produktversion, die Sie derzeit installiert haben. Sie können entweder zum vorherigen Build zurückkehren oder Ihren Upgrade-Plan verlängern. Wenn Sie verlängern, erhalten Sie:" revision="0" />

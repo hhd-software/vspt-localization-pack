@@ -36,7 +36,7 @@
   <Message key="Trial text: trialnotstarted" value="La version gratuite du produit présente un ensemble limité de fonctionnalités.\n\nVous pouvez continuer à utiliser les fonctionnalités limitées ou essayer les fonctionnalités étendues GRATUITEMENT pendant 14 jours." revision="0" />
   <Message key="Trial dialog title: free" value="Obtenir fonctionnalités étendues" revision="0" />
   <Message key="Try extended version" value="Essayer la version étendue" revision="0" />
-  <Message key="Try extended functionality" value="Essayer les fonctionnalités étendues" revision="0" />
+  <Message key="Try extended functionality" value="Essayer toutes les fonctions" revision="0" />
   <Message key="Purchase extended functionality" value="Obtenir fonctionnalités étendues" revision="0" />
   <Message key="Close this notification" value="Fermer cette notification" revision="0" />
   <Message key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Création de ponts locaux" revision="0" />
@@ -198,7 +198,7 @@
   <Message key="Advanced device configuration." value="Configuration avancée des dispositifs." revision="0" />
   <Message key="Use for commercial, government or military purposes." value="Utilisation à des fins commerciales, gouvernementales ou militaires." revision="0" />
   <Message key="And much more" value="Et bien plus encore" revision="0" />
-  <Message key="Continue with limited features" value="Continuer avec des fonctionnalités limitées" revision="0" />
+  <Message key="Continue with limited features" value="Continuer avec des fonctions limitées" revision="0" />
   <Message key="Get extended version" value="Obtenir la version étendue" revision="0" />
   <Message key="Your upgrade plan expired!" value="Votre plan de mise à niveau a expiré !" revision="0" />
   <Message key="Your upgrade plan has expired. Your license does not support the product version you currently have installed. You can either revert to the previous build or extend your upgrade plan. Extending, you will get:" value="Votre plan de mise à niveau a expiré. Votre licence ne prend pas en charge la version du produit que vous avez actuellement installée. Vous pouvez soit revenir à la version précédente, soit prolonger votre plan de mise à niveau. En prolongeant votre plan, vous obtiendrez :" revision="0" />
