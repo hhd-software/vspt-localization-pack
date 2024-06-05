@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="error_title" value="Ошибка" revision="0" />
   <Message key="Remote port is already connected." value="Удалённый порт уже подключен." revision="0" />
-  <Message key="CredentialsInvalid" value="Предоставленные учетные данные недействительны: {message} ({code})\n\nХотите продолжить их использовать?" revision="0" />
+  <Message key="CredentialsInvalid" value="Предоставленные учётные данные недействительны: {message} ({code})\n\nХотите продолжить их использовать?" revision="0" />
   <Message key="ErrorConnectingServer" value="Ошибка {code} подсоединения к серверу {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Ошибка при создании устройства: {message} ({code})" revision="0" />
   <Message key="About title" value="О программе {product}" revision="0" />
