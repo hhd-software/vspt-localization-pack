@@ -96,7 +96,7 @@
   <Message key="Create Local Bridge" value="Создание локального моста" revision="0" />
   <Message key="First port name" value="Имя первого порта" revision="0" />
   <Message key="Second port name" value="Имя второго порта" revision="0" />
-  <Message key="Create Remote Bridge" value="Создание удаленного моста" revision="0" />
+  <Message key="Create Remote Bridge" value="Создание удалённого моста" revision="0" />
   <Message key="Local port name" value="Имя локального порта" revision="0" />
   <Message key="Remote computer" value="Удалённый компьютер" revision="0" />
   <Message key="Remote port name" value="Имя удалённого порта" revision="0" />
@@ -136,7 +136,7 @@
   <Message key="Create Listening Port" value="Создать слушающий порт" revision="0" />
   <Message key="Permissions" value="Разрешения…" revision="0" />
   <Message key="Port name" value="Имя порта" revision="0" />
-  <Message key="Listening note" value="Слушающий порт позволяет создавать удаленные мосты. Такой порт будет действовать как серверная сторона моста. Создайте удалённый мост с другого компьютера, чтобы подключиться к слушающему порту." revision="0" />
+  <Message key="Listening note" value="Слушающий порт позволяет создавать удалённые мосты. Такой порт будет действовать как серверная сторона моста. Создайте удалённый мост с другого компьютера, чтобы подключиться к слушающему порту." revision="0" />
   <Message key="Create Pipe Port" value="Создание pipe порта" revision="0" />
   <Message key="Create pipe" value="Создать канал named pipe" revision="0" />
   <Message key="Pipe name" value="Имя pipe канала" revision="0" />
@@ -250,7 +250,7 @@
     <Item value="Включить категории виртуальных последовательных портов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowRsp">
-    <Item value="&amp;Удаленные COM порты" revision="0" />
+    <Item value="&amp;Удалённые COM порты" revision="0" />
     <Item value="Включить категории удалённых последовательных портов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowSsp">
@@ -336,10 +336,10 @@
     <Item value="Создайте новый виртуальный последовательный порт, который будет действовать как другой последовательный порт, физически подключённый к другому компьютеру." revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortServerModule">
-    <Item value="Сервер удаленных COM портов" revision="0" />
+    <Item value="Сервер удалённых COM портов" revision="0" />
     <Item value="Расшарить локальные COM порты" revision="0" />
     <Item value="infographics/remote-port-server.svg" revision="0" />
-    <Item value="Настройте HHD сервер удаленных COM портов, приложение для совместного использования локальных последовательных портов по сети." revision="0" />
+    <Item value="Настройте HHD сервер удалённых COM портов, приложение для совместного использования локальных последовательных портов по сети." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortServerModule">
     <Item value="Сервер COM портов TCP/IP" revision="0" />
@@ -378,8 +378,8 @@
     <Item value="Создать пару виртуальных последовательных портов, соединенных между собой виртуальным нуль-модемным кабелем." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteBridgeModule">
-    <Item value="Удаленные мосты" revision="0" />
-    <Item value="Создать удаленный мост" revision="0" />
+    <Item value="Удалённые мосты" revision="0" />
+    <Item value="Создать удалённый мост" revision="0" />
     <Item value="infographics/remote-bridge.svg" revision="0" />
     <Item value="Создать новый виртуальный последовательный порт и подключить его к удалённому слушающему порту. Это создаст удаленный мост - пару виртуальных портов, соединенных виртуальным нуль-модемным кабелем." revision="0" />
   </Enumeration>
