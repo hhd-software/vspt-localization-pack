@@ -2,8 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Remote Serial Ports Server Security" value="Безопасность Remote Serial Ports Server" revision="0" />
   <Message key="Connect to server" value="Подключиться к серверу" revision="0" />
-  <Message key="UpgradeNotice" value="Доступна версия сервера удаленных последовательных портов {major}.{minor}.{revision}.{build}. Обновить прямо сейчас?" revision="0" />
-  <Message key="HHD Software Remote Ports Server Control" value="Управление сервером удаленных портов" revision="0" />
+  <Message key="UpgradeNotice" value="Доступна версия сервера удалённых последовательных портов {major}.{minor}.{revision}.{build}. Обновить прямо сейчас?" revision="0" />
+  <Message key="HHD Software Remote Ports Server Control" value="Управление сервером удалённых портов" revision="0" />
   <Message key="Settings" value="Настройки" revision="0" />
   <Message key="Share all ports" value="Расшарить все порты" revision="0" />
   <Message key="Share the following ports:" value="Расшарить только эти порты:" revision="0" />

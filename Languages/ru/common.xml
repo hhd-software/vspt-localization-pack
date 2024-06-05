@@ -17,7 +17,7 @@
   <Message key="Data bits" value="Биты данных" revision="0" />
   <Message key="Stop bits" value="Стоп-биты" revision="0" />
   <Message key="Flow control" value="Управление потоком" revision="0" />
-  <Message key="PParity" value="Четность" revision="0" />
+  <Message key="PParity" value="Чётность" revision="0" />
   <Message key="Install" value="&amp;Установить" revision="0" />
   <Message key="Start" value="&amp;Пуск" revision="0" />
   <Message key="Error" value="Ошибка работы" revision="0" />
@@ -27,11 +27,11 @@
   <Message key="Status" value="Статус" revision="0" />
   <Message key="Apply" value="Применить" revision="0" />
   <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n\n{license}\n\nКопирайт ©2018 - 2024 HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
-  <Message key="Registered License" value="Зарегистрировано на [[[b{name}]]].{non-lu?}\nСрок действия плана обновлений {future?}истекает [[[b{up expiration}]]]{|future}истек [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
-  <Message key="RegExpired" value="Зарегистрирован, срок действия обновлений истек {up expiration}, действует бесплатная лицензия." revision="0" />
+  <Message key="Registered License" value="Зарегистрировано на [[[b{name}]]].{non-lu?}\nСрок действия плана обновлений {future?}истекает [[[b{up expiration}]]]{|future}истёк [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
+  <Message key="RegExpired" value="Зарегистрирован, срок действия обновлений истёк {up expiration}, действует бесплатная лицензия." revision="0" />
   <Message key="Free license" value="Бесплатная лицензия" revision="0" />
   <Message key="Trial License" value="Пробная лицензия. Осталось {days} дней." revision="0" />
-  <Message key="There was an error installing a license file." value="Ошибка при установке файла лицензии. Возможно, файл поврежден или срок его действия истек. Пожалуйста, проверьте лицензию на продукт и Ваш план обновлений, войдите в свою учетную запись и скачайте новый файл лицензии." revision="0" />
+  <Message key="There was an error installing a license file." value="Ошибка при установке файла лицензии. Возможно, файл повреждён или срок его действия истёк. Пожалуйста, проверьте лицензию на продукт и Ваш план обновлений, войдите в свою учётную запись и скачайте новый файл лицензии." revision="0" />
   <Message key="Invalid buffer size specified" value="Указан неверный размер буфера. Поддерживаемые размеры: 4KB .. 10MB." revision="0" />
   <Message key="Buffer size hint" value="Возможный размер буфера TCP, в байтах" revision="0" />
   <Message key="TCP buffer size" value="Размер буфера TCP" revision="0" />

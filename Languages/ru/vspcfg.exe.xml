@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="error_title" value="Ошибка" revision="0" />
-  <Message key="Remote port is already connected." value="Удаленный порт уже подключен." revision="0" />
+  <Message key="Remote port is already connected." value="Удалённый порт уже подключен." revision="0" />
   <Message key="CredentialsInvalid" value="Предоставленные учетные данные недействительны: {message} ({code})\n\nХотите продолжить их использовать?" revision="0" />
   <Message key="ErrorConnectingServer" value="Ошибка {code} подсоединения к серверу {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Ошибка при создании устройства: {message} ({code})" revision="0" />
@@ -30,7 +30,7 @@
   <Message key="FreeVersionNagText1" value="Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжить пользоваться ограниченными возможностями бесплатной версии или попробовать расширенную функциональность БЕСПЛАТНО в течение 14 дней." revision="0" />
   <Message key="FreeVersionNagText2" value="Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжать пользоваться ограниченными возможностями бесплатной версии или перейти на расширенную версию." revision="0" />
   <Message key="PurchasedVersionNagText" value="Функция {feature} не включена в текущую версию.\n\nВы можете продолжать пользоваться функциями текущей версии или перейти на расширенную версию." revision="0" />
-  <Message key="UpgradePlanExpiredNagText" value="Срок действия вашего плана обновлений истек. Если вы продолжите использовать текущую версию, вам будут доступны только функции бесплатной версии. Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжить использовать функции бесплатной версии или продлить план обновлений." revision="0" />
+  <Message key="UpgradePlanExpiredNagText" value="Срок действия вашего плана обновлений истёк. Если вы продолжите использовать текущую версию, вам будут доступны только функции бесплатной версии. Функция {feature} не включена в бесплатную версию.\n\nВы можете продолжить использовать функции бесплатной версии или продлить план обновлений." revision="0" />
   <Message key="Trial text: free" value="Некоторые расширенные возможности виртуальных последовательных портов являются пробными или просроченными.\n\nВы можете продолжать пользоваться ограниченной функциональностью бесплатной версии или перейти на расширенную версию.\nПриобретение расширенной функциональности уберёт этот экран." revision="0" />
   <Message key="Trial text: trial" value="Некоторые расширенные возможности Virtual Serial Ports являются пробными и скоро перестанут работать.\n\nВы можете продолжить работу с ограниченной функциональностью или перейти на расширенную версию.\nПриобретение расширенной функциональности уберёт этот экран." revision="0" />
   <Message key="Trial text: trialnotstarted" value="Бесплатная версия продукта имеет ограниченный набор функций.\n\nВы можете продолжать пользоваться ограниченными возможностями или попробовать расширенные функции в течение 14 дней БЕСПЛАТНО." revision="0" />
@@ -41,19 +41,19 @@
   <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
   <Message key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Создание локальных мостов" revision="0" />
   <Message key="{eae873d4-7d48-4b01-a296-7ffa6a677fc8}" value="Создание pipe портов" revision="0" />
-  <Message key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Создание удаленных портов" revision="0" />
+  <Message key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Создание удалённых портов" revision="0" />
   <Message key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Создание расшариваемых портов" revision="0" />
   <Message key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Создание портов-псевдонимов" revision="0" />
-  <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Создание удаленных мостов" revision="0" />
+  <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Создание удалённых мостов" revision="0" />
   <Message key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Создание &quot;слушающих&quot; портов" revision="0" />
   <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Создание файловых портов" revision="0" />
   <Message key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Изменение имен портов" revision="0" />
   <Message key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API" revision="0" />
   <Message key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Создание множества устройств" revision="0" />
-  <Message key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Изменение имен портов" revision="0" />
+  <Message key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Изменение имён портов" revision="0" />
   <Message key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API" revision="0" />
   <Message key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Создание множества устройств" revision="0" />
-  <Message key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Изменение имен портов" revision="0" />
+  <Message key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Изменение имён портов" revision="0" />
   <Message key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API" revision="0" />
   <Message key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Создание множества устройств" revision="0" />
   <Message key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Пользовательская распиновка" revision="0" />
@@ -62,11 +62,11 @@
   <Message key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Переопределять параметры расшаренного порта" revision="0" />
   <Message key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Создание постоянных мостов" revision="0" />
   <Message key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Эмуляция скорости передачи" revision="0" />
-  <Message key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Изменение имен портов" revision="0" />
+  <Message key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Изменение имён портов" revision="0" />
   <Message key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API" revision="0" />
   <Message key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Создание множества устройств" revision="0" />
   <Message key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Переопределять параметры порта-псевдонима" revision="0" />
-  <Message key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Изменение имен портов" revision="0" />
+  <Message key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Изменение имён портов" revision="0" />
   <Message key="{33a0ecd5-0ea7-4b0a-b520-cf84ca81c0e9}" value="API" revision="0" />
   <Message key="{06954e27-3908-4e76-ba45-f9df20b0b689}" value="Создание множества устройств" revision="0" />
   <Message key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Переопределять параметры порта TCP/IP" revision="0" />
@@ -98,33 +98,33 @@
   <Message key="Second port name" value="Имя второго порта" revision="0" />
   <Message key="Create Remote Bridge" value="Создание удаленного моста" revision="0" />
   <Message key="Local port name" value="Имя локального порта" revision="0" />
-  <Message key="Remote computer" value="Удаленный компьютер" revision="0" />
-  <Message key="Remote port name" value="Имя удаленного порта" revision="0" />
+  <Message key="Remote computer" value="Удалённый компьютер" revision="0" />
+  <Message key="Remote port name" value="Имя удалённого порта" revision="0" />
   <Message key="Permanent" value="Постоянный" revision="0" />
   <Message key="Login" value="Логин" revision="0" />
   <Message key="Password" value="Пароль" revision="0" />
   <Message key="Domain" value="Домен" revision="0" />
   <Message key="Create TCP/IP Serial Port" value="Создание TCP/IP COM порта" revision="0" />
-  <Message key="Connect to remote endpoint" value="Подключиться к удаленной конечной точке" revision="0" />
+  <Message key="Connect to remote endpoint" value="Подключиться к удалённой конечной точке" revision="0" />
   <Message key="Listen for incoming connections" value="Слушать входящие соединения" revision="0" />
   <Message key="Add Firewall exception" value="Добавить исключение для брандмауэра" revision="0" />
-  <Message key="TCP Server link" value="Скачайте и установите &lt;a&gt;HHD Software TCP/IP Serial Ports Server&lt;/a&gt; на удаленный компьютер.\nКроме того, поддерживается любой RFC2217-совместимый TCP/IP-сервер. Вы также можете подключиться к виртуальному последовательному порту в режиме прослушивания TCP/IP." revision="0" />
+  <Message key="TCP Server link" value="Скачайте и установите &lt;a&gt;HHD Software TCP/IP Serial Ports Server&lt;/a&gt; на удалённый компьютер.\nКроме того, поддерживается любой RFC2217-совместимый TCP/IP-сервер. Вы также можете подключиться к виртуальному последовательному порту в режиме прослушивания TCP/IP." revision="0" />
   <Message key="Create local virtual port" value="Создать локальный виртуальный порт" revision="0" />
   <Message key="Listen on local address" value="Слушать по локальному адресу" revision="0" />
   <Message key="Local TCP port" value="Локальный TCP-порт" revision="0" />
   <Message key="Protocol" value="Протокол" revision="0" />
-  <Message key="Remote host IP address or name" value="IP-адрес или имя удаленного узла" revision="0" />
-  <Message key="Remote TCP port" value="Удаленный TCP-порт" revision="0" />
+  <Message key="Remote host IP address or name" value="IP-адрес или имя удалённого узла" revision="0" />
+  <Message key="Remote TCP port" value="Удалённый TCP-порт" revision="0" />
   <Message key="Reconnection timeout, seconds" value="Таймаут повторного подключения, секунды" revision="0" />
-  <Message key="Connect Remote Port" value="Подключение удаленного порта" revision="0" />
+  <Message key="Connect Remote Port" value="Подключение удалённого порта" revision="0" />
   <Message key="Discover" value="Обнаружить" revision="0" />
   <Message key="Add Server" value="Добавить сервер…" revision="0" />
   <Message key="Remove Server" value="Убрать сервер" revision="0" />
   <Message key="Connect" value="Подключиться" revision="0" />
-  <Message key="Remote Server link" value="Для обеспечения общего доступа к последовательным портам установите [[[h#[Больше информации]#HHD Software Remote Serial Ports Server]]] на удаленном компьютере." revision="0" />
-  <Message key="Select remote port to connect to" value="Выберите удаленный порт для подключения" revision="0" />
+  <Message key="Remote Server link" value="Для обеспечения общего доступа к последовательным портам установите [[[h#[Больше информации]#HHD Software Remote Serial Ports Server]]] на удалённом компьютере." revision="0" />
+  <Message key="Select remote port to connect to" value="Выберите удалённый порт для подключения" revision="0" />
   <Message key="Domain or server" value="Домен или сервер" revision="0" />
-  <Message key="Remote cred info" value="Введите свои учетные данные ниже. Они будут использоваться каждый раз при открытии локального последовательного порта." revision="0" />
+  <Message key="Remote cred info" value="Введите свои учётные данные ниже. Они будут использоваться каждый раз при открытии локального последовательного порта." revision="0" />
   <Message key="Split Port" value="Разделить порт" revision="0" />
   <Message key="Select existing device" value="Выберите существующее устройство" revision="0" />
   <Message key="Split to (add at least 2 entries)" value="Разделить на (добавить не менее 2ух элементов)" revision="0" />
@@ -136,7 +136,7 @@
   <Message key="Create Listening Port" value="Создать слушающий порт" revision="0" />
   <Message key="Permissions" value="Разрешения…" revision="0" />
   <Message key="Port name" value="Имя порта" revision="0" />
-  <Message key="Listening note" value="Слушающий порт позволяет создавать удаленные мосты. Такой порт будет действовать как серверная сторона моста. Создайте удаленный мост с другого компьютера, чтобы подключиться к слушающему порту." revision="0" />
+  <Message key="Listening note" value="Слушающий порт позволяет создавать удаленные мосты. Такой порт будет действовать как серверная сторона моста. Создайте удалённый мост с другого компьютера, чтобы подключиться к слушающему порту." revision="0" />
   <Message key="Create Pipe Port" value="Создание pipe порта" revision="0" />
   <Message key="Create pipe" value="Создать канал named pipe" revision="0" />
   <Message key="Pipe name" value="Имя pipe канала" revision="0" />
@@ -192,7 +192,7 @@
   <Message key="Get extended functionality" value="Получить расширенные функции " revision="0" />
   <Message key="You are currently using feature-limited FREE VERSION of the product. Full version additionally supports:" value="В данный момент вы используете ограниченную по возможностям БЕСПЛАТНУЮ ВЕРСИЮ продукта. Полная версия дополнительно поддерживает:" revision="0" />
   <Message key="Permanent devices." value="Перманентные устройства." revision="0" />
-  <Message key="Remote bridges." value="Удаленные мосты." revision="0" />
+  <Message key="Remote bridges." value="Удалённые мосты." revision="0" />
   <Message key="Custom device names." value="Пользовательские имена устройств." revision="0" />
   <Message key="Multiple devices of the same type." value="Множественные однотипные устройста." revision="0" />
   <Message key="Advanced device configuration." value="Расширенные настройки устройств." revision="0" />
@@ -209,7 +209,7 @@
   <Message key="If you continue using this product version, only features of a Free Edition will be available for you." value="Если вы продолжите использовать эту версию продукта, вам будут доступны только функции бесплатной версии." revision="0" />
   <Message key="Extend your upgrade plan" value="Продлить план обновлений" revision="0" />
   <Message key="Some extended features or Virtual Serial Port Tools are trial and will expire soon." value="Некоторые расширенные возможности Virtual Serial Port Tools являются пробными и скоро закончатся." revision="0" />
-  <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="Вы можете продолжить работу с ограниченной функциональностью или перейти на расширенную версию. Приобретение расширенной функциональности уберет это окно." revision="0" />
+  <Message key="You may continue with limited functionality or upgrade to the extended version. Purchasing extended functionality will remove this screen." value="Вы можете продолжить работу с ограниченной функциональностью или перейти на расширенную версию. Приобретение расширенной функциональности уберёт это окно." revision="0" />
   <Message key="Compatibility Options" value="Параметры совместимости" revision="0" />
   <Message key="Ignore invalid special characters" value="Игнорировать недопустимые специальные символы" revision="0" />
   <Message key="Ignore transmit queue clear purge requests" value="Игнорирование запросов на очистку выходного буфера" revision="0" />
@@ -251,7 +251,7 @@
   </Enumeration>
   <Enumeration key="ViewShowRsp">
     <Item value="&amp;Удаленные COM порты" revision="0" />
-    <Item value="Включить категории удаленных последовательных портов" revision="0" />
+    <Item value="Включить категории удалённых последовательных портов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewShowSsp">
     <Item value="&amp;Расшариваемые COM порты" revision="0" />
@@ -298,12 +298,12 @@
     <Item value="Создать pipe порт" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateRemoteBridge">
-    <Item value="Создать удаленный мост…" revision="0" />
-    <Item value="Создать удаленный мост" revision="0" />
+    <Item value="Создать удалённый мост…" revision="0" />
+    <Item value="Создать удалённый мост" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateRemotePort">
-    <Item value="Подключить удаленный порт…" revision="0" />
-    <Item value="Подключить удаленный порт" revision="0" />
+    <Item value="Подключить удалённый порт…" revision="0" />
+    <Item value="Подключить удалённый порт" revision="0" />
   </Enumeration>
   <Enumeration key="FileCreateSharedPort">
     <Item value="Создать расшариваемый порт…" revision="0" />
@@ -327,13 +327,13 @@
   </Enumeration>
   <Enumeration key="FileRspServer">
     <Item value="Расшарить локальные COM порты…" revision="0" />
-    <Item value="Запустить утилиту настройки сервера удаленных последовательных портов" revision="0" />
+    <Item value="Запустить утилиту настройки сервера удалённых последовательных портов" revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortModule">
-    <Item value="Удаленные порты" revision="0" />
-    <Item value="Подключить удаленный порт" revision="0" />
+    <Item value="Удалённые порты" revision="0" />
+    <Item value="Подключить удалённый порт" revision="0" />
     <Item value="infographics/remote-port.svg" revision="0" />
-    <Item value="Создайте новый виртуальный последовательный порт, который будет действовать как другой последовательный порт, физически подключенный к другому компьютеру." revision="0" />
+    <Item value="Создайте новый виртуальный последовательный порт, который будет действовать как другой последовательный порт, физически подключённый к другому компьютеру." revision="0" />
   </Enumeration>
   <Enumeration key="RemotePortServerModule">
     <Item value="Сервер удаленных COM портов" revision="0" />
@@ -369,7 +369,7 @@
     <Item value="Порты TCP/IP (RFC2217, Raw)" revision="0" />
     <Item value="Создать COM порт TCP/IP" revision="0" />
     <Item value="infographics/tcp-port.svg" revision="0" />
-    <Item value="Создать новый виртуальный последовательный порт, который будет подключаться к удаленному TCP/IP-серверу по протоколам RFC2217 или Raw." revision="0" />
+    <Item value="Создать новый виртуальный последовательный порт, который будет подключаться к удалённому TCP/IP-серверу по протоколам RFC2217 или Raw." revision="0" />
   </Enumeration>
   <Enumeration key="LocalBridgeModule">
     <Item value="Локальные мосты" revision="0" />
@@ -381,13 +381,13 @@
     <Item value="Удаленные мосты" revision="0" />
     <Item value="Создать удаленный мост" revision="0" />
     <Item value="infographics/remote-bridge.svg" revision="0" />
-    <Item value="Создать новый виртуальный последовательный порт и подключить его к удаленному слушающему порту. Это создаст удаленный мост - пару виртуальных портов, соединенных виртуальным нуль-модемным кабелем." revision="0" />
+    <Item value="Создать новый виртуальный последовательный порт и подключить его к удалённому слушающему порту. Это создаст удаленный мост - пару виртуальных портов, соединенных виртуальным нуль-модемным кабелем." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
     <Item value="Слушающие порты" revision="0" />
     <Item value="Создать слушающий порт" revision="0" />
     <Item value="infographics/listening-port.svg" revision="0" />
-    <Item value="Создать новый виртуальный последовательный порт в режиме прослушивания. Он будет принимать входящие соединения для создания удаленного моста." revision="0" />
+    <Item value="Создать новый виртуальный последовательный порт в режиме прослушивания. Он будет принимать входящие соединения для создания удалённого моста." revision="0" />
   </Enumeration>
   <Enumeration key="PipePortModule">
     <Item value="Порты, связанные с named pipe" revision="0" />
@@ -417,8 +417,8 @@
   </Enumeration>
   <Enumeration key="Parity">
     <Item value="Нет" revision="0" />
-    <Item value="Нечетное" revision="0" />
-    <Item value="Четное" revision="0" />
+    <Item value="Нечётное" revision="0" />
+    <Item value="Чётное" revision="0" />
     <Item value="Метка" revision="0" />
     <Item value="Пробел" revision="0" />
   </Enumeration>
