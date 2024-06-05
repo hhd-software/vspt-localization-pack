@@ -88,7 +88,7 @@
   <Message key="Export successful" value="Выбранная конфигурация была успешно помещена в буфер обмена." revision="0" />
   <Message key="RemoteHostCue" value="192.168.0.1 или example.com" revision="0" />
   <Message key="IgnoreInvalidSpecialChars" value="Устройства виртуального последовательного порта будут игнорировать недействительные запросы, в которых указаны одинаковые символы XON и XOFF.\n\nПо умолчанию попытка установить XON = XOFF приводит к ошибке (согласно спецификации), и это может помешать устаревшим приложениям успешно открывать виртуальные порты." revision="0" />
-  <Message key="IgnoreTxClear" value="Виртуальные последовательные устройства будут игнорировать запросы на очистку последовательного интерфейса с флагом TXCLEAR. Это предотвращает нежелательное поведение, если запрос будет ошибочно отправлен приложением, когда в очереди на передачу еще есть данные." revision="0" />
+  <Message key="IgnoreTxClear" value="Виртуальные последовательные устройства будут игнорировать запросы на очистку последовательного интерфейса с флагом TXCLEAR. Это предотвращает нежелательное поведение, если запрос будет ошибочно отправлен приложением, когда в очереди на передачу ещё есть данные." revision="0" />
   <Message key="All" value="Все" revision="0" />
   <Message key="Firewall rule" value="HHD Software Virtual Serial Port TCP {address}:{port}" revision="0" />
   <Message key="Firewall rule description" value="HHD Software Virtual Serial Port, слушающий на TCP {address}:{port}" revision="0" />
@@ -403,7 +403,7 @@
   </Enumeration>
   <Enumeration key="PinoutsHelp">
     <Item value="Нажмите на контакт, чтобы настроить параметры распиновки." revision="0" />
-    <Item value="Нажмите на коричневый контакт и перетащите его на зеленый, чтобы создать связь." revision="0" />
+    <Item value="Нажмите на коричневый контакт и перетащите его на зелёный, чтобы создать связь." revision="0" />
   </Enumeration>
   <Enumeration key="PinsHelpTooltips">
     <Item value="Готовность терминала данных" revision="0" />
@@ -433,7 +433,7 @@
     <Item value="Аппаратный" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseState">
-    <Item value="Бесплатная, пробный период еще не начат." revision="1" />
+    <Item value="Бесплатная, пробный период ещё не начат." revision="1" />
     <Item value="Бесплатная, пробный период заканчивается через {days} дней." revision="1" />
     <Item value="Бесплатная, пробный период закончился." revision="1" />
     <Item value="{edition}\r\nЗарегистрирован на {user}.{non-lu?}\r\nСрок действия плана обновлений {future?}истекает{|future}истёк{?future} {up expiration}.{?non-lu}" revision="1" />
