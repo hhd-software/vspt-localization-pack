@@ -79,6 +79,11 @@
 		<Item text="Enable Network Serial Ports categories"/>
 	</Enumeration>
 
+	<Enumeration key="ViewShowCsp" description="Command: ViewShowCsp">
+		<Item text="&amp;Custom Serial Ports"/>
+		<Item text="Enable Custom Serial Ports categories"/>
+	</Enumeration>
+
 	<Enumeration key="ViewRefresh" description="Command: ViewRefresh">
 		<Item text="&amp;Refresh"/>
 		<Item text="Refresh the list of devices"/>
@@ -158,6 +163,11 @@
 		<Item text="Create TCP/IP Serial port"/>
 	</Enumeration>
 
+	<Enumeration key="FileCreateScriptPort" description="Command: Create Script Port">
+		<Item text="Create Script Serial Port…"/>
+		<Item text="Create Script Serial port"/>
+	</Enumeration>
+
 	<Enumeration key="FileTcpServer" description="Command: Launch Tcp Server">
 		<Item text="Share Local Serial Ports over TCP/IP…"/>
 		<Item text="Launch TCP/IP Serial Ports Server configuration utility"/>
@@ -216,6 +226,13 @@
 		<Item text="Create TCP/IP Serial Port"/>
 		<Item optional="true" text="infographics/tcp-port.svg"/>
 		<Item text="Create new virtual serial port that will connect to remote TCP/IP server over RFC2217 or raw protocols."/>
+	</Enumeration>
+
+	<Enumeration key="ScriptPortModule" description="Module description: Script port">
+		<Item text="Script Ports"/>
+		<Item text="Create Script Serial Port"/>
+		<Item optional="true" text="infographics/script-port.svg"/>
+		<Item text="Create new virtual serial port that will be backed by user script file (written on TypeScript or JavaScript)."/>
 	</Enumeration>
 
 	<Enumeration key="LocalBridgeModule" description="Module description: Local Bridge">
@@ -440,9 +457,14 @@
 		<Item text="Commercial usage allowed"/>
 	</Enumeration>
 
-	<Message key="LicenseFileFilter" description="License file open dialog filter" value="License Files (*.vsptlic)|*.vsptlic|All Files|*||">
+	<Message key="LicenseFileFilter" description="License file open dialog filter" value="License files|*.vsptlic|All files|*.*||" revision="1">
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
+
+	<Message key="ScriptFileFilter" description="Script file open dialog filter" value="Script files|*.ts;*.js|All files|*.*||">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+	
 	<Message key="License has been successfully installed." description="License has been successfully installed."/>
 
 	<Message key="NewAliasPortTitle" description="Window title: Create Port Alias" value="Create Port Alias"/>
@@ -554,6 +576,10 @@
 	<Message key="Existing device" description="Field: Existing device" />
 	<Message key="Virtual port" description="Field: Virtual port" />
 
+	<!-- Create Script Port Dialog -->
+	<Message key="Create Script Port" description="Window title: Create Script Port" />
+	<Message key="Script file" description="Field: Script file path" value="Script file path" />
+	
 	<!-- Create Listening Port Dialog -->
 	<Message key="Create Listening Port" description="Window title: Create Listening Port" />
 	<Message key="Permissions" description="Button: Permissions" value="Permissions…"/>
