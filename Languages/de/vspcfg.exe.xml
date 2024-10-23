@@ -77,7 +77,8 @@
   <Message key="Device creation aborted" value="\n\nSie haben die Geräteerstellung abgebrochen. Dieser Vorgang kann halb erstellte, nicht funktionsfähige Geräte hinterlassen haben, die mit dem Windows-Geräte-Manager manuell gelöscht werden können." revision="0" />
   <Message key="AppTitle" value="HHD Virtual Serial Port Tools{is free?} (Free Version, Non-Commercial Use Only){?is free}{is trial?} (Testversion){?is trial}{is reg noncom?} (Nicht-kommerzielle Nutzung){?is reg noncom}" revision="0" />
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
-  <Message key="LicenseFileFilter" value="Lizenz-Dateien (*.vsptlic)|*.vsptlic|Alle Dateien|*||" revision="0" />
+  <Message key="LicenseFileFilter" value="Lizenz-Dateien|*.vsptlic|Alle Dateien|*||" revision="1" />
+  <Message key="ScriptFileFilter" value="Skript-Dateien|*.ts;*.js|Alle Dateien|*.*||" revision="0" />
   <Message key="License has been successfully installed." value="Die Lizenz wurde erfolgreich installiert." revision="0" />
   <Message key="NewAliasPortTitle" value="Alias-Anschluss erstellen" revision="0" />
   <Message key="UpgradePrompt" value="Virtual Serial Port Tools Version {major}.{minor}.{revision}.{build} ist verfügbar. Möchten Sie jetzt aktualisieren?" revision="0" />
@@ -133,6 +134,8 @@
   <Message key="Share Local Port" value="Gemeinsamen Anschluss erstellen" revision="0" />
   <Message key="Existing device" value="Vorhandenes Gerät" revision="0" />
   <Message key="Virtual port" value="Virtueller Anschluss" revision="0" />
+  <Message key="Create Script Port" value="Skriptanschluss erstellen" revision="0" />
+  <Message key="Script file" value="Pfad der Skriptdatei" revision="0" />
   <Message key="Create Listening Port" value="Abhör Anschluss erstellen" revision="0" />
   <Message key="Permissions" value="Berechtigungen…" revision="0" />
   <Message key="Port name" value="Anschlussname" revision="0" />
@@ -261,6 +264,10 @@
     <Item value="Serielle &amp;Netzwerk-Anschlüsse" revision="0" />
     <Item value="Kategorien für serielle Netzwerk-Anschlüsse aktivieren" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewShowCsp">
+    <Item value="&amp;Benutzerdefinierte serielle Anschlüsse" revision="0" />
+    <Item value="Kategorien für benutzerdefinierte serielle Anschlüsse aktivieren" revision="0" />
+  </Enumeration>
   <Enumeration key="ViewRefresh">
     <Item value="&amp;Aktualisieren" revision="0" />
     <Item value="Aktualisieren Sie die Liste der Geräte" revision="0" />
@@ -321,6 +328,10 @@
     <Item value="Serial TCP/IP-Anschluss erstellen…" revision="0" />
     <Item value="Serial TCP/IP-Anschluss erstellen" revision="0" />
   </Enumeration>
+  <Enumeration key="FileCreateScriptPort">
+    <Item value="Skript Serieller Anschluss erstellen…" revision="0" />
+    <Item value="Skript Serieller Anschluss erstellen" revision="0" />
+  </Enumeration>
   <Enumeration key="FileTcpServer">
     <Item value="Gemeinsame serial Anschluss über TCP/IP…" revision="0" />
     <Item value="Starten Sie das Konfigurationsprogramm für den TCP/IP Serial Ports Server" revision="0" />
@@ -370,6 +381,12 @@
     <Item value="TCP/IP COM-Anschluss erstellen" revision="0" />
     <Item value="infographics/tcp-port.svg" revision="0" />
     <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die eine Verbindung zu einem entfernten TCP/IP-Server über RFC2217 oder Raw-Protokolle herstellt" revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptPortModule">
+    <Item value="Skript-Anschlüsse" revision="0" />
+    <Item value="Skript Serieller Anschluss erstellen" revision="0" />
+    <Item />
+    <Item value="Erstellen Sie eine neue virtuelle serielle Schnittstelle, die von einer Benutzerskriptdatei (geschrieben in TypeScript oder JavaScript) unterstützt wird." revision="0" />
   </Enumeration>
   <Enumeration key="LocalBridgeModule">
     <Item value="Lokale-Brücken" revision="0" />

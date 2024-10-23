@@ -77,7 +77,8 @@
   <Message key="Device creation aborted" value="\n\nA criação do dispositivo foi abortada. Esta operação pode ter deixado dispositivos não funcionais semi-criados que podem ser eliminados manualmente através do Gestor de Dispositivos do Windows." revision="0" />
   <Message key="AppTitle" value="HHD Virtual Serial Port Tools{is free?} (Versão gratuita, Não comercial){?is free}{is trial?} (Versão de avaliação){?is trial}{is reg noncom?} (Não comercial){?is reg noncom}" revision="0" />
   <Message key="ComNonComSuffix" value="\r\n{comtype}" revision="0" />
-  <Message key="LicenseFileFilter" value="Ficheiros de licença (*.vsptlic)|*.vsptlic|Todos os ficheiros|*||" revision="0" />
+  <Message key="LicenseFileFilter" value="Ficheiros de licença|*.vsptlic|Todos os ficheiros|*||" revision="1" />
+  <Message key="ScriptFileFilter" value="Ficheiros de script|*.ts;*.js|Todos os ficheiros|*.*||" revision="0" />
   <Message key="License has been successfully installed." value="A licença foi instalada com sucesso." revision="0" />
   <Message key="NewAliasPortTitle" value="Criar alias de porta" revision="0" />
   <Message key="UpgradePrompt" value="Virtual Serial Port Tools versão {major}.{minor}.{revision}.{build} está disponível. Pretende atualizar agora?" revision="0" />
@@ -133,6 +134,8 @@
   <Message key="Share Local Port" value="Criar porta partilhada" revision="0" />
   <Message key="Existing device" value="Dispositivo existente" revision="0" />
   <Message key="Virtual port" value="Porta virtual" revision="0" />
+  <Message key="Create Script Port" value="Criar porta de script" revision="0" />
+  <Message key="Script file" value="Caminho do ficheiro de script" revision="0" />
   <Message key="Create Listening Port" value="Criar porta de escuta" revision="0" />
   <Message key="Permissions" value="Permissões…" revision="0" />
   <Message key="Port name" value="Nome do porto" revision="0" />
@@ -261,6 +264,10 @@
     <Item value="Portas Serial de &amp;Rede" revision="0" />
     <Item value="Ativar as categorias de Portas Serial de Rede" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewShowCsp">
+    <Item value="&amp;Portas de série personalizadas" revision="0" />
+    <Item value="Ativar categorias de portas de série personalizadas" revision="0" />
+  </Enumeration>
   <Enumeration key="ViewRefresh">
     <Item value="&amp;Atualizar" revision="0" />
     <Item value="Atualizar a lista de dispositivos" revision="0" />
@@ -321,6 +328,10 @@
     <Item value="Criar porta serial TCP/IP…" revision="0" />
     <Item value="Criar porta serial TCP/IP" revision="0" />
   </Enumeration>
+  <Enumeration key="FileCreateScriptPort">
+    <Item value="Criar porta serial do script…" revision="0" />
+    <Item value="Criar porta serial do script" revision="0" />
+  </Enumeration>
   <Enumeration key="FileTcpServer">
     <Item value="Partilhar portas de série através de TCP/IP…" revision="0" />
     <Item value="Iniciar o utilitário de configuração do servidor de portas de série TCP/IP" revision="0" />
@@ -370,6 +381,12 @@
     <Item value="Criar porta serial TCP/IP" revision="0" />
     <Item value="infographics/tcp-port.svg" revision="0" />
     <Item value="Criar uma nova porta de série virtual que se ligará ao servidor TCP/IP remoto através dos protocolos RFC2217 ou raw." revision="0" />
+  </Enumeration>
+  <Enumeration key="ScriptPortModule">
+    <Item value="Portas de script" revision="0" />
+    <Item value="Creare una porta seriale di script" revision="0" />
+    <Item />
+    <Item value="Criar uma nova porta série virtual que será suportada pelo ficheiro de script do utilizador (escrito em TypeScript ou JavaScript)." revision="0" />
   </Enumeration>
   <Enumeration key="LocalBridgeModule">
     <Item value="Pontes locais" revision="0" />
