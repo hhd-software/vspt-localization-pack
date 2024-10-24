@@ -684,4 +684,13 @@
 	<Message key="Compatibility Options" description="Window title: Compatibility Options"/>
 	<Message key="Ignore invalid special characters" description="Checkbox: Ignore invalid special characters"/>
 	<Message key="Ignore transmit queue clear purge requests" value="Ignore clear output buffer requests" description="Checkbox: Ignore transmit queue clear purge requests"/>
+
+
+	<Message key="ScriptValidationError" description="Script validation error" value="Script validation failed with following error(s):\n\n{errors}">
+		<Param name="errors" />
+	</Message>
+	<Message key="ScriptPortTooltip" description="Script port tooltip" value="COM{port}\nScript path: {path}">
+		<Param name="port" />
+		<Param name="path" />
+	</Message>
 </Definition>
