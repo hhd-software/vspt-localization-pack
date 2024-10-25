@@ -216,6 +216,8 @@
   <Message key="Compatibility Options" value="Opciones de compatibilidad" revision="0" />
   <Message key="Ignore invalid special characters" value="Ignorar caracteres especiales no válidos" revision="0" />
   <Message key="Ignore transmit queue clear purge requests" value="Ignorar las peticiones de borrar el búfer de salida" revision="0" />
+  <Message key="ScriptValidationError" value="La validación del script ha fallado con los siguientes errores:\n\n{errors}" revision="0" />
+  <Message key="ScriptPortTooltip" value="COM{port}\nRuta del script: {path}" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Salir" revision="0" />
     <Item value="Salir de la aplicación" revision="0" />

@@ -216,6 +216,8 @@
   <Message key="Compatibility Options" value="Kompatibilitätsoptionen" revision="0" />
   <Message key="Ignore invalid special characters" value="Ungültige Sonderzeichen ignorieren" revision="0" />
   <Message key="Ignore transmit queue clear purge requests" value="Ignorieren von Anforderungen zum Löschen des Ausgabepuffers" revision="0" />
+  <Message key="ScriptValidationError" value="Die Skriptvalidierung ist mit folgenden Fehler(n) fehlgeschlagen:\n\n{errors}" revision="0" />
+  <Message key="ScriptPortTooltip" value="COM{port}\nSkript-Pfad: {path}" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />

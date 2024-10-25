@@ -216,6 +216,8 @@
   <Message key="Compatibility Options" value="Параметры совместимости" revision="0" />
   <Message key="Ignore invalid special characters" value="Игнорировать недопустимые специальные символы" revision="0" />
   <Message key="Ignore transmit queue clear purge requests" value="Игнорирование запросов на очистку выходного буфера" revision="0" />
+  <Message key="ScriptValidationError" value="Проверка скрипта не удалась со следующими ошибками:\n\n{errors}" revision="0" />
+  <Message key="ScriptPortTooltip" value="COM{port}\nПуть к скрипту: {path}" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Вы&amp;ход" revision="0" />
     <Item value="Выход из приложения" revision="0" />
