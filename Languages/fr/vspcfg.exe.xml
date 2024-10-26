@@ -136,6 +136,7 @@
   <Message key="Virtual port" value="Port virtuel" revision="0" />
   <Message key="Create Script Port" value="Créer un port de script" revision="0" />
   <Message key="Script file" value="Chemin d'accès au fichier de script" revision="0" />
+  <Message key="Initialization value (optional)" value="Valeur d'initialisation (facultatif)" revision="0" />
   <Message key="Create Listening Port" value="Créer un port d'écoute" revision="0" />
   <Message key="Permissions" value="Permissions…" revision="0" />
   <Message key="Port name" value="Nom du port" revision="0" />
@@ -217,6 +218,7 @@
   <Message key="Ignore invalid special characters" value="Ignorer les caractères spéciaux non valides" revision="0" />
   <Message key="Ignore transmit queue clear purge requests" value="Ignorer les demandes d'effacement du tampon de sortie" revision="0" />
   <Message key="ScriptValidationError" value="La validation du script a échoué avec les erreurs suivantes :\n\n{errors}" revision="0" />
+  <Message key="ScriptValidationSeeLog" value="L'exécution du script a échoué : voir le journal pour plus d'informations" revision="0" />
   <Message key="ScriptPortTooltip" value="COM{port}\nChemin de script : {path}" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Quitter" revision="0" />
