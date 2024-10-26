@@ -579,6 +579,7 @@
 	<!-- Create Script Port Dialog -->
 	<Message key="Create Script Port" description="Window title: Create Script Port" />
 	<Message key="Script file" description="Field: Script file path" value="Script file path" />
+	<Message key="Initialization value (optional)" description="Field: Initialization value (optional)" />
 	
 	<!-- Create Listening Port Dialog -->
 	<Message key="Create Listening Port" description="Window title: Create Listening Port" />
@@ -689,6 +690,9 @@
 	<Message key="ScriptValidationError" description="Script validation error" value="Script validation failed with following error(s):\n\n{errors}">
 		<Param name="errors" />
 	</Message>
+	
+	<Message key="ScriptValidationSeeLog" description="Script validation error: see log" value="Script execution failed: see log for more information" />
+	
 	<Message key="ScriptPortTooltip" description="Script port tooltip" value="COM{port}\nScript path: {path}">
 		<Param name="port" />
 		<Param name="path" />
