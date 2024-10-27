@@ -24,6 +24,11 @@
 		<Item text="Exit application"/>
 	</Enumeration>
 
+	<Enumeration key="EditCopy" description="Command: Copy">
+		<Item text="Copy"/>
+		<Item text="Copy selection to the Clipboard"/>
+	</Enumeration>
+
 	<Enumeration key="MenuFile" description="Command group: File Menu">
 		<Item text="&amp;Devices"/>
 		<Item text="File menu"/>
@@ -697,4 +702,6 @@
 		<Param name="port" />
 		<Param name="path" />
 	</Message>
+
+	<Message key="No script description found" description="No script description found" value="No description found in a script." />
 </Definition>
