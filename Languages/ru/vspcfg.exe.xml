@@ -41,35 +41,45 @@
   <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
   <Message key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Создание локальных мостов" revision="0" />
   <Message key="{eae873d4-7d48-4b01-a296-7ffa6a677fc8}" value="Создание pipe портов" revision="0" />
-  <Message key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Создание удалённых портов" revision="0" />
-  <Message key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Создание расшариваемых портов" revision="0" />
-  <Message key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Создание портов-псевдонимов" revision="0" />
-  <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Создание удалённых мостов" revision="0" />
-  <Message key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Создание &quot;слушающих&quot; портов" revision="0" />
-  <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Создание файловых портов" revision="0" />
   <Message key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Изменение имен портов" revision="0" />
   <Message key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API" revision="0" />
   <Message key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Создание множества устройств" revision="0" />
-  <Message key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Изменение имён портов" revision="0" />
-  <Message key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API" revision="0" />
-  <Message key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Создание множества устройств" revision="0" />
-  <Message key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Изменение имён портов" revision="0" />
-  <Message key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API" revision="0" />
-  <Message key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Создание множества устройств" revision="0" />
+  <Message key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Создание удалённых мостов" revision="0" />
+  <Message key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Создание файловых портов" revision="0" />
+  <Message key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Создание &quot;слушающих&quot; портов" revision="0" />
   <Message key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Пользовательская распиновка" revision="0" />
   <Message key="{bec21bff-44fc-4a90-b8d0-c635384d6096}" value="Эмуляция переполнения" revision="0" />
   <Message key="{10991f32-4c08-4f28-a218-be67cd68e1c7}" value="Имитация шума" revision="0" />
-  <Message key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Переопределять параметры расшаренного порта" revision="0" />
   <Message key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Создание постоянных мостов" revision="0" />
   <Message key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Эмуляция скорости передачи" revision="0" />
+  <Message key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Создание удалённых портов" revision="0" />
+  <Message key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Изменение имён портов" revision="0" />
+  <Message key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API" revision="0" />
+  <Message key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Создание множества устройств" revision="0" />
+  <Message key="{c55f1966-dc7d-4757-a8ef-f30f2f187b96}" value="Создание постоянных устройств" revision="0" />
+  <Message key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Создание расшариваемых портов" revision="0" />
+  <Message key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Изменение имён портов" revision="0" />
+  <Message key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API" revision="0" />
+  <Message key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Создание множества устройств" revision="0" />
+  <Message key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Переопределение параметров расшаренного порта" revision="1" />
+  <Message key="{0f7ea848-cb98-4bd4-9016-f52dac452044}" value="Создание постоянных устройств" revision="0" />
+  <Message key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Создание портов-псевдонимов" revision="1" />
   <Message key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Изменение имён портов" revision="0" />
   <Message key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API" revision="0" />
   <Message key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Создание множества устройств" revision="0" />
-  <Message key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Переопределять параметры порта-псевдонима" revision="0" />
+  <Message key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Переопределение параметров порта-псевдонима" revision="1" />
+  <Message key="{64561db3-0f50-4427-aef9-455ffb017084}" value="Создание постоянных устройств" revision="0" />
+  <Message key="{13fd9c7a-b3a9-4481-98c5-8fd0d70277a9}" value="Создание портов TCP" revision="1" />
   <Message key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Изменение имён портов" revision="0" />
   <Message key="{33a0ecd5-0ea7-4b0a-b520-cf84ca81c0e9}" value="API" revision="0" />
   <Message key="{06954e27-3908-4e76-ba45-f9df20b0b689}" value="Создание множества устройств" revision="0" />
-  <Message key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Переопределять параметры порта TCP/IP" revision="0" />
+  <Message key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Переопределение параметров порта TCP/IP" revision="1" />
+  <Message key="{e2793696-aca2-4454-9059-d2b398056ec4}" value="Создание постоянных устройств" revision="0" />
+  <Message key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Создание скриптовых портов" revision="0" />
+  <Message key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Изменение имен портов" revision="0" />
+  <Message key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Создание множества устройств" revision="0" />
+  <Message key="{4f145154-b076-441b-9a36-afec0f8084b6}" value="Переопределение параметров скриптового порта" revision="0" />
+  <Message key="{948883a4-188c-4676-a214-2370d8c560be}" value="Создание постоянных устройств" revision="0" />
   <Message key="Error creating device" value="Создание устройства не удалось со следующей ошибкой:\r\n\n {text} ({code})" revision="0" />
   <Message key="Error creating bridge" value="Создание моста не удалось со следующей ошибкой:\r\n\n {text} ({code})" revision="0" />
   <Message key="error title" value="Операция не удалась" revision="0" />
