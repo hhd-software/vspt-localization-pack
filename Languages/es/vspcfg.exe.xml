@@ -145,6 +145,7 @@
   <Message key="Existing device" value="Dispositivo existente" revision="0" />
   <Message key="Virtual port" value="Puerto virtual" revision="0" />
   <Message key="Create Script Port" value="Crear puerto de script" revision="0" />
+  <Message key="Modify Script Port" value="Modify Script Port" revision="0" />
   <Message key="Script file" value="Ruta del archivo de script" revision="0" />
   <Message key="Initialization value (optional)" value="Valor de inicialización (opcional)" revision="0" />
   <Message key="Create Listening Port" value="Crear puerto de escucha" revision="0" />
@@ -198,6 +199,8 @@
   <Message key="Installed license" value="Licencia instalada" revision="0" />
   <Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="Si necesita renovar una licencia, haga clic en el botón &quot;Descargar licencia…&quot;. (Requiere inicio de sesión y contraseña)." revision="0" />
   <Message key="If you have already received a license file, click the &quot;Install License...&quot; button." value="Si ya ha recibido un archivo de licencia, haga clic en el botón &quot;Instalar licencia…&quot;." revision="0" />
+  <Message key="Delete selected configuration" value="Borrar la configuración seleccionada" revision="0" />
+  <Message key="Modify device settings" value="Modificar la configuración del dispositivo" revision="0" />
   <Message key="days-left" value="Le quedan &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; días para evaluar las características ampliadas del producto." revision="0" />
   <Message key="14days" value="Puede seguir utilizando la versión limitada o probar primero la funcionalidad ampliada &lt;span style=&quot;white-space:nowrap&quot;&gt;durante 14 días&lt;/span&gt;y luego volver a la versión gratuita." revision="0" />
   <Message key="Evaluation mode timer" value="Temporizador del modo de evaluación" revision="0" />
@@ -231,6 +234,8 @@
   <Message key="ScriptValidationSeeLog" value="Fallo en la ejecución del script: ver log para más información" revision="0" />
   <Message key="ScriptPortTooltip" value="COM{port}\nRuta del script: {path}" revision="0" />
   <Message key="No script description found" value="No se ha encontrado ninguna descripción en un script." revision="0" />
+  <Message key="Device configuration changed" value="La configuración del dispositivo se ha modificado correctamente." revision="0" />
+  <Message key="Error editing device" value="La operación de modificación del dispositivo falló con el siguiente error:\r\n\n {text} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Salir" revision="0" />
     <Item value="Salir de la aplicación" revision="0" />

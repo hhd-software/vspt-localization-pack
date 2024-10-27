@@ -730,7 +730,7 @@
 
 	<Message key="Device configuration changed" description="Device configuration changed successfully" value="Device configuration changed successfully!"/>
 
-	<Message key="Error editing device" description="Message: Error editing device" value="Modiy device creation operation failed with the following error:\r\n\n {text} ({code})">
+	<Message key="Error editing device" description="Message: Error editing device" value="Device modification operation failed with the following error:\r\n\n {text} ({code})">
 		<Param name="text"/>
 		<Param name="code" format="ub016xp"/>
 	</Message>

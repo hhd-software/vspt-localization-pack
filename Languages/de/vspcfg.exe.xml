@@ -145,6 +145,7 @@
   <Message key="Existing device" value="Vorhandenes Gerät" revision="0" />
   <Message key="Virtual port" value="Virtueller Anschluss" revision="0" />
   <Message key="Create Script Port" value="Skriptanschluss erstellen" revision="0" />
+  <Message key="Modify Script Port" value="Skriptanschluss ändern" revision="0" />
   <Message key="Script file" value="Pfad der Skriptdatei" revision="0" />
   <Message key="Initialization value (optional)" value="Initialisierungswert (optional)" revision="0" />
   <Message key="Create Listening Port" value="Abhör Anschluss erstellen" revision="0" />
@@ -198,6 +199,8 @@
   <Message key="Installed license" value="Installierte Lizenz" revision="0" />
   <Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="Wenn Sie eine Lizenz erneuern müssen, klicken Sie auf die Schaltfläche „Lizenz herunterladen…“. (Erfordert Anmelde-ID und Passwort)." revision="0" />
   <Message key="If you have already received a license file, click the &quot;Install License...&quot; button." value="Wenn Sie bereits eine Lizenzdatei erhalten haben, klicken Sie auf die Schaltfläche „Lizenz installieren…“." revision="0" />
+  <Message key="Delete selected configuration" value="Ausgewählte Konfiguration löschen" revision="0" />
+  <Message key="Modify device settings" value="Ändern der Geräteeinstellungen" revision="0" />
   <Message key="days-left" value="Sie haben noch &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; Tage Zeit, um erweiterte Funktionen des Produkts zu testen." revision="0" />
   <Message key="14days" value="Sie können entweder mit der eingeschränkten Version weitermachen oder den erweiterten Funktionsumfang zunächst &lt;span style=&quot;white-space:nowrap&quot;&gt;14 Tage&lt;/span&gt; lang ausprobieren und dann wieder zur kostenlosen Version wechseln." revision="0" />
   <Message key="Evaluation mode timer" value="Auswertungsmodus Zeitgeber" revision="0" />
@@ -231,6 +234,8 @@
   <Message key="ScriptValidationSeeLog" value="Skriptausführung fehlgeschlagen: siehe Protokoll für weitere Informationen" revision="0" />
   <Message key="ScriptPortTooltip" value="COM{port}\nSkript-Pfad: {path}" revision="0" />
   <Message key="No script description found" value="Keine Beschreibung in einem Skript gefunden." revision="0" />
+  <Message key="Device configuration changed" value="Gerätekonfiguration erfolgreich geändert!" revision="0" />
+  <Message key="Error editing device" value="Der Vorgang der Geräteänderung ist mit folgendem Fehler fehlgeschlagen:\r\n\n {text} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />
