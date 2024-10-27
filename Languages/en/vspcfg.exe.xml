@@ -379,41 +379,60 @@
 	<Message key="Purchase extended functionality" description="Button text: Purchase extended functionality" value="Get extended functionality"/>
 	<Message key="Close this notification" description="Link text: Close this notification" value="Close this notification"/>
 
-	<!--<Message description="Feature: FreeLicense" key="{60ca246e-ab80-4dad-a0bb-6af28a63e034}" value=""/>-->
+	<!-- VSP -->
 	<Message description="Feature: CreateLocalBridges" key="{6c62d1b2-e416-42c8-b5b8-f290c956737c}" value="Creating local bridges"/>
 	<Message description="Feature: CreatePipePorts" key="{eae873d4-7d48-4b01-a296-7ffa6a677fc8}" value="Creating pipe ports"/>
-	<Message description="Feature: CreateRemotePorts" key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Creating remote ports"/>
-	<Message description="Feature: CreateSharedPorts" key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Creating shared ports"/>
-	<Message description="Feature: CreateAliasPorts" key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Create alias ports"/>
-	<Message description="Feature: CreateRemoteBridges" key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Creating remote bridges"/>
-	<Message description="Feature: CreateListeningPorts" key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Creating listening ports"/>
-	<Message description="Feature: CreateFilesPorts" key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Creating files ports"/>
-	<Message description="Feature: NamingPorts" key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Changing port names"/>
-	<Message description="Feature: API" key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API"/>
-	<Message description="Feature: MultipleDevices" key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Creating multiple devices"/>
-	<Message description="Feature: NamingPorts" key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Changing port names"/>
-	<Message description="Feature: API" key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API"/>
-	<Message description="Feature: MultipleDevices" key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Creating multiple devices"/>
-	<Message description="Feature: NamingPorts" key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Changing port names"/>
-	<Message description="Feature: API" key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API"/>
-	<Message description="Feature: MultipleDevices" key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Creating multiple devices"/>
-	<Message description="Feature: Custom Pinout" key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Custom pin-out"/>
-	<Message description="Feature: Emulate Overflow" key="{bec21bff-44fc-4a90-b8d0-c635384d6096}" value="Emulate overflow"/>
-	<Message description="Feature: Emulate Noise" key="{10991f32-4c08-4f28-a218-be67cd68e1c7}" value="Emulate noise"/>
-	<Message description="Feature: Override Parameters" key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Override shared port parameters"/>
-	<Message description="Feature: Permanent bridges" key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Creating permanent bridges"/>
-	<Message description="Feature: Emulate Baudrate" key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Emulate baudrate"/>
+	<Message description="Feature: NamingPorts" key="{4c9a297e-a5ae-48a1-ba7d-9178995160c3}" value="Changing port names" />
+	<Message description="Feature: API" key="{cac61184-9e0e-4379-ae2c-c3a56977c3c9}" value="API" optional="true" />
+	<Message description="Feature: MultipleDevices" key="{d57683b7-9e4c-413d-8446-5ef88c05f3b2}" value="Creating multiple devices" />
+	<Message description="Feature: CreateRemoteBridges" key="{ae2ceb67-4efa-46c4-a97e-18efd356d297}" value="Creating remote bridges" />
+	<Message description="Feature: CreateFilesPorts" key="{1b7b93a4-3852-455d-b181-5049a20fed2a}" value="Creating files ports" />
+	<Message description="Feature: CreateListeningPorts" key="{2f242dbe-bdf1-43fc-8eaf-35d12c3d23eb}" value="Creating listening ports" />
+	<Message description="Feature: CustomPinout" key="{a4d5d4a8-8422-4427-81f3-97949dd732f1}" value="Custom pin-out" />
+	<Message description="Feature: EmulateOverflow" key="{bec21bff-44fc-4a90-b8d0-c635384d6096}" value="Emulate overflow" />
+	<Message description="Feature: EmulateNoise" key="{10991f32-4c08-4f28-a218-be67cd68e1c7}" value="Emulate noise" />
+	<Message description="Feature: PermanentDevices" key="{06f40e2b-7073-4d4f-95fa-b1768889aad7}" value="Creating permanent bridges" />
+	<Message description="Feature: EmulateBaudRate" key="{633fd2b0-6de0-4d5f-98b2-7ed10fb466bb}" value="Emulate baudrate" />
 
-	<Message description="Feature: NamingPorts" key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Changing port names"/>
-	<Message description="Feature: API" key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API"/>
-	<Message description="Feature: MultipleDevices" key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Creating multiple devices"/>
-	<Message description="Feature: Override Parameters" key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Override alias port parameters"/>
+	<!-- RSP -->
+	<Message description="Feature: CreateRemotePorts" key="{aae1254e-05df-4f6f-a519-a060dda04a54}" value="Creating remote ports"/>
+	<Message description="Feature: NamingPorts" key="{e2b40a89-739d-437b-906b-eca61ac6d5d0}" value="Changing port names" />
+	<Message description="Feature: API" key="{9fb35f90-b1a3-4c73-9230-d9f03e2ec35a}" value="API" optional="true" />
+	<Message description="Feature: MultipleDevices" key="{4495d27b-9323-434e-a7e4-8f9fab9d884b}" value="Creating multiple devices" />
+	<Message description="Feature: PermanentDevices" key="{c55f1966-dc7d-4757-a8ef-f30f2f187b96}" value="Creating permanent devices" />
+
+
+	<!-- SSP -->
+	<Message description="Feature: CreateSharedPorts" key="{daaeafd8-9084-4a36-b4ea-81a0286d6320}" value="Creating shared ports"/>
+	<Message description="Feature: NamingPorts" key="{4805406b-5e75-4d8f-b0d0-d61d8dae6eb2}" value="Changing port names" />
+	<Message description="Feature: API" key="{6daaa039-952f-43ac-bbf1-a5a45271f16c}" value="API" optional="true" />
+	<Message description="Feature: MultipleDevices" key="{7dc52425-fca6-464b-a1f1-aa6c9da81695}" value="Creating multiple devices" />
+	<Message description="Feature: OverrideParameters" key="{e3eceee9-26a2-437d-9c2f-bda7463943f2}" value="Overriding shared port parameters" revision="1"/>
+	<Message description="Feature: PermanentDevices" key="{0f7ea848-cb98-4bd4-9016-f52dac452044}" value="Creating permanent devices" />
+
+	<!-- ASP -->
+	<Message description="Feature: CreateAliasPorts" key="{967efb2c-4841-43ce-a58f-cc7317a8c25f}" value="Creating alias ports" revision="1"/>
+	<Message description="Feature: NamingPorts" key="{e21a9350-4fec-4461-82a7-e0f1835727e3}" value="Changing port names" />
+	<Message description="Feature: API" key="{daff310f-6a62-4d75-adfb-842d0e2d401f}" value="API" optional="true" />
+	<Message description="Feature: MultipleDevices" key="{299285eb-7f87-4953-9ad0-8df31be6e5f7}" value="Creating multiple devices" />
+	<Message description="Feature: OverrideParameters" key="{4ead1b46-5c58-4705-9406-e5b49a8ec19b}" value="Overriding alias port parameters" revision="1"/>
+	<Message description="Feature: PermanentDevices" key="{64561db3-0f50-4427-aef9-455ffb017084}" value="Creating permanent devices" />
 
 	<!-- TSP -->
+	<Message description="Feature: CreateTcpPorts" key="{13fd9c7a-b3a9-4481-98c5-8fd0d70277a9}" value="Creating TCP ports" revision="1"/>
 	<Message description="Feature: NamingPorts" key="{573d86c3-5119-416f-827c-df1411cf684a}" value="Changing port names"/>
 	<Message description="Feature: API" key="{33a0ecd5-0ea7-4b0a-b520-cf84ca81c0e9}" value="API"/>
 	<Message description="Feature: MultipleDevices" key="{06954e27-3908-4e76-ba45-f9df20b0b689}" value="Creating multiple devices"/>
-	<Message description="Feature: Override Parameters" key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Override TCP/IP port parameters"/>
+	<Message description="Feature: Override Parameters" key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Overriding TCP/IP port parameters" revision="1"/>
+	<Message description="Feature: Permanent bridges" key="{e2793696-aca2-4454-9059-d2b398056ec4}" value="Creating permanent devices"/>
+
+	<!-- CSP -->
+	<Message description="Feature: CreateScriptPorts" key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Creating script ports"/>
+	<Message description="Feature: NamingPorts" key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Changing port names"/>
+	<Message description="Feature: API" key="{d75d6325-6f58-4b5f-bfe4-808dc7ed5459}" value="API" optional="true" />
+	<Message description="Feature: MultipleDevices" key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Creating multiple devices"/>
+	<Message description="Feature: OverrideParameters" key="{4f145154-b076-441b-9a36-afec0f8084b6}" value="Overriding script port parameters"/>
+	<Message description="Feature: PermanentDevices" key="{948883a4-188c-4676-a214-2370d8c560be}" value="Creating permanent devices"/>
 
 	<Message key="Error creating device" description="Message: Error creating device" value="Device creation failed with the following error:\r\n\n {text} ({code})">
 		<Param name="text"/>
