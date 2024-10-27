@@ -220,9 +220,14 @@
   <Message key="ScriptValidationError" value="La validation du script a échoué avec les erreurs suivantes :\n\n{errors}" revision="0" />
   <Message key="ScriptValidationSeeLog" value="L'exécution du script a échoué : voir le journal pour plus d'informations" revision="0" />
   <Message key="ScriptPortTooltip" value="COM{port}\nChemin de script : {path}" revision="0" />
+  <Message key="No script description found" value="Aucune description n'a été trouvée dans un script." revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Quitter" revision="0" />
     <Item value="Quitter l'application" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="Copier" revision="0" />
+    <Item value="Copier la sélection dans le presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
     <Item value="&amp;Dispositifs" revision="0" />

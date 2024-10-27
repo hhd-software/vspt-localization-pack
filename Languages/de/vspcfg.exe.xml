@@ -220,9 +220,14 @@
   <Message key="ScriptValidationError" value="Die Skriptvalidierung ist mit folgenden Fehler(n) fehlgeschlagen:\n\n{errors}" revision="0" />
   <Message key="ScriptValidationSeeLog" value="Skriptausführung fehlgeschlagen: siehe Protokoll für weitere Informationen" revision="0" />
   <Message key="ScriptPortTooltip" value="COM{port}\nSkript-Pfad: {path}" revision="0" />
+  <Message key="No script description found" value="Keine Beschreibung in einem Skript gefunden." revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="Kopieren" revision="0" />
+    <Item value="Auswahl in die Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
     <Item value="&amp;Geräte" revision="0" />

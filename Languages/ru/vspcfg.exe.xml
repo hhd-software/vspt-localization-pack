@@ -220,9 +220,14 @@
   <Message key="ScriptValidationError" value="Проверка скрипта не удалась со следующими ошибками:\n\n{errors}" revision="0" />
   <Message key="ScriptValidationSeeLog" value="Выполнение скрипта не удалось: см. лог для более подробной информации" revision="0" />
   <Message key="ScriptPortTooltip" value="COM{port}\nПуть к скрипту: {path}" revision="0" />
+  <Message key="No script description found" value="Описание в скрипте не найдено." revision="0" />
   <Enumeration key="FileExit">
     <Item value="Вы&amp;ход" revision="0" />
     <Item value="Выход из приложения" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item value="Копировать" revision="0" />
+    <Item value="Копировать выделенное в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
     <Item value="&amp;Устройства" revision="0" />
