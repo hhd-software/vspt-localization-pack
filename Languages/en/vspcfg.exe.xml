@@ -602,6 +602,7 @@
 
 	<!-- Create Script Port Dialog -->
 	<Message key="Create Script Port" description="Window title: Create Script Port" />
+	<Message key="Modify Script Port" description="Window title: Modify Script Port" />
 	<Message key="Script file" description="Field: Script file path" value="Script file path" />
 	<Message key="Initialization value (optional)" description="Field: Initialization value (optional)" />
 	
@@ -677,6 +678,9 @@
 	<Message key="If you have already received a license file, click the &quot;Install License...&quot; button." description="Field: If you have already received a license file, click the &quot;Install License...&quot; button." value="If you have already received a license file, click the &quot;Install License…&quot; button."/>
 
 	<!-- Strings in HTML -->
+	<Message key="Delete selected configuration" description="Button title: Delete selected configuration" />
+	<Message key="Modify device settings" description="Button title: Modify device settings" />
+
 	<Message key="days-left" value="You have &lt;span id=&quot;trialdays&quot;&gt;7&lt;/span&gt; days left to test extended features of the product." description="You have N days left"/>
 	<Message key="14days" value="You may either continue using limited version or try extended functionality &lt;span style=&quot;white-space:nowrap&quot;&gt;for 14 days&lt;/span&gt; first, then switch back to free." description="You may either continue using limited version or try extended…"/>
 
@@ -723,4 +727,12 @@
 	</Message>
 
 	<Message key="No script description found" description="No script description found" value="No description found in a script." />
+
+	<Message key="Device configuration changed" description="Device configuration changed successfully" value="Device configuration changed successfully!"/>
+
+	<Message key="Error editing device" description="Message: Error editing device" value="Modiy device creation operation failed with the following error:\r\n\n {text} ({code})">
+		<Param name="text"/>
+		<Param name="code" format="ub016xp"/>
+	</Message>
+
 </Definition>
