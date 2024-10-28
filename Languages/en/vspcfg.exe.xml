@@ -428,6 +428,7 @@
 
 	<!-- CSP -->
 	<Message description="Feature: CreateScriptPorts (Script Serial Ports)" key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Creating script ports"/>
+	<Message description="Feature: UseLargeScripts (Script Serial Ports)" key="{a03bb203-36d7-45be-bfcd-66c82ddd7ec6}" value="Using custom scripts larger than 1 KB"/>
 	<Message description="Feature: NamingPorts (Script Serial Ports)" key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Changing port names"/>
 	<Message description="Feature: API (Script Serial Ports)" key="{d75d6325-6f58-4b5f-bfe4-808dc7ed5459}" value="API" optional="true" />
 	<Message description="Feature: MultipleDevices (Script Serial Ports)" key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Creating multiple devices"/>
