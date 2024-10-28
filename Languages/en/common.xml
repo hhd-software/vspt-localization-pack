@@ -45,7 +45,7 @@
 	<Message key="Apply" description="Button: Apply"/>
 
 	<!-- About -->
-<Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://www.hhdsoftware.com]]]" description="About">
+<Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://hhdsoftware.com]]]" description="About" revision="1">
 	<Param name="name"/>
 	<Param name="major"/>
 	<Param name="minor" format="w2arf0"/>

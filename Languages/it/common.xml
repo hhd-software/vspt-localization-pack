@@ -26,7 +26,7 @@
   <Message key="About" value="&amp;Informazioni su" revision="0" />
   <Message key="Status" value="Stato" revision="0" />
   <Message key="Apply" value="Applicare" revision="0" />
-  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersione {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTutti i diritti riservati.\n[[[hhttps://www.hhdsoftware.com]]]" revision="0" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersione {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTutti i diritti riservati.\n[[[hhttps://hhdsoftware.com]]]" revision="1" />
   <Message key="Registered License" value="Registrato a [[[b{name}]]].{non-lu?}\nPiano di aggiornamento {future?}scade il [[[b{up expiration}]]]{|future}scaduto il [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
   <Message key="RegExpired" value="Registrato, il piano di aggiornamento è scaduto il {up expiration}, la licenza gratuita è in vigore." revision="0" />
   <Message key="Free license" value="Licenza gratuita" revision="0" />
