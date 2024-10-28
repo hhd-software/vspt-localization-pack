@@ -76,6 +76,7 @@
   <Message key="{0b33a654-b287-4dc6-8e70-bed479699058}" value="Sostituzione dei parametri della porta TCP/IP" revision="1" />
   <Message key="{e2793696-aca2-4454-9059-d2b398056ec4}" value="Creazione di dispositivi permanenti" revision="0" />
   <Message key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Creazione di porte di script" revision="0" />
+  <Message key="{a03bb203-36d7-45be-bfcd-66c82ddd7ec6}" value="Utilizzo di script personalizzati di dimensioni superiori a 1 KB" revision="0" />
   <Message key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Modificare i nomi delle porte" revision="0" />
   <Message key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Creazione di più dispositivi" revision="0" />
   <Message key="{4f145154-b076-441b-9a36-afec0f8084b6}" value="Sostituzione dei parametri della porta dello script" revision="0" />
