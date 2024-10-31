@@ -237,6 +237,7 @@
   <Message key="No script description found" value="Não foi encontrada nenhuma descrição num script." revision="0" />
   <Message key="Device configuration changed" value="Configuração do dispositivo alterada com sucesso!" revision="0" />
   <Message key="Error editing device" value="A operação de modificação do dispositivo falhou com o seguinte erro:\r\n\n {text} ({code})" revision="0" />
+  <Message key="New" value="Novo" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Sair" revision="0" />
     <Item value="Sair da aplicação" revision="0" />

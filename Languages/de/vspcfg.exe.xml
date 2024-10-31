@@ -237,6 +237,7 @@
   <Message key="No script description found" value="Keine Beschreibung in einem Skript gefunden." revision="0" />
   <Message key="Device configuration changed" value="Gerätekonfiguration erfolgreich geändert!" revision="0" />
   <Message key="Error editing device" value="Der Vorgang der Geräteänderung ist mit folgendem Fehler fehlgeschlagen:\r\n\n {text} ({code})" revision="0" />
+  <Message key="New" value="Neu" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />

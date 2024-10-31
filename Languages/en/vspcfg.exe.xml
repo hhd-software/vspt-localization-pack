@@ -736,4 +736,6 @@
 		<Param name="code" format="ub016xp"/>
 	</Message>
 
+	<Message key="New" description="New feature notification" />
+	
 </Definition>

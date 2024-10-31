@@ -237,6 +237,7 @@
   <Message key="No script description found" value="Описание в скрипте не найдено." revision="0" />
   <Message key="Device configuration changed" value="Конфигурация устройства успешно изменена!" revision="0" />
   <Message key="Error editing device" value="Операция модификации устройства завершилась со следующей ошибкой:\r\n\n {text} ({code})" revision="0" />
+  <Message key="New" value="Новинка" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Вы&amp;ход" revision="0" />
     <Item value="Выход из приложения" revision="0" />
