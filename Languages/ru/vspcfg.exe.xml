@@ -196,7 +196,7 @@
   <Message key="Install License..." value="Установить лицензию…" revision="0" />
   <Message key="Download License..." value="Скачать лицензию…" revision="0" />
   <Message key="Remove License" value="Удалить лицензию" revision="0" />
-  <Message key="Start Trial now!" value="Начать пробу сейчас!" revision="0" />
+  <Message key="Start Trial now!" value="Начать пробу!" revision="0" />
   <Message key="Installed license" value="Установленная лицензия" revision="0" />
   <Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="Если вам нужно продлить лицензию, нажмите кнопку &quot; Скачать лицензию…&quot;. (Требуется логин и пароль)." revision="0" />
   <Message key="If you have already received a license file, click the &quot;Install License...&quot; button." value="Если вы уже получили файл лицензии, нажмите кнопку &quot;Установить лицензию…&quot;." revision="0" />

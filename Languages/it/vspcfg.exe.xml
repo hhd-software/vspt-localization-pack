@@ -196,7 +196,7 @@
   <Message key="Install License..." value="Installare la licenza…" revision="0" />
   <Message key="Download License..." value="Scarica la licenza…" revision="0" />
   <Message key="Remove License" value="Rimuovere la licenza" revision="0" />
-  <Message key="Start Trial now!" value="Iniziate subito la valutazione!" revision="0" />
+  <Message key="Start Trial now!" value="Iniziate valutazione!" revision="0" />
   <Message key="Installed license" value="Licenza installata" revision="0" />
   <Message key="If you need to renew a license, click the &quot;Download License...&quot; button. (Requires login and password)." value="Se è necessario rinnovare una licenza, fare clic sul pulsante “Scarica la licenza…”. (Richiede ID di accesso e password)." revision="0" />
   <Message key="If you have already received a license file, click the &quot;Install License...&quot; button." value="Se si è già ricevuto un file di licenza, fare clic sul pulsante “Installare la licenza…”." revision="0" />
