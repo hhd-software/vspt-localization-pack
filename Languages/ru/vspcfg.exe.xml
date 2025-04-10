@@ -417,10 +417,10 @@
     <Item value="Передайте локальное USB-устройство для использования удалёнными компьютерами или подключите удалённое USB-устройство к этому компьютеру." revision="0" />
   </Enumeration>
   <Enumeration key="VUSBClientAdModule">
-    <Item value="Удаленные USB-устройства" revision="0" />
-    <Item value="Подключить удаленное USB" revision="0" />
+    <Item value="Удалённые USB-устройства" revision="0" />
+    <Item value="Подключить удалённое USB" revision="0" />
     <Item value="" revision="0" />
-    <Item value="Подключить удаленное USB-устройство к этому компьютеру." revision="0" />
+    <Item value="Подключить удалённое USB-устройство к этому компьютеру." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="Порты TCP/IP (RFC2217, Raw)" revision="0" />
@@ -444,7 +444,7 @@
     <Item value="Удалённые мосты" revision="0" />
     <Item value="Создать удалённый мост" revision="0" />
     <Item value="infographics/remote-bridge.svg" revision="0" />
-    <Item value="Создать новый виртуальный последовательный порт и подключить его к удалённому слушающему порту. Это создаст удаленный мост - пару виртуальных портов, соединенных виртуальным нуль-модемным кабелем." revision="0" />
+    <Item value="Создать новый виртуальный последовательный порт и подключить его к удалённому слушающему порту. Это создаст удалённый мост - пару виртуальных портов, соединенных виртуальным нуль-модемным кабелем." revision="0" />
   </Enumeration>
   <Enumeration key="ListeningPortModule">
     <Item value="Слушающие порты" revision="0" />
