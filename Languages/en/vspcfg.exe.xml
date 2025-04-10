@@ -69,30 +69,42 @@
 		<Item text="Enable Virtual Serial Ports categories"/>
 	</Enumeration>
 
+	<Message key="open.cat.ViewShowVsp" description="ViewShowVsp: Open Category" value="Open Virtual Serial Ports Category"/>
+
 	<Enumeration key="ViewShowRsp" description="Command: ViewShowRsp">
 		<Item text="&amp;Remote Serial Ports"/>
 		<Item text="Enable Remote Serial Ports categories"/>
 	</Enumeration>
+
+	<Message key="open.cat.ViewShowRsp" description="ViewShowRsp: Open Category" value="Open Remote Serial Ports Category"/>
 
 	<Enumeration key="ViewShowSsp" description="Command: ViewShowSsp">
 		<Item text="&amp;Shared Serial Ports"/>
 		<Item text="Enable Shared Serial Ports categories"/>
 	</Enumeration>
 
+	<Message key="open.cat.ViewShowSsp" description="ViewShowSsp: Open Category" value="Open Shared Serial Ports Category"/>
+
 	<Enumeration key="ViewShowNsp" description="Command: ViewShowNsp">
 		<Item text="&amp;Network Serial Ports"/>
 		<Item text="Enable Network Serial Ports categories"/>
 	</Enumeration>
+
+	<Message key="open.cat.ViewShowNsp" description="ViewShowNsp: Open Category" value="Open Network Serial Ports Category"/>
 
 	<Enumeration key="ViewShowCsp" description="Command: ViewShowCsp">
 		<Item text="&amp;Custom Serial Ports"/>
 		<Item text="Enable Custom Serial Ports categories"/>
 	</Enumeration>
 
+	<Message key="open.cat.ViewShowCsp" description="ViewShowCsp: Open Category" value="Open Custom Serial Ports Category"/>
+
 	<Enumeration key="ViewShowAds" description="Command: ViewShowAds">
 		<Item text="&amp;Related Products"/>
 		<Item text="Related products block"/>
 	</Enumeration>
+
+	<Message key="open.cat.ViewShowAds" description="ViewShowAds: Open Category" value="Open Related Products Category"/>
 
 	<Enumeration key="ViewRefresh" description="Command: ViewRefresh">
 		<Item text="&amp;Refresh"/>
