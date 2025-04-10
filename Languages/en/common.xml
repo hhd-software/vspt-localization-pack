@@ -19,6 +19,7 @@
 	<Message key="Stop bits" description="Field: Stop bits" />
 	<Message key="Flow control" description="Field: Flow control" />
 	<Message key="PParity" description="Field: Parity" value="Parity" />
+	<Message key="Do not display this message anymore" description="Field: Do not display this message anymore" />
 
 	<Enumeration key="InstallationStatus" description="Service installation status">
 		<Item text="Running as standalone"/>
@@ -45,7 +46,7 @@
 	<Message key="Apply" description="Button: Apply"/>
 
 	<!-- About -->
-<Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://hhdsoftware.com]]]" description="About" revision="1">
+<Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersion {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2025 HHD Software Ltd.\nAll rights reserved.\n[[[hhttps://hhdsoftware.com]]]" description="About" revision="2">
 	<Param name="name"/>
 	<Param name="major"/>
 	<Param name="minor" format="w2arf0"/>

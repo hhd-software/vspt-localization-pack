@@ -89,6 +89,11 @@
 		<Item text="Enable Custom Serial Ports categories"/>
 	</Enumeration>
 
+	<Enumeration key="ViewShowAds" description="Command: ViewShowAds">
+		<Item text="&amp;Related Products"/>
+		<Item text="Related products block"/>
+	</Enumeration>
+
 	<Enumeration key="ViewRefresh" description="Command: ViewRefresh">
 		<Item text="&amp;Refresh"/>
 		<Item text="Refresh the list of devices"/>
@@ -163,6 +168,11 @@
 		<Item text="Create port alias"/>
 	</Enumeration>
 
+	<Enumeration key="FileCreateOpenVUSB" description="Command: Open/Download VUSB">
+		<Item text="Share or Connect USB Device…"/>
+		<Item text="Launch Virtual USB Tools to share or connect USB device or network."/>
+	</Enumeration>
+
 	<Enumeration key="FileCreateTcpPort" description="Command: Create Tcp Port">
 		<Item text="Create TCP/IP Serial Port…"/>
 		<Item text="Create TCP/IP Serial port"/>
@@ -224,6 +234,20 @@
 		<Item text="Create Port Alias"/>
 		<Item optional="true" text="infographics/alias-port.svg"/>
 		<Item text="Create new virtual serial port that will be an alias of an existing serial port."/>
+	</Enumeration>
+
+	<Enumeration key="VUSBAdModule" description="Module description: VUSB advertisement">
+		<Item text="Remote USB Devices"/>
+		<Item text="Transfer USB Device over Network"/>
+		<Item optional="true" text="infographics/vusb-ad.svg"/>
+		<Item text="Share local USB device to be used by remote computers or connect remote USB device to this computer."/>
+	</Enumeration>
+
+	<Enumeration key="VUSBClientAdModule" description="Module description: VUSB client advertisement">
+		<Item text="Remote USB Devices"/>
+		<Item text="Connect Remote USB Device"/>
+		<Item optional="true" text="infographics/vusb-client.svg"/>
+		<Item text="Virtually connect a remote USB device to this computer."/>
 	</Enumeration>
 
 	<Enumeration key="TcpPortModule" description="Module description: Tcp port">
@@ -737,5 +761,5 @@
 	</Message>
 
 	<Message key="New" description="New feature notification" />
-	
+
 </Definition>
