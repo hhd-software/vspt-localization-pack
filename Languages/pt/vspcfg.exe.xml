@@ -416,12 +416,6 @@
     <Item value="" revision="0" />
     <Item value="Partilhar o dispositivo USB local para ser utilizado por computadores remotos ou ligar o dispositivo USB remoto a este computador." revision="0" />
   </Enumeration>
-  <Enumeration key="VUSBClientAdModule">
-    <Item value="Dispositivos USB remotos" revision="0" />
-    <Item value="Ligar dispositivo USB remoto" revision="0" />
-    <Item value="" revision="0" />
-    <Item value="Ligar virtualmente um dispositivo USB remoto a este computador." revision="0" />
-  </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="Portas TCP/IP (RFC2217, Raw)" revision="0" />
     <Item value="Criar porta serial TCP/IP" revision="0" />

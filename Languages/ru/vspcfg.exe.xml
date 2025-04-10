@@ -416,12 +416,6 @@
     <Item value="" revision="0" />
     <Item value="Передайте локальное USB-устройство для использования удалёнными компьютерами или подключите удалённое USB-устройство к этому компьютеру." revision="0" />
   </Enumeration>
-  <Enumeration key="VUSBClientAdModule">
-    <Item value="Удалённые USB уст-ства" revision="0" />
-    <Item value="Подключить удалённое USB" revision="0" />
-    <Item value="" revision="0" />
-    <Item value="Подключить удалённое USB-устройство к этому компьютеру." revision="0" />
-  </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="Порты TCP/IP (RFC2217, Raw)" revision="0" />
     <Item value="Создать COM порт TCP/IP" revision="0" />

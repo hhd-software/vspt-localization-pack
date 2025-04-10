@@ -416,12 +416,6 @@
     <Item value="" revision="0" />
     <Item value="Geben Sie ein lokales USB-Gerät frei, das von einem entfernten Computer verwendet werden soll, oder verbinden Sie ein entferntes USB-Gerät mit diesem Computer." revision="0" />
   </Enumeration>
-  <Enumeration key="VUSBClientAdModule">
-    <Item value="Entfernte USB-Geräte" revision="0" />
-    <Item value="USB-Ferngerät anschließen" revision="0" />
-    <Item value="" revision="0" />
-    <Item value="Schließen Sie virtuell ein entferntes USB-Gerät an diesen Computer an." revision="0" />
-  </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="TCP/IP-Anschlüsse (RFC2217, Raw)" revision="0" />
     <Item value="TCP/IP COM-Anschluss erstellen" revision="0" />

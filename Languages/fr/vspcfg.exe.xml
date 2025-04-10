@@ -416,12 +416,6 @@
     <Item value="" revision="0" />
     <Item value="Partager un périphérique USB local pour qu'il soit utilisé par des ordinateurs distants ou connecter un périphérique USB distant à cet ordinateur." revision="0" />
   </Enumeration>
-  <Enumeration key="VUSBClientAdModule">
-    <Item value="Dispositifs USB distants" revision="0" />
-    <Item value="Connecter un dispositif distant" revision="0" />
-    <Item value="" revision="0" />
-    <Item value="Connecter virtuellement un périphérique USB distant à cet ordinateur." revision="0" />
-  </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="Ports TCP/IP (RFC2217, Raw)" revision="0" />
     <Item value="Créer un port série TCP/IP" revision="0" />

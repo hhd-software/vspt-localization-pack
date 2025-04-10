@@ -243,13 +243,6 @@
 		<Item text="Share local USB device to be used by remote computers or connect remote USB device to this computer."/>
 	</Enumeration>
 
-	<Enumeration key="VUSBClientAdModule" description="Module description: VUSB client advertisement">
-		<Item text="Remote USB Devices"/>
-		<Item text="Connect Remote USB Device"/>
-		<Item optional="true" text="infographics/vusb-client.svg"/>
-		<Item text="Virtually connect a remote USB device to this computer."/>
-	</Enumeration>
-
 	<Enumeration key="TcpPortModule" description="Module description: Tcp port">
 		<Item text="TCP/IP Ports (RFC2217, Raw)"/>
 		<Item text="Create TCP/IP Serial Port"/>
