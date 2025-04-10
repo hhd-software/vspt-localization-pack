@@ -294,6 +294,10 @@
     <Item value="&amp;Portas de série personalizadas" revision="0" />
     <Item value="Ativar categorias de portas de série personalizadas" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewShowAds">
+    <Item value="&amp;Produtos relacionados" revision="0" />
+    <Item value="Bloco de produtos relacionados" revision="0" />
+  </Enumeration>
   <Enumeration key="ViewRefresh">
     <Item value="&amp;Atualizar" revision="0" />
     <Item value="Atualizar a lista de dispositivos" revision="0" />
@@ -350,6 +354,10 @@
     <Item value="Criar alias de porta…" revision="0" />
     <Item value="Criar alias de porta" revision="0" />
   </Enumeration>
+  <Enumeration key="FileCreateOpenVUSB">
+    <Item value="Partilhar dispositivo USB…" revision="0" />
+    <Item value="Inicie as Ferramentas USB virtuais para partilhar ou ligar um dispositivo USB através da rede." revision="0" />
+  </Enumeration>
   <Enumeration key="FileCreateTcpPort">
     <Item value="Criar porta serial TCP/IP…" revision="0" />
     <Item value="Criar porta serial TCP/IP" revision="0" />
@@ -401,6 +409,18 @@
     <Item value="Criar alias de porta" revision="0" />
     <Item value="infographics/alias-port.svg" revision="0" />
     <Item value="Cria uma nova porta serial virtual que será um alias de uma porta serial existente." revision="0" />
+  </Enumeration>
+  <Enumeration key="VUSBAdModule">
+    <Item value="Dispositivos USB remotos" revision="0" />
+    <Item value="Transferir USB através da rede" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Partilhar o dispositivo USB local para ser utilizado por computadores remotos ou ligar o dispositivo USB remoto a este computador." revision="0" />
+  </Enumeration>
+  <Enumeration key="VUSBClientAdModule">
+    <Item value="Dispositivos USB remotos" revision="0" />
+    <Item value="Ligar dispositivo USB remoto" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Ligar virtualmente um dispositivo USB remoto a este computador." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="Portas TCP/IP (RFC2217, Raw)" revision="0" />

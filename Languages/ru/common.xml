@@ -18,6 +18,7 @@
   <Message key="Stop bits" value="Стоп-биты" revision="0" />
   <Message key="Flow control" value="Управление потоком" revision="0" />
   <Message key="PParity" value="Чётность" revision="0" />
+  <Message key="Do not display this message anymore" value="Больше не показывать это сообщение" revision="0" />
   <Message key="Install" value="&amp;Установить" revision="0" />
   <Message key="Start" value="&amp;Пуск" revision="0" />
   <Message key="Error" value="Ошибка работы" revision="0" />
@@ -26,7 +27,7 @@
   <Message key="About" value="&amp;О программе" revision="0" />
   <Message key="Status" value="Статус" revision="0" />
   <Message key="Apply" value="Применить" revision="0" />
-  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n\n{license}\n\nКопирайт ©2018 - 2024 HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://hhdsoftware.com]]]" revision="1" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nВерсия {major}.{minor}.{revision}.{build}\n\n{license}\n\nКопирайт ©2018 - 2025 HHD Software Ltd.\nВсе права защищены.\n[[[hhttps://hhdsoftware.com]]]" revision="2" />
   <Message key="Registered License" value="Зарегистрировано на [[[b{name}]]].{non-lu?}\nСрок действия плана обновлений {future?}истекает [[[b{up expiration}]]]{|future}истёк [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
   <Message key="RegExpired" value="Зарегистрирован, срок действия обновлений истёк {up expiration}, действует бесплатная лицензия." revision="0" />
   <Message key="Free license" value="Бесплатная лицензия" revision="0" />

@@ -294,6 +294,10 @@
     <Item value="&amp;Пользовательские порты" revision="0" />
     <Item value="Включить категорию пользовательских портов" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewShowAds">
+    <Item value="&amp;Связанные продукты" revision="0" />
+    <Item value="Блок связанных продуктов" revision="0" />
+  </Enumeration>
   <Enumeration key="ViewRefresh">
     <Item value="&amp;Обновить" revision="0" />
     <Item value="Обновить список устройств" revision="0" />
@@ -350,6 +354,10 @@
     <Item value="Создать порт-псевдоним…" revision="0" />
     <Item value="Создать порт-псевдоним" revision="0" />
   </Enumeration>
+  <Enumeration key="FileCreateOpenVUSB">
+    <Item value="Расшарить USB устройство…" revision="0" />
+    <Item value="Запустить Virtual USB Tools, чтобы открыть общий доступ к USB-устройству или подключить его по сети." revision="0" />
+  </Enumeration>
   <Enumeration key="FileCreateTcpPort">
     <Item value="Создать COM порт TCP/IP…" revision="0" />
     <Item value="Создать COM порт TCP/IP" revision="0" />
@@ -401,6 +409,18 @@
     <Item value="Создать псевдоним порта" revision="0" />
     <Item value="infographics/alias-port.svg" revision="0" />
     <Item value="Создайте новый виртуальный последовательный порт, который будет псевдонимом существующего последовательного порта." revision="0" />
+  </Enumeration>
+  <Enumeration key="VUSBAdModule">
+    <Item value="Удаленные USB-устройства" revision="0" />
+    <Item value="Расшарить USB по сети" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Передайте локальное USB-устройство для использования удаленными компьютерами или подключите удаленное USB-устройство к этому компьютеру." revision="0" />
+  </Enumeration>
+  <Enumeration key="VUSBClientAdModule">
+    <Item value="Удаленные USB-устройства" revision="0" />
+    <Item value="Подключить удаленное USB" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Подключить удаленное USB-устройство к этому компьютеру." revision="0" />
   </Enumeration>
   <Enumeration key="TcpPortModule">
     <Item value="Порты TCP/IP (RFC2217, Raw)" revision="0" />

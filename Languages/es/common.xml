@@ -18,6 +18,7 @@
   <Message key="Stop bits" value="Bits de parada" revision="0" />
   <Message key="Flow control" value="Control de flujo" revision="0" />
   <Message key="PParity" value="Paridad" revision="0" />
+  <Message key="Do not display this message anymore" value="No mostrar más este mensaje" revision="0" />
   <Message key="Install" value="&amp;Instalar" revision="0" />
   <Message key="Start" value="&amp;Iniciar" revision="0" />
   <Message key="Error" value="Error de operación" revision="0" />
@@ -26,7 +27,7 @@
   <Message key="About" value="&amp;Acerca de" revision="0" />
   <Message key="Status" value="Estado" revision="0" />
   <Message key="Apply" value="Aplicar" revision="0" />
-  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersión {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2024 HHD Software Ltd.\nTodos los derechos reservados.\n[[[hhttps://hhdsoftware.com]]]" revision="1" />
+  <Message key="AboutText" value="[[[b[[[s:120:{name}]]]]]]\nVersión {major}.{minor}.{revision}.{build}\n\n{license}\n\nCopyright ©2018 - 2025 HHD Software Ltd.\nTodos los derechos reservados.\n[[[hhttps://hhdsoftware.com]]]" revision="2" />
   <Message key="Registered License" value="Registrado a [[[b{name}]]].{non-lu?}\nPlan de actualización {future?}caduca el [[[b{up expiration}]]]{|future}caducado el [[[b[[[T#[#700]#{up expiration}]]]]]]{?future}.{?non-lu}" revision="0" />
   <Message key="RegExpired" value="Registrado, el Plan de Actualización expiró el {up expiration}, la licencia gratuita está en vigor." revision="0" />
   <Message key="Free license" value="Licencia gratuita" revision="0" />
