@@ -170,7 +170,7 @@
 
 	<Enumeration key="FileCreateOpenVUSB" description="Command: Open/Download VUSB">
 		<Item text="Share or Connect USB Device…"/>
-		<Item text="Launch Virtual USB Tools to share or connect USB device or network."/>
+		<Item text="Launch Virtual USB Tools to share or connect USB device over network."/>
 	</Enumeration>
 
 	<Enumeration key="FileCreateTcpPort" description="Command: Create Tcp Port">
