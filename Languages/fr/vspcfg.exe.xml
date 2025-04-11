@@ -5,12 +5,12 @@
   <Message key="CredentialsInvalid" value="Les informations d'identification fournies ne sont pas valides : {message} ({code})\n\nVoulez-vous toujours les utiliser ?" revision="0" />
   <Message key="ErrorConnectingServer" value="Erreur {code} lors de la connexion au serveur {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Erreur lors de la création d'un appareil : {message} ({code})" revision="0" />
-  <Message key="open.cat.ViewShowVsp" value="Ouvrir la catégorie Ports série virtuels" revision="0" />
-  <Message key="open.cat.ViewShowRsp" value="Ouvrez la catégorie Ports série distants" revision="0" />
-  <Message key="open.cat.ViewShowSsp" value="Ouvrez la catégorie Ports série partagés" revision="0" />
-  <Message key="open.cat.ViewShowNsp" value="Ouvrez la catégorie Ports série réseau" revision="0" />
-  <Message key="open.cat.ViewShowCsp" value="Ouvrez la catégorie Ports série personnalisés" revision="0" />
-  <Message key="open.cat.ViewShowAds" value="Ouvrir la catégorie des produits connexes" revision="0" />
+  <Message key="open.cat.ViewShowVsp" value="Ouvrir Ports virtuels" revision="0" />
+  <Message key="open.cat.ViewShowRsp" value="Ouvrir Ports distants" revision="0" />
+  <Message key="open.cat.ViewShowSsp" value="Ouvrir Ports partagés" revision="0" />
+  <Message key="open.cat.ViewShowNsp" value="Ouvrir Ports réseau" revision="0" />
+  <Message key="open.cat.ViewShowCsp" value="Ouvrir Ports personnalisés" revision="0" />
+  <Message key="open.cat.ViewShowAds" value="Ouvrir Produits connexes" revision="0" />
   <Message key="About title" value="A propos de {product}" revision="0" />
   <Message key="Title" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="SharedPortDescription" value="Le nouveau [[[bCOM{local port}]]] se comportera comme le [[[b{source device}]]] existant, mais il peut être ouvert plusieurs fois." revision="0" />
