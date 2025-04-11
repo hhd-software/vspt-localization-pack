@@ -5,6 +5,12 @@
   <Message key="CredentialsInvalid" value="As credenciais fornecidas são inválidas: {message} ({code})\n\nAinda os quer utilizar?" revision="0" />
   <Message key="ErrorConnectingServer" value="Erro {code} na ligação ao servidor {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Erro ao criar o dispositivo: {message} ({code})" revision="0" />
+  <Message key="open.cat.ViewShowVsp" value="Abra a categoria Portas seriais virtuais" revision="0" />
+  <Message key="open.cat.ViewShowRsp" value="Abrir a categoria Portas seriais remotas" revision="0" />
+  <Message key="open.cat.ViewShowSsp" value="Abrir a categoria Portas de série partilhadas" revision="0" />
+  <Message key="open.cat.ViewShowNsp" value="Abrir a categoria Portas de série de rede" revision="0" />
+  <Message key="open.cat.ViewShowCsp" value="Abra a categoria Portas seriais personalizadas" revision="0" />
+  <Message key="open.cat.ViewShowAds" value="Abrir a categoria Produtos relacionados" revision="0" />
   <Message key="About title" value="Acerca de {product}" revision="0" />
   <Message key="Title" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="SharedPortDescription" value="O [[[bCOM{local port}]]] recém-criado actuará como o [[[b{source device}]]] existente, mas pode ser aberto várias vezes." revision="0" />

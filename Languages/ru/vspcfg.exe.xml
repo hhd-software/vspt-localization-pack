@@ -5,6 +5,12 @@
   <Message key="CredentialsInvalid" value="Предоставленные учётные данные недействительны: {message} ({code})\n\nХотите продолжить их использовать?" revision="0" />
   <Message key="ErrorConnectingServer" value="Ошибка {code} подсоединения к серверу {name}: {message}" revision="0" />
   <Message key="ErrorCreatingDevice" value="Ошибка при создании устройства: {message} ({code})" revision="0" />
+  <Message key="open.cat.ViewShowVsp" value="Открыть категорию Виртуальные порты" revision="0" />
+  <Message key="open.cat.ViewShowRsp" value="Открыть категорию Удаленные порты" revision="0" />
+  <Message key="open.cat.ViewShowSsp" value="Открыть категорию Расшаренные порты" revision="0" />
+  <Message key="open.cat.ViewShowNsp" value="Открыть категорию Сетевые порты" revision="0" />
+  <Message key="open.cat.ViewShowCsp" value="Открыть категорию Пользовательские порты" revision="0" />
+  <Message key="open.cat.ViewShowAds" value="Открыть категорию Связанные продукты" revision="0" />
   <Message key="About title" value="О программе {product}" revision="0" />
   <Message key="Title" value="HHD Software Virtual Serial Port Tools" revision="0" />
   <Message key="SharedPortDescription" value="Вновь созданный [[[bCOM{local port}]]] будет работать как существующий [[[b{source device}]]], но может быть открыт несколько раз." revision="0" />
