@@ -84,6 +84,7 @@
   <Message key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Создание скриптовых портов" revision="0" />
   <Message key="{a03bb203-36d7-45be-bfcd-66c82ddd7ec6}" value="Использование скриптов размером более 1 КБ" revision="0" />
   <Message key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Изменение имен портов" revision="0" />
+  <Message key="{b39cac81-4733-4bfe-9a98-b5a13ae91694}" value="Изменение имён устройств" revision="0" />
   <Message key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Создание множества устройств" revision="0" />
   <Message key="{4f145154-b076-441b-9a36-afec0f8084b6}" value="Переопределение параметров скриптового порта" revision="0" />
   <Message key="{948883a4-188c-4676-a214-2370d8c560be}" value="Создание постоянных устройств" revision="0" />
@@ -244,6 +245,9 @@
   <Message key="Device configuration changed" value="Конфигурация устройства успешно изменена!" revision="0" />
   <Message key="Error editing device" value="Операция модификации устройства завершилась со следующей ошибкой:\r\n\n {text} ({code})" revision="0" />
   <Message key="New" value="Новинка" revision="0" />
+  <Message key="Device name" value="Имя устройства" revision="0" />
+  <Message key="DeviceNameTemplate" value="По умолчанию ({default name})" revision="0" />
+  <Message key="DeviceNameTooLongError" value="Имя устройства должно содержать не более {max} символов." revision="0" />
   <Enumeration key="FileExit">
     <Item value="Вы&amp;ход" revision="0" />
     <Item value="Выход из приложения" revision="0" />

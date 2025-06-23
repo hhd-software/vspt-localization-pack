@@ -84,6 +84,7 @@
   <Message key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Creazione di porte di script" revision="0" />
   <Message key="{a03bb203-36d7-45be-bfcd-66c82ddd7ec6}" value="Utilizzo di script personalizzati di dimensioni superiori a 1 KB" revision="0" />
   <Message key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Modificare i nomi delle porte" revision="0" />
+  <Message key="{b39cac81-4733-4bfe-9a98-b5a13ae91694}" value="Modifica dei nomi dei dispositivi" revision="0" />
   <Message key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Creazione di più dispositivi" revision="0" />
   <Message key="{4f145154-b076-441b-9a36-afec0f8084b6}" value="Sostituzione dei parametri della porta dello script" revision="0" />
   <Message key="{948883a4-188c-4676-a214-2370d8c560be}" value="Creazione di dispositivi permanenti" revision="0" />
@@ -244,6 +245,9 @@
   <Message key="Device configuration changed" value="La configurazione del dispositivo è stata modificata con successo!" revision="0" />
   <Message key="Error editing device" value="L'operazione di modifica del dispositivo non è riuscita con il seguente errore:\r\n\n {text} ({code})" revision="0" />
   <Message key="New" value="Nuovo" revision="0" />
+  <Message key="Device name" value="Nome del dispositivo" revision="0" />
+  <Message key="DeviceNameTemplate" value="Predefinite ({default name})" revision="0" />
+  <Message key="DeviceNameTooLongError" value="Il nome del dispositivo non deve essere più lungo di {max} caratteri." revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Uscire" revision="0" />
     <Item value="Uscire dall'applicazione" revision="0" />

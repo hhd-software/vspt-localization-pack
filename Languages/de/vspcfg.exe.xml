@@ -84,6 +84,7 @@
   <Message key="{69cb835b-a1e5-405e-b3bc-35fb66352df5}" value="Skript- Anschlüsse erstellen" revision="0" />
   <Message key="{a03bb203-36d7-45be-bfcd-66c82ddd7ec6}" value="Verwendung benutzerdefinierter Skripte, die größer als 1 KB sind" revision="0" />
   <Message key="{fff1ff23-ef49-4840-9f10-dce3b0799740}" value="Ändern von Anschlussnamen" revision="0" />
+  <Message key="{b39cac81-4733-4bfe-9a98-b5a13ae91694}" value="Ändern von Gerätenamen" revision="0" />
   <Message key="{4c452ee5-d186-4cbe-a94c-81b8efa3aafd}" value="Mehrere Geräte erstellen" revision="0" />
   <Message key="{4f145154-b076-441b-9a36-afec0f8084b6}" value="Skriptanschlussparameter überschreiben" revision="0" />
   <Message key="{948883a4-188c-4676-a214-2370d8c560be}" value="Erstellen permanenter Geräte" revision="0" />
@@ -244,6 +245,9 @@
   <Message key="Device configuration changed" value="Gerätekonfiguration erfolgreich geändert!" revision="0" />
   <Message key="Error editing device" value="Der Vorgang der Geräteänderung ist mit folgendem Fehler fehlgeschlagen:\r\n\n {text} ({code})" revision="0" />
   <Message key="New" value="Neu" revision="0" />
+  <Message key="Device name" value="Gerätename" revision="0" />
+  <Message key="DeviceNameTemplate" value="Standard ({default name})" revision="0" />
+  <Message key="DeviceNameTooLongError" value="Der Gerätename darf nicht länger als {max} Zeichen sein." revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />
