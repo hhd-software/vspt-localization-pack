@@ -782,5 +782,12 @@
 	<Message key="DeviceNameTooLongError" description="Error message: device name is too long" value="Device name must not be longer than {max} characters.">
 		<Param name="max" />
 	</Message>
+
+	<Message key="DeleteRebootPending" description="Delete device successful, reboot pending" value="The device has been marked for deletion, but the system reboot is required to complete the process. If you want to eliminate the need to reboot your computer when deleting virtual serial ports, please make sure that devices you delete are not being used by other applications or other [[[bopened]]] virtual serial ports.\n\nDo you want to reboot your computer now to complete device deletion?\n\n[[[iIf you click &quot;No&quot;, virtual serial ports might not operate correctly until the system is rebooted.]]]"/>
+
+	<Message key="ErrorDeletingDevice" description="Error deleting device" value="Error deleting the device: {error} ({code})">
+		<Param name="code" format="ub016x"/>
+		<Param name="error"/>
+	</Message>
 	
 </Definition>
