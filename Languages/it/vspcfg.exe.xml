@@ -253,6 +253,8 @@
   <Message key="Device name" value="Nome del dispositivo" revision="0" />
   <Message key="DeviceNameTemplate" value="Predefinite ({default name})" revision="0" />
   <Message key="DeviceNameTooLongError" value="Il nome del dispositivo non deve essere più lungo di {max} caratteri." revision="0" />
+  <Message key="DeleteRebootPending" value="Il dispositivo è stato segnalato per la cancellazione, ma è necessario riavviare il sistema per completare il processo. Per eliminare la necessità di riavviare il computer quando si eliminano porte seriali virtuali, assicuratevi che i dispositivi che state eliminando non vengano utilizzati da altre applicazioni o da altre porte seriali virtuali [[[baperte]]].\n\nDesideri riavviare il tuo computer ora per completare l'eliminazione del dispositivo?\n\n[[[iSe fai clic su &quot;No&quot;, potrebbe darsi che le porte seriali virtuali non funzionino correttamente fino a quando il sistema viene riavviato.]]]" revision="0" />
+  <Message key="ErrorDeletingDevice" value="Errore nell'eliminazione del dispositivo: {error} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Uscire" revision="0" />
     <Item value="Uscire dall'applicazione" revision="0" />

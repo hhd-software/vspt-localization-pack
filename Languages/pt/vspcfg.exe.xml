@@ -253,6 +253,8 @@
   <Message key="Device name" value="Nome do dispositivo" revision="0" />
   <Message key="DeviceNameTemplate" value="Predefinita ({default name})" revision="0" />
   <Message key="DeviceNameTooLongError" value="O nome do dispositivo não pode ter mais de {max} caracteres." revision="0" />
+  <Message key="DeleteRebootPending" value="O dispositivo foi marcado para exclusão, porém é necessário reiniciar o sistema para finalizar o processo. Para eliminar a necessidade de reiniciar o computador ao excluir portas seriais virtuais, assegure-se de que os dispositivos que você exclui não estão sendo usados por outras aplicações nem por outras portas seriais virtuais [[[babertas]]].\n\nDeseja reiniciar o seu computador agora para concluir a exclusão do dispositivo?\n\n[[[iSe você clicar em “Não”, os portas seriais virtuais podem não operar corretamente até que o sistema seja reiniciado.]]]" revision="0" />
+  <Message key="ErrorDeletingDevice" value="Erro ao apagar o dispositivo: {error} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Sair" revision="0" />
     <Item value="Sair da aplicação" revision="0" />

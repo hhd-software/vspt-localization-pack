@@ -4,7 +4,7 @@
   <Message key="Remote port is already connected." value="Le port distant est déjà connecté." revision="0" />
   <Message key="CredentialsInvalid" value="Les informations d'identification fournies ne sont pas valides : {message} ({code})\n\nVoulez-vous toujours les utiliser ?" revision="0" />
   <Message key="ErrorConnectingServer" value="Erreur {code} lors de la connexion au serveur {name}: {message}" revision="0" />
-  <Message key="ErrorCreatingDevice" value="Erreur lors de la création d'un appareil : {message} ({code})" revision="0" />
+  <Message key="ErrorCreatingDevice" value="Erreur lors de la création du dispositif : {message} ({code})" revision="0" />
   <Message key="open.cat.ViewShowVsp" value="Ouvrir Ports virtuels" revision="0" />
   <Message key="open.cat.ViewShowRsp" value="Ouvrir Ports distants" revision="0" />
   <Message key="open.cat.ViewShowSsp" value="Ouvrir Ports partagés" revision="0" />
@@ -253,6 +253,8 @@
   <Message key="Device name" value="Nom de l'appareil" revision="0" />
   <Message key="DeviceNameTemplate" value="Par défaut ({default name})" revision="0" />
   <Message key="DeviceNameTooLongError" value="Le nom de l'appareil ne doit pas dépasser {max} caractères." revision="0" />
+  <Message key="DeleteRebootPending" value="Le périphérique a été marqué pour la suppression, mais un redémarrage du système est nécessaire pour terminer le processus. Pour éviter de devoir redémarrer votre ordinateur lors de la suppression des ports série virtuels, veuillez vous assurer que les périphériques que vous supprimez ne sont pas utilisés par d'autres applications ou d'autres ports série virtuels [[[bouverts]]].\n\nSouhaitez-vous redémarrer votre ordinateur maintenant pour terminer la suppression du dispositif ?\n\n[[[iSi vous cliquez sur &quot;Non&quot;, les ports série virtuels risquent de ne pas fonctionner correctement jusqu'à ce que le système soit redémarré.]]]" revision="0" />
+  <Message key="ErrorDeletingDevice" value="Erreur lors de la suppression du dispositif : {error} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Quitter" revision="0" />
     <Item value="Quitter l'application" revision="0" />

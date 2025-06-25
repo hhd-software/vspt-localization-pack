@@ -253,6 +253,8 @@
   <Message key="Device name" value="Gerätename" revision="0" />
   <Message key="DeviceNameTemplate" value="Standard ({default name})" revision="0" />
   <Message key="DeviceNameTooLongError" value="Der Gerätename darf nicht länger als {max} Zeichen sein." revision="0" />
+  <Message key="DeleteRebootPending" value="Das Gerät wurde für das Löschen markiert, jedoch wird ein Neustart des Systems benötigt, um den Prozess abzuschließen. Wenn Sie vermeiden möchten, dass Ihr Computer bei der Löschung virtueller Seriellports neu gestartet werden muss, stellen Sie bitte sicher, dass die zu löschenden Geräte nicht von anderen Anwendungen oder anderen [[[bgeöffneten]]] virtuellen Seriellports genutzt werden.\n\nMöchten Sie Ihren Computer jetzt neu starten, um die Gerätelöschung abzuschließen?\n\n[[[iFalls Sie auf „Nein“ klicken, funktionieren virtuelle Seriellports möglicherweise nicht korrekt, bis das System neu gestartet wurde.]]]" revision="0" />
+  <Message key="ErrorDeletingDevice" value="Fehler beim Löschen des Geräts: {error} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="Be&amp;enden" revision="0" />
     <Item value="Anwendung beenden" revision="0" />

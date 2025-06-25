@@ -253,6 +253,8 @@
   <Message key="Device name" value="Nombre del dispositivo" revision="0" />
   <Message key="DeviceNameTemplate" value="Predeterminados ({default name})" revision="0" />
   <Message key="DeviceNameTooLongError" value="El nombre del dispositivo no debe ser más largo que {max} caracteres." revision="0" />
+  <Message key="DeleteRebootPending" value="El dispositivo ha sido marcado para eliminación, pero es necesario reiniciar el sistema para completar el proceso. Si desea evitar tener que reiniciar su ordenador cuando elimine puertos serie virtuales, asegúrese de que los dispositivos que va a eliminar no están siendo utilizados por otras aplicaciones ni por otros puertos serie virtuales [[[babiertos]]].\n\n¿Desea reiniciar su computadora ahora para completar la eliminación del dispositivo?\n\n[[[iSi hace clic en &quot;No&quot;, los puertos serie virtuales podrían no funcionar correctamente hasta que se reinicie el sistema.]]]" revision="0" />
+  <Message key="ErrorDeletingDevice" value="Error al borrar el dispositivo: {error} ({code})" revision="0" />
   <Enumeration key="FileExit">
     <Item value="&amp;Salir" revision="0" />
     <Item value="Salir de la aplicación" revision="0" />
